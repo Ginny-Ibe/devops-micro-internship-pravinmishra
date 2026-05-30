@@ -29,7 +29,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 - 🌐 Program Website: https://dmi.pravinmishra.com
 - 💬 Discord Community: https://discord.pravinmishra.com
-- 📺 YouTube: [Pravin Mishra](https://youtube.com/@pravinmishra)
+- 📺 YouTube: [Pravin Mishra](https://www.youtube.com/@awswithpravinmishra)
 - 🔗 Instructor: [LinkedIn](https://www.linkedin.com/in/pravin-mishra-aws-trainer/)
 
 ---
