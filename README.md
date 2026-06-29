@@ -13,11 +13,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Ginny Ibe |
+| **LinkedIn** | [(https://www.linkedin.com/in/dr-ginny-ibe)] |
+| **Location** | Ontario, Canada |
+| **Background** | Optometry, Ophthalmology, Cloud, DevOps,DevSecOps & AI Consultant |
+| **Goal** | To bridge healthcare and DevOps by designing secure, automated, cloud-powered systems that enhance reliability, protect patient data, and accelerate the delivery of innovative digital solutions for clinicians and patients through continuous improvement and cross-functional collaboration |
 
 ---
 
