@@ -14,9 +14,9 @@
 | | |
 |---|---|
 | **Name** | Ginny Ibe |
-| **LinkedIn** | [(https://www.linkedin.com/in/dr-ginny-ibe)] |
+| **LinkedIn** | [Ginny-Ibe](https://www.linkedin.com/in/dr-ginny-ibe) |
 | **Location** | Ontario, Canada |
-| **Background** | Optometry, Ophthalmology, Cloud, DevOps,DevSecOps & AI Consultant |
+| **Background** | Optometry, Ophthalmology, Cloud, DevOps,DevSecOps & Agentic AI |
 | **Goal** | To bridge healthcare and DevOps by designing secure, automated, cloud-powered systems that enhance reliability, protect patient data, and accelerate the delivery of innovative digital solutions for clinicians and patients through continuous improvement and cross-functional collaboration |
 
 ---
@@ -70,7 +70,7 @@ This is not a course. It is an internship-style program — real deployments, re
 <!-- [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
 
 <!-- Week 01 → Success Mindset -->
-<!-- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->
+[![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
 
 <!-- Week 02 → Agentic AI with Claude Code -->
 <!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
@@ -132,8 +132,8 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved |  | — |
+| 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/feed/update/urn:li:activity:7478325426596048896/ | https://medium.com/@ginnyibe/by-2030-ginnys-story-was-no-longer-just-about-starting-over-in-a-new-country-e56ad8a38095?sharedUserId=ginnyibe |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |

@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I believe starting over is not failure; it is evidence of courage, humility, resilience, and unfinished growth. As a foreign-trained healthcare practitioner rebuilding my career in Canada while learning DevOps, I have learned that smaller roles, quiet seasons, unfamiliar systems, and disciplined repetition can become a powerful foundation for long-term success. Immigration and career transition are not gaps to explain away or hide; they prove adaptability, resilience, and discipline. My path may not look linear, but it is honest, layered, earned, and still moving forward.
 
 ---
 
@@ -55,11 +55,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Truth: Consistency produces better results than intensity when you are trying to rebuild your career or learn a new skill.
 
 ### Evidence from my life
 
-Add your answer here...
+When I moved to abroad, I had to adjust from being an experienced health care professional to learning how the Canadian workplace operates. I did not rebuild everything in one day. I improved gradually by applying for roles, rewriting my resume, preparing for interviews, taking healthcare support jobs, and learning new skills step by step. The same applies to DevOps. When I study consistently, even in small blocks, I understand more than when I try to learn everything at once.
 
 ---
 
@@ -67,11 +67,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Truth: Diagnostic accuracy in clinical work comes from repeated volume of exposure to how much real cases vary, not from how well you have memorizing textbook versions or cases.
 
 ### Evidence from my life
 
-Add your answer here...
+In clinical practise and ophthalmic pre-testing, no two patients presented identically even with the exact same condition — variations in cooperation levels, anatomy, or comorbidities all shifted the picture, and meant textbook descriptions only got me partway there. It was repeated exposure to atypical, messy real cases that built actual diagnostic confidence, not the initial coursework.
 
 ---
 
@@ -79,11 +79,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Truth: Humility accelerates learning because it allows you to accept correction, start small, and keep improving.
 
 ### Evidence from my life
 
-Add your answer here...
+As a foreign-trained healthcare professional, I had to accept that I could have strong experience and still need to learn new systems in Canada. Taking support roles in healthcare did not reduce my value; it helped me understand the environment better. The same mindset helps me in Devops and tech in general. Instead of pretending to know everything, I am learning to ask better questions, practise consistently, accept feedback, and improve my skills one step at a time. Humility has helped me grow faster than pride ever could.
 
 ---
 
@@ -135,11 +135,42 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+##### What My 2.0 Version Looked Like by 2030
+By 2030, Ginny had become a strong example of what happened when clinical experience, immigrant resilience, DevOps discipline, cloud engineering, cybersecurity, and agentic AI innovation came together with purpose.
+
+His story did not begin in a perfect technology company or a Silicon Valley office. It began with rebuilding. After relocating to Canada as a foreign-trained eye care professional, he stepped into the Canadian healthcare system with humility. He took on support roles, learned new workflows, adapted to Canadian workplace culture, served patients, supported clinical teams, and proved that starting over did not mean starting from zero.
+
+Within a few years, he had successfully transitioned into a healthcare cloud technology and DevOps role. His background in ocular healthcare became an advantage rather than a limitation. He understood patient care, clinical documentation, diagnostic equipment, ophthalmic testing, medical measurements, EMR workflows, privacy concerns, and the daily pressure healthcare workers faced. That clinical insight helped him build technology solutions that were not only technical, but also practical, secure, reliable, and human-centered.
+
+His 2.0 version was built through systems, discipline, and proof of work, not motivation alone. He earned certifications in DevOps, cloud security, cybersecurity, AI security, and agentic AI. He built a public GitHub portfolio that documented Linux labs, Docker projects, CI/CD pipelines, cloud deployment exercises, infrastructure-as-code practice, vulnerability assessments, monitoring dashboards, incident response simulations, and prompt-injection security audits. His portfolio showed evidence of skill, consistency, and career direction.
+
+He also built, shipped, and contributed to cloud-based healthcare application projects focused on ophthalmic testing and measurements. These projects explored how secure cloud platforms collected, organized, stored, and protected OCT scan results, fundus images, visual field results, intraocular pressure readings, autorefraction findings, keratometry measurements, lensometry results, prescriptions, referrals, patient history and medication records. DevOps practices made these applications more reliable through automated testing, continuous integration, continuous deployment, monitoring, rollback planning, and incident response. Cloud engineering made the systems scalable, securely backed up, resilient, and accessible across clinical environments.
+
+Agentic AI became one of the strongest parts of his work. He contributed to AI-assisted workflows that summarized ophthalmic test results, organized patient measurements, flagged missing clinical information, prepared structured draft reports, supported referral documentation, and identified abnormal patterns for clinician review. He understood clearly that AI did not replace nurses, doctors, optometrists, ophthalmologists, other healthcare professionals, or the clinical judgment required to care for patients . Instead, it reduced repetitive administrative burden so eye-care professionals could spend more time making decisions, educating patients, and providing compassionate care.
+
+His work addressed some of healthcare’s biggest challenges: fragmented patient data, slow manual workflows, overworked healthcare workers, cybersecurity risks, system downtime, disconnected clinical tools, and inefficient documentation processes. He helped design systems where security, privacy, uptime, usability, and accessibility were treated as clinical responsibilities, not just technical requirements.
+
+He also led small project initiatives that connected healthcare knowledge with technology execution. He collaborated with peers, reviewed documentation, improved workflows, tested application features, contributed to safer deployment practices, and supported knowledge sharing among newcomers and career changers. His leadership was not based on title alone; it was shown through consistency, service, accountability, and the ability to make complex technical ideas easier for others to understand.
+
+He published technical blogs explaining DevOps, cloud security, cybersecurity, and agentic AI in simple language for healthcare professionals, newcomers, and career changers. Recruiters and mentors no longer had to guess what he could do. They could see his GitHub projects, read his blogs, review his documentation, study his shipped projects, and understand the connection between his eye-care background and his technology skills.
+
+His community contribution also remained part of his 2.0 identity. He used his journey to encourage other immigrants, internationally trained professionals, and healthcare workers who were trying to rebuild their careers in Canada. Through mentoring, volunteering, community learning, and knowledge sharing, he proved that reinvention was not only personal; it could also create value for others.
+
+By 2030, Ginny’s success was not described as luck. It was the result of consistent action, humility, faith, discipline, learning, leadership, and a clear identity upgrade. He had built a career that connected healthcare, ophthalmology, ophthalmic technology, cloud engineering, DevOps, cybersecurity, agentic AI, and community service.
+
+His 2.0 version proved that reinvention was not about abandoning the past. It was about using everything he had survived, practised, learned, built, shipped, led, earned, published, and contributed to create safer, smarter, and more reliable healthcare systems.
+
+## Screenshot
+
+![README screenshot](./screenshots/readme-screenshot1.png)
+
+![README screenshot](./screenshots/readme-screenshot2.png)
+
+![README screenshot](./screenshots/readme-screenshot3.png)
 
 ### Public Link
 
-Paste your link here:
+https://medium.com/@ginnyibe/by-2030-ginnys-story-was-no-longer-just-about-starting-over-in-a-new-country-e56ad8a38095?sharedUserId=ginnyibe
 
 `__________________________`
 
@@ -165,7 +196,7 @@ This is about self-awareness, not judgment.
 
 ### Answer Format
 
-**Yes / No**
+Yes
 
 If Yes:
 
@@ -173,7 +204,11 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+There have been times when I tried to take shortcuts because I was tired, overwhelmed, or under pressure to move faster. It was never about doing anything illegal, but more about rushing a process, not giving a task my full attention, or wanting the result without fully respecting the discipline behind it.
+
+The main emotion I felt was guilt mixed with stress. Even when no one noticed, I noticed. Deep down, I knew I was not operating at the standard I expected from myself. That made me uncomfortable because I value professionalism, honesty, patient safety, and doing things properly.
+
+What stayed with me was the realization that shortcuts may save time in the moment, but they create a mental burden later. They make you question your discipline, judgment, and identity. I learned that my 2.0 version must be built on patience, integrity, and accuracy, especially when no one is watching. 
 
 ---
 
@@ -199,16 +234,35 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. The DevOps Handbook — Gene Kim, Jez Humble, Patrick Debois, John Willis, & Nicole Forsgren
+![book1](screenshots/week-01-screenshot-01.jpg)
+
+2. Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma - Bessel Van Der Kolk
+![book2](screenshots/week-01-screenshot-02.jpg)
+
+3. Deep Work — Cal Newport
+![book3](screenshots/week-01-screenshot-03.jpg)
+
+4. How to Win Friends and Influence People — Dale Carnegie
+![book4](screenshots/week-01-screenshot-04.jpg)
+
+5. 1873 - Liaquat Ahamed
+![book5](screenshots/week-01-screenshot-05.jpg)
+
+6. The Algebra of Wealth — Scott Galloway
+![book6](screenshots/week-01-screenshot-06.jpg)
+
+7. Thinking, Fast and Slow — Daniel Kahneman
+![book7](screenshots/week-01-screenshot-07.jpg)
+
+8. The Psychology of Money - Morgan Housel
+![book8](screenshots/week-01-screenshot-08.jpg)
+
+9.  The Courage to Commit: Embrace the Radical Power of Sticking with Something - Andrew East , Shawn Johnson
+![book9](screenshots/week-01-screenshot-09.jpg)
+
+10. The Four Agreements: A Practical Guide to Personal Freedom - Don Miguel Ruiz
+![book10](screenshots/week-01-screenshot-10.jpg)
 
 ---
 
@@ -237,16 +291,25 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning hours per week
+* DevOps Micro-Internship tasks completed
+* AI, Agentic AI, Linux, and cloud practice sessions completed
+* GitHub commits per week
+* Projects shipped, improved, or documented
+* Technical write-ups, blogs, or LinkedIn learning posts published
+* Certifications completed or actively in progress
+* Deep work sessions completed per week
+* Resume, LinkedIn, GitHub, and portfolio updates
+* Screen time, sleep hours, and focus quality
+* Exercise, walking sessions, and weekly energy level
+* Weekly spending, savings progress, and bills paid on time
+* Community contribution, mentorship, or knowledge-sharing activities
+
+### Public Link
+
+https://www.linkedin.com/feed/update/urn:li:activity:7478325426596048896/
+
+`__________________________`
 
 ---
 
@@ -268,11 +331,11 @@ Examples:
 
 ### Did You Do It?
 
-**Yes / No**
+ Yes
 
 Answer:
 
-Add your answer here...
+I did a brain dump of the major things on my mind, including my DevOps Micro-Internship tasks, career transition goals, GitHub projects, resume and LinkedIn improvements, Linkedln and blog post and articles, healthcare work responsibilities, bills, personal worries, certification goals, and ideas for technical blogs. Writing everything down helped me reduce mental pressure. It also made me realize that the problem was not lack of ambition; the problem was needing a better system to organize my energy and time.
 
 ---
 
@@ -290,7 +353,26 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+Monday:
+60 minutes of deep work on Linux, Git, or cloud fundamentals,assignment work.
+
+Tuesday:
+60 minutes of DevOps practice, including Docker, CI/CD, GitHub Actions, or Kubernetes basics.
+
+Wednesday:
+45–60 minutes of project work, GitHub documentation, README updates, screenshots, or portfolio improvement.
+
+Thursday:
+Submit assignments and spend 60 minutes strengthening cloud security, cybersecurity, automation, or Agentic AI skills. Document progress and prepare weekly proof of work for LinkedIn and Medium.
+
+Friday:
+Light review day: update notes, clean up GitHub repositories, organize tasks, and watch one technical lesson.
+
+Saturday:
+Attend the main DMI session, complete hands-on labs, build projects, improve my portfolio, and publish weekly proof of work through LinkedIn posts and Medium blogs.
+
+Sunday:
+Weekly review, planning, rest, church/community/family time, and preparation for the new week.
 
 ---
 
@@ -298,11 +380,15 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Monday to Thursday: 9:30 p.m. – 11:30 p.m.
+Saturday afternoon or evening: 2–3 hours of focused DMI/project work
+Sunday evening: 30–45 minutes weekly review and planning
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+5 focused sessions per week.
+
+This is realistic because I am balancing work, family, career rebuilding, healthcare experience, and personal responsibilities. I do not need a perfect schedule; I need a repeatable one.
 
 ---
 
@@ -316,7 +402,20 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+I will keep my phone away during deep work sessions.
+I will use my phone and social media only after completing my planned study or project block.
+I will not open random YouTube videos during DMI work unless they directly support the topic I am studying.
+I will keep only the necessary tabs open: course material, GitHub, terminal, documentation, and notes.
+I will prepare my laptop, notebook, charger, and water before each focus session.
+I will write down distracting thoughts instead of stopping my work to act on them immediately.
+I will work in a clean space because a messy environment increases mental stress and reduces focus.
+I will use a timer for 45–60 minute focus blocks.
+I will use GitHub as proof of work, not just private notes.
+I will review my GitHub and project progress every Sunday.
+I will avoid comparing my progress with people who started earlier than me.
+I will measure consistency, not perfection.
+I will protect my sleep because poor rest affects focus, discipline, and learning quality.
+I will remind myself that my future career is being built one focused block at a time.
 
 ---
 
@@ -324,19 +423,23 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+My biggest insight this week is that I am not starting from zero; I am rebuilding from experience. My background in ophthalmology/optometry, patient care and treatment, clinical workflows, and healthcare support has already trained me in discipline, documentation, attention to detail, and responsibility. Now I am learning how to transfer those same strengths into DevOps, cloud security, automation, and technical problem-solving.
+
+I also realized that my future will not be built by motivation alone. It will be built by systems. When I look at my journey as a newcomer in Canada, a foreign-trained healthcare professional, and someone transitioning into tech, I can see that small consistent actions matter more than waiting for the perfect time. My 2.0 version will come from showing up repeatedly, documenting my work, building projects, improving my GitHub, and staying patient with the process.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+The biggest loop I noticed is that I sometimes overthink, wait to feel fully ready, or try to perfect everything before taking action. Because I have a strong professional background, it can feel uncomfortable to become a beginner again in a new field. Sometimes I compare my current tech level with people who started earlier, instead of respecting my own transition timeline.
+
+I also noticed that I can consume information without always turning it into visible proof. Watching videos, reading notes, or learning concepts is good, but it is not enough. I need to convert learning into GitHub commits, documented projects, write-ups, and practical outputs. My weakness is not lack of ambition; it is needing a stronger routine that turns effort into proof.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+I commit to one focused hour every Monday to Thursday from 10:00 to 11:00 p.m. dedicated to my DevOps Micro-Internship, Linux, GitHub, cloud security, and hands-on projects. During this time, distractions stay off and learning comes first. Saturdays are for deeper project work, while Sundays are for reflecting on my progress, documenting what I've learned, and planning the week ahead. My goal is simple: learn, build, document, and repeat.
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
+https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7478574053218242560-1mc7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM
 
 `__________________________`
 
@@ -344,8 +447,10 @@ Paste your LinkedIn post link here:
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL1: **https://www.linkedin.com/feed/update/urn:li:activity:7478325426596048896/**
+- LinkedIn Post URL2: **https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7478574053218242560-1mc7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM**
+
+- Blog / Medium : **https://medium.com/@ginnyibe/by-2030-ginnys-story-was-no-longer-just-about-starting-over-in-a-new-country-e56ad8a38095?sharedUserId=ginnyibe**  
 
 ---
 
