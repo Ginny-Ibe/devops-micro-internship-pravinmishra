@@ -238,31 +238,31 @@ Choose books that improve:
 ![book1](screenshots/week-01-screenshot-01.jpg)
 
 2. Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma - Bessel Van Der Kolk
-![book2](screenshots/week-01-screenshot-02.jpg)
+![book1](screenshots/week-01-screenshot-02.jpg)
 
 3. Deep Work — Cal Newport
-![book3](screenshots/week-01-screenshot-03.jpg)
+![book1](screenshots/week-01-screenshot-03.jpg)
 
 4. How to Win Friends and Influence People — Dale Carnegie
-![book4](screenshots/week-01-screenshot-04.jpg)
+![book1](screenshots/week-01-screenshot-04.jpg)
 
 5. 1873 - Liaquat Ahamed
-![book5](screenshots/week-01-screenshot-05.jpg)
+![book1](screenshots/week-01-screenshot-05.jpg)
 
 6. The Algebra of Wealth — Scott Galloway
-![book6](screenshots/week-01-screenshot-06.jpg)
+![book1](screenshots/week-01-screenshot-06.jpg)
 
 7. Thinking, Fast and Slow — Daniel Kahneman
-![book7](screenshots/week-01-screenshot-07.jpg)
+![book1](screenshots/week-01-screenshot-07.jpg)
 
 8. The Psychology of Money - Morgan Housel
-![book8](screenshots/week-01-screenshot-08.jpg)
+![book1](screenshots/week-01-screenshot-08.jpg)
 
 9.  The Courage to Commit: Embrace the Radical Power of Sticking with Something - Andrew East , Shawn Johnson
-![book9](screenshots/week-01-screenshot-09.jpg)
+![book](screenshots/week-01-screenshot-09.jpg)
 
 10. The Four Agreements: A Practical Guide to Personal Freedom - Don Miguel Ruiz
-![book10](screenshots/week-01-screenshot-10.jpg)
+![book1](screenshots/week-01-screenshot-10.jpg)
 
 ---
 
