@@ -168,9 +168,6 @@ Your submission must include:
 - All 5 required screenshots
 - Your GitHub repo URL (CLAUDE.md should be committed)
 
-Submit only a Google Doc link.
-Follow the Assignment Submission Guidelines — (LINK)
-
 ---
 
 ## 10. Solution Walkthrough
@@ -198,6 +195,3 @@ Before submission, verify:
 
 ---
 
-## 13. Final Submission
-
-Submit your assignment using this google form.

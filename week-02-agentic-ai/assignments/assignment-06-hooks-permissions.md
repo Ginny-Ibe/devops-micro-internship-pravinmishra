@@ -35,8 +35,6 @@ On real infrastructure teams, no engineer gives AI unrestricted access to produc
 
 ## 5. Important Instructions (Global Rules)
 
-Follow the Assignment Submission Guidelines — Click here
-
 **Key Rules:**
 - Full name must be visible in required screenshots
 - Do not expose sensitive information (keys, passwords, account IDs)
@@ -216,9 +214,6 @@ Complete all tasks in sequence.
 Your submission must include:
 - All 5 required screenshots
 - Your GitHub repo URL (`settings.json` committed and visible)
-
-Submit only a Google Doc link.
-Follow the Assignment Submission Guidelines — (LINK)
 
 ---
 
