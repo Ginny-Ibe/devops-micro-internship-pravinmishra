@@ -59,7 +59,7 @@ Truth: Consistency produces better results than intensity when you are trying to
 
 ### Evidence from my life
 
-When I moved to abroad, I had to adjust from being an experienced health care professional to learning how the Canadian workplace operates. I did not rebuild everything in one day. I improved gradually by applying for roles, rewriting my resume, preparing for interviews, taking healthcare support jobs, and learning new skills step by step. The same applies to DevOps. When I study consistently, even in small blocks, I understand more than when I try to learn everything at once.
+When I moved abroad, I had to adjust from being an experienced health care professional to learning how the Canadian workplace operates. I did not rebuild everything in one day. I improved gradually by applying for roles, rewriting my resume, preparing for interviews, taking healthcare support jobs, and learning new skills step by step. The same applies to DevOps. When I study consistently, even in small blocks, I understand more than when I try to learn everything at once.
 
 ---
 
