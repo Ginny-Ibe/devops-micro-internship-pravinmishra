@@ -80,7 +80,15 @@ claude
 
 **Screenshots Required:**
 - Screenshot 1 — Terminal showing `claude --version` with the version number visible
+<<<<<<< HEAD
 - Screenshot 2 — Claude Code authenticated and showing the terminal prompt 
+=======
+
+![Screenshot 1](../screenshots/assignment-01-screenshot-1.png)
+
+- Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
+
+![Screenshot 2](../screenshots/assignment-01-screenshot-2.png)
 
 ---
 
@@ -105,6 +113,8 @@ code .
 
 **Screenshots Required:**
 - Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
+
+![Screenshot 3](../screenshots/assignment-01-screenshot-3.png)
 
 ---
 
@@ -131,7 +141,15 @@ How many lines of CSS does this project have?
 
 **Screenshots Required:**
 - Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
+
+![Screenshot 4a](../screenshots/assignment-01-screenshot-4a.png)
+![Screenshot 4b](../screenshots/assignment-01-screenshot-4b.png)
+![Screenshot 4c](../screenshots/assignment-01-screenshot-4c.png)
+![Screenshot 4d](../screenshots/assignment-01-screenshot-4d.png)
+
 - Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
+
+![Screenshot 5](../screenshots/assignment-01-screenshot-5.png)
 
 ---
 
@@ -148,6 +166,8 @@ Complete all tasks in sequence.
 Your submission must include:
 - All 5 required screenshots
 - Your GitHub forked repository URL
+
+https://github.com/Ginny-Ibe/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 ---
 
