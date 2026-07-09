@@ -4,7 +4,7 @@
 
 ## 1. Assignment Overview
 
-**Assignment:** CLAUDE.md              
+**Assignment:** CLAUDE.mdc
 **Estimated Time:** 60 minutes                
 **Difficulty:** Beginner                  
 **Category:** Agentic AI, Project Context                    
@@ -76,6 +76,9 @@ What is this project and how should I deploy it?
 
 **Screenshots Required:**
 - Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
+
+![Terminal](../screenshots/Q2-SS1.png)
+
 
 ---
 
@@ -207,8 +210,7 @@ Your submission must include:
 
 ## 10. Solution Walkthrough
 
-A step-by-step solution and troubleshooting guide is available for reference:
-Full solution walkthrough → [Click here](../Solutions_walkthrough/assignment-02-claude-md.md)
+A step-by-step solution and troubleshooting guide is available for reference.
 
 ---
 
