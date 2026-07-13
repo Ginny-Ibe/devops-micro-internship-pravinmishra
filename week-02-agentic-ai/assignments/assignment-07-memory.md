@@ -214,10 +214,10 @@ Create a LinkedIn post including:
 ## 12. Completion Checklist
 
 Before submission, verify:
-- [ ] Memory file path identified and shown in Screenshot 1
-- [ ] Three facts saved to memory and visible in MEMORY.md (Screenshot 3)
-- [ ] Session fully closed and fresh session opened (Screenshot 4)
-- [ ] Claude recalled hero colors in new session without prompting (Screenshot 5)
-- [ ] Claude refused JavaScript — memory rule enforced (Screenshot 6)
-- [ ] All 6 screenshots captured and updated in GitHub folder
+- [x] Memory file path identified and shown in Screenshot 1
+- [x] Three facts saved to memory and visible in MEMORY.md (Screenshot 3)
+- [x] Session fully closed and fresh session opened (Screenshot 4)
+- [x] Claude recalled hero colors in new session without prompting (Screenshot 5)
+- [x] Claude refused JavaScript — memory rule enforced (Screenshot 6)
+- [x] All 6 screenshots captured and updated in GitHub folder
 
