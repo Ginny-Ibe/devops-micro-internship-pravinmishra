@@ -100,9 +100,9 @@ What is this project and how should I deploy it?
 **Screenshots Required:**
 - Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-![claudemd](../screenshots\Q2-SS2.png)
+![claudemd](../screenshots/Q2-SS2.png)
 
-![claudemd](../screenshots\Q2-SS2a.png)
+![claudemd](../screenshots/Q2-SS2a.png)
 
 ---
 
@@ -130,7 +130,7 @@ What is this project and how should I deploy it?
 **Screenshots Required:**
 - Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-![claudemd](../screenshots\Q2-SS3.png)
+![claudemd](../screenshots/Q2-SS3.png)
 
 ---
 
@@ -157,11 +157,11 @@ Add a React component to the homepage.
 **Screenshots Required:**
 - Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-![claude](../screenshots\Q2-SS4.png)
+![claude](../screenshots/Q2-SS4.png)
 
 - Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-![claude](../screenshots\Q2-SS5.png)
+![claude](../screenshots/Q2-SS5.png)
 
 ---
 
@@ -200,9 +200,9 @@ git push origin main
 
 - Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-![Github](../screenshots\Q2-SS6.png)
+![Github](../screenshots/Q2-SS6.png)
 
-![Github](../screenshots\Q2-SS6a.png)
+![Github](../screenshots/Q2-SS6a.png)
 
 ---
 
