@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![Blog](./screenshots/Q8-SSM-1.png)
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`__________________________________________`
+https://medium.com/@ginnyibe/i-typed-terraform-destroy-on-purpose-heres-why-it-changed-how-i-think-about-ai-engineering-00889e15d42e
 
 ---
 
@@ -92,8 +92,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
-
+![linkedln](./screenshots/Q8-SSL-1.png)
 ---
 
 ### Submission Field
@@ -101,14 +100,67 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+🚀 Week 2 Reflection | DevOps Micro Internship with Agentic AI
+On Thursday, I deliberately ran one of the most dangerous commands in my infrastructure: "terraform destroy".
+
+I wasn't trying to break my project. I wanted to see whether the AI system I'd engineered would stop me before I made an expensive mistake.
+It did.
+
+That single moment captured my biggest lesson from Week 2:
+Building AI isn't about making it more powerful—it's about making it more trustworthy.
+
+This week wasn't just about learning Claude Code. It was about engineering AI systems using Skills, Agents, Hooks, Memory, and MCP to be safe, reliable, and production-ready.
+
+Understanding the Agentic Loop
+My first prompt was simple: "What files are in this project?"
+Instead of waiting for instructions, Claude used Read, Glob, and Grep to plan and complete the task. That was my first real experience with an agentic workflow.
+
+Security by Design
+I built a Terraform Scaffolding Skill with restricted permissions. When it appeared to do nothing, I thought it had failed. It hadn't. It was behaving exactly as designed because it only had access to approved tools.
+
+That reinforced a key lesson:
+Powerful AI isn't AI that can do everything. It's AI that knows what it should never do.
+
+Specialized AI Agents
+I created three agents:
+ 🔒 Security Auditor
+ 💰 Cost Optimizer
+ 🏗️ Terraform Writer
+
+Watching Claude automatically delegate work to the right specialist felt less like prompting a chatbot and more like working with an engineering team.
+
+Engineering AI Safety
+I built a pre-tool-use Hook to block destructive commands.
+When I intentionally ran terraform destroy, the Hook stopped it immediately.
+
+That changed how I think about AI safety.
+The safest AI systems don't rely on good intentions. They rely on good architecture.
+
+Persistent Memory
+I stored project preferences and coding constraints in Claude's memory. In a new session, Claude recalled them without me repeating the context, showing how memory creates more consistent collaboration.
+
+My Biggest Takeaways
+✅ Agentic AI is about autonomous problem-solving.
+✅ Guardrails matter more than raw model capability.
+✅ The real product isn't the model—it's the engineering around it.
+
+Skills + Agents + Hooks + Memory + MCP transform an LLM into a dependable engineering assistant.
+
+A huge thank you to Pravin Mishra, Anjana Muthunayake, and all our Group Co-Mentors Ranbir Kaur, Bhupendra Bhati, and Greg Odi for your guidance. for teaching us how to build AI systems that are secure, scalable, and production-ready.
+
+💬 Question: What's one engineering guardrail you've implemented that prevented a costly mistake?
+
+P.S.
+ This post is part of my DevOps Micro Internship (DMI) with Agentic AI – Cohort 3, led by Pravin Mishra. Join our Discord community: discord.pravinmishra.com
+
+hashtag#DMIByPravinMishra hashtag#DevOps hashtag#AgenticAI hashtag#ClaudeCode hashtag#Terraform hashtag#DevSecOps hashtag#MCP hashtag#CloudEngineering hashtag#AIEngineering
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7482205106373910529-Jved?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM
 
 ---
 

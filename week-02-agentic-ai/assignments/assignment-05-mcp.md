@@ -79,6 +79,9 @@ Each task must be completed sequentially.
 **Screenshots Required:**
 - Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
+![token scopes](../screenshots/Q5-SS1.png)
+
+
 ---
 
 ### Task 2 — Create .mcp.json at the Project Root
@@ -108,6 +111,9 @@ Each task must be completed sequentially.
 **Screenshots Required:**
 - Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
+![mcp configuration](../screenshots/Q5-SS2.png)
+
+
 ---
 
 ### Task 3 — Add Your Token to settings.local.json
@@ -135,6 +141,9 @@ Each task must be completed sequentially.
 **Screenshots Required:**
 - Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
+![SS3](../screenshots/Q5-SS3.png)
+
+
 ---
 
 ### Task 4 — Verify the Connection with /mcp
@@ -155,6 +164,9 @@ Each task must be completed sequentially.
 
 **Screenshots Required:**
 - Screenshot 4 — `/mcp` output showing `github: connected`
+
+![mcp connected](../screenshots/Q5-SS4.png)
+
 
 ---
 
@@ -186,6 +198,11 @@ Use GitHub MCP to get the README.md file from <your-github-username>/Ultimate-Ag
 
 * Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
+![github query](../screenshots/Q5-SS5.png)
+![mcp response](../screenshots/Q5-SS5a.png)
+
+
+
 ---
 
 ## 8. Industry Insight
@@ -201,7 +218,11 @@ Complete all tasks in sequence.
 Your submission must include:
 - All 5 required screenshots
 - A note confirming `settings.local.json` is in your `.gitignore`
+
+![gitignore proof](../screenshots/Q5-SS.png)
+
 - Your GitHub repo URL (`.mcp.json` committed and visible, `settings.local.json` NOT committed)
+https://github.com/Ginny-Ibe/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 ---
 
@@ -228,4 +249,3 @@ Before submission, verify:
 - [ ] `/mcp` shows `github: connected`
 - [ ] Live GitHub query returned real repository data
 - [ ] `.mcp.json` committed and visible in GitHub repo
-

@@ -77,6 +77,9 @@ Where does your memory file live for this project? Show me the full path.
 **Screenshots Required:**
 - Screenshot 1 — Memory file path shown by Claude
 
+![memory file path](../screenshots/Q7-SS1.png)
+
+
 ---
 
 ### Task 2 — Give Claude Information to Remember
@@ -97,7 +100,15 @@ Remember the following for all future sessions: The CSS hero section uses a dark
 
 **Screenshots Required:**
 - Screenshot 2 — Claude confirming the memory was saved
+
+![ss2](../screenshots/Q7-SS2.png)
+
 - Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
+
+![memory](../screenshots/Q7-SS3.png)
+![memory](../screenshots/Q7-SS3a.png)
+
+
 
 ---
 
@@ -120,6 +131,8 @@ Remember the following for all future sessions: The CSS hero section uses a dark
 
 **Screenshots Required:**
 - Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
+
+![vscode](../screenshots/Q7-SS4.png)
 
 ---
 
@@ -149,7 +162,11 @@ Should I add a JavaScript animation to the hero section?
 
 **Screenshots Required:**
 - Screenshot 5 — Claude recalling hero section colors
+
+![ss5](../screenshots/Q7-SS5.png)
+
 - Screenshot 6 — Claude refusing JavaScript request based on memory rule
+![ss6](../screenshots/Q7-SS6.png)
 
 ---
 
@@ -166,7 +183,8 @@ Complete all tasks in sequence.
 Your submission must include:
 - All 6 required screenshots
 - Your GitHub repo URL
-- 
+**https://github.com/Ginny-Ibe/Ultimate-Agentic-DevOps-with-Claude-Code.git**
+  
 ---
 
 ## 10. Solution Walkthrough
@@ -186,8 +204,11 @@ Create a LinkedIn post including:
 
 **Submit:**
 - LinkedIn post URL
+**https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-agenticai-claudecode-ugcPost-7481565981912354817-8c9w/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM**
+
 - Screenshot of the post
 
+![ss](../screenshots/Q7-SS.png)
 ---
 
 ## 12. Completion Checklist

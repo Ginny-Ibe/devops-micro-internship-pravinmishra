@@ -77,6 +77,8 @@ mkdir -p .claude/agents
 **Screenshots Required:**
 - Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
+![agent structure](../screenshots/Q4-SS1.png)
+
 ---
 
 ### Task 2 — Compare the Agent Configurations
@@ -88,15 +90,25 @@ mkdir -p .claude/agents
 2. Open `cost-optimizer.md` — note the `tools` and `model` fields
 3. Open `tf-writer.md` — note the `tools` and `model` fields
 4. Write a short answer (2–3 sentences each) to these 3 questions:
-   - Why does the cost optimizer use Haiku instead of Sonnet?
-   - Why does the security auditor NOT have Write in its tools list?
-   - Why does the tf-writer use `inherit` instead of a specific model?
+   - **Why does the cost optimizer use Haiku instead of Sonnet?**
+The cost optimizer just checks Terraform resources and flags obvious savings — nothing that needs deep reasoning like the security auditor does. Haiku is cheaper and fast enough for that.
+
+   - **Why does the security auditor NOT have Write in its tools list?**
+It's read-only on purpose. It's there to inspect Terraform configs, not touch them — giving it Write would mean one misfire could modify infrastructure instead of just flagging problems with it.
+
+   - **Why does the tf-writer use `inherit` instead of a specific model?**
+Because it's doing code generation, and you don't want to lock that to one model. inherit just means it picks up whatever Claude Code is already configured to use.
 
 **Expected Output:** 3 written answers in your GitHub Repository folder showing you understand the design decisions behind each agent.
 
 **Screenshots Required:**
 - Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
+
+![security auditor](../screenshots/Q4-SS2.png)
+
 - Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
+
+![cost optimizer](../screenshots/Q4-SS3.png)
 
 ---
 
@@ -119,7 +131,12 @@ Audit my Terraform files for security issues.
 
 **Screenshots Required:**
 - Screenshot 4 — The delegation message showing Claude launched the security-auditor
+
+![delegation](../screenshots/Q4-SS4.png)
+
 - Screenshot 5 — Security audit report output
+
+![SS5](../screenshots/Q4-SS5.png)
 
 ---
 
@@ -142,6 +159,8 @@ Review my Terraform infrastructure for cost optimization.
 **Screenshots Required:**
 - Screenshot 6 — The full cost optimization report
 
+![SS6](../screenshots/Q4-SS6.png)
+
 ---
 
 ## 8. Industry Insight
@@ -158,6 +177,7 @@ Your submission must include:
 - All 6 required screenshots
 - 3 written answers in the Google Doc (from Task 2)
 - Your GitHub repo URL (agents committed and visible)
+https://github.com/Ginny-Ibe/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 Submit only a Google Doc link.
 Follow the Assignment Submission Guidelines — (LINK)

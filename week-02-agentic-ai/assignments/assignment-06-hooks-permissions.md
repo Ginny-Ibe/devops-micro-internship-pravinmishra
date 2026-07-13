@@ -121,6 +121,8 @@ Your project should contain the Claude Code configuration structure:
 
 * Screenshot 1 — `.claude` folder structure visible in VS Code Explorer
 
+![postToolUse](../screenshots/Q6-SS1.png)
+
 ---
 
 ### Task 2 — Create the UserPromptSubmit Hook Script
@@ -166,6 +168,8 @@ and contains the UserPromptSubmit hook script.
 **Screenshots Required:**
 
 * Screenshot 2 — `user-prompt-guard.sh` open in VS Code showing the hook script
+
+![UserPromptSubmit script](../screenshots/Q6-SS2.png)
 
 ---
 
@@ -213,6 +217,8 @@ and contains the PreToolUse hook script.
 
 * Screenshot 3 — `pre-tool-guard.sh` open in VS Code showing the hook script
 
+![UserPromptSubmit script](../screenshots/Q6-SS3.png)
+
 ---
 
 ### Task 4 — Create the PostToolUse Hook Script
@@ -256,6 +262,8 @@ and contains the PostToolUse hook script.
 **Screenshots Required:**
 
 - Screenshot 4 — `post-tool-logger.sh` open in VS Code showing the hook script
+
+![UserPromptSubmit script](../screenshots/Q6-SS4.png)
 
 ---
 
@@ -356,6 +364,8 @@ settings.json
 
 * Screenshot 5 — `settings.json` open in VS Code showing permissions and hooks configuration
 
+![UserPromptSubmit script](../screenshots/Q6-SS5.png)
+
 ---
 
 ### Task 6 — Test the UserPromptSubmit Hook
@@ -402,6 +412,9 @@ Claude should not start reading files or executing commands.
 
 - Screenshot 6 — UserPromptSubmit hook blocking the destructive prompt
 
+![PostToolUse script](../screenshots/Q6-SS6.png)
+
+
 ---
 
 ### Task 7 — Test the PreToolUse Hook
@@ -447,6 +460,8 @@ Destructive command detected.
 **Screenshots Required:**
 
 - Screenshot 7 — PreToolUse hook blocking terraform destroy
+
+![PostToolUse script](../screenshots/Q6-SS7.png)
 
 ---
 
@@ -513,7 +528,12 @@ Example:
 **Screenshots Required:**
 
 - Screenshot 8 — Claude running terraform validate successfully
+
+![PostToolUse script](../screenshots/Q6-SS8.png)
+
 - Screenshot 9 — `.claude/deploy.log` showing the logged command
+
+![PostToolUse script](../screenshots/Q6-SS9.png)
 
 ---
 

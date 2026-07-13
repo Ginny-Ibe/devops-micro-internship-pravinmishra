@@ -80,15 +80,12 @@ claude
 
 **Screenshots Required:**
 - Screenshot 1 — Terminal showing `claude --version` with the version number visible
-<<<<<<< HEAD
+
+![Screeenshot 1](../screenshots/assignment-01-screenshot-1.png)
+
 - Screenshot 2 — Claude Code authenticated and showing the terminal prompt 
-=======
-
-![Screenshot 1](../screenshots/assignment-01-screenshot-1.png)
-
-- Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
-
-![Screenshot 2](../screenshots/assignment-01-screenshot-2.png)
+  
+![Screenshot 2](../screenshots/assigment-01-screenshot-2.png)
 
 ---
 

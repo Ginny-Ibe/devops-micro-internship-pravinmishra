@@ -80,6 +80,8 @@ mkdir -p .claude/skills/deploy
 **Screenshots Required:**
 - Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
+![folder structure](../screenshots/Q3-SS1.png)
+
 ---
 
 ### Task 2 — Add the Skill Files
@@ -100,7 +102,13 @@ mkdir -p .claude/skills/deploy
 
 **Screenshots Required:**
 - Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
+
+![STS](../screenshots/Q3-SS2.png)
+
 - Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
+
+![STS](../screenshots/Q3-SS3.png)
+
 ---
 
 ### Task 3 — Run /scaffold-terraform
@@ -122,7 +130,14 @@ mkdir -p .claude/skills/deploy
 
 **Screenshots Required:**
 - Screenshot 4 — Claude's response showing the scaffold complete with the file list
+
+![Scaffold](../screenshots/Q3-SS4.png)
+
+![Scafford](../screenshots/Q3-SS4a.png)
+
 - Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
+
+![Terraform](../screenshots/Q3-SS5.png)
 
 ---
 
@@ -153,6 +168,15 @@ Then in Claude Code:
 **Screenshots Required:**
 - Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
+![analysis](../screenshots/Q3-SS6.png)
+
+![analysis](../screenshots/Q3-SS6a.png)
+
+![analysis](../screenshots/Q3-SS6b.png)
+
+![analysis](../screenshots/Q2-SS6c.png)
+
+![analysis](../screenshots/Q3-SS6d.png)
 ---
 
 ## 8. Industry Insight
@@ -168,6 +192,8 @@ Complete all tasks in sequence.
 Your submission must include:
 - All 6 required screenshots
 - Your GitHub repo URL (skills committed and visible)
+
+https://github.com/Ginny-Ibe/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 ---
 
@@ -187,7 +213,11 @@ Create a LinkedIn post including:
 
 **Submit:**
 - LinkedIn post URL
+https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-ugcPost-7481229162469552128-QWPW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM
+
 - Screenshot of the post
+
+![Linkedln](../screenshots/Q3-SS7.png)
 
 ---
 
