@@ -1,137 +1,252 @@
-# Assignment 2 — Teaching Claude Your Project
-
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+# Assignment 2: Teaching Claude Your Project
 
 ---
 
-## Purpose
+## 1. Assignment Overview
 
-In this assignment, you will create and customize a `CLAUDE.md` file for your project using `/init`. You will then modify it with project-specific rules and verify how it changes Claude’s behavior through before-and-after testing.
-
----
-
-# Task 1 — Capture the Before State
-
-## Goal
-
-Capture Claude’s response before `CLAUDE.md` exists in the project to establish a baseline behavior.
-
-### Evidence
-
-#### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
-
-Add your screenshot here.
+**Assignment:** CLAUDE.mdc
+**Estimated Time:** 60 minutes                
+**Difficulty:** Beginner                  
+**Category:** Agentic AI, Project Context                    
 
 ---
 
-# Task 2 — Generate the First Draft with /init
+## 2. Objective
 
-## Goal
-
-Generate an initial `CLAUDE.md` file using the `/init` command and review the auto-generated content.
-
-### Evidence
-
-#### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
-
-Add your screenshot here.
+Use `/init` to generate a starter CLAUDE.md, customize all 5 sections with project-specific details, and demonstrate through two live tests that Claude's behavior changes based on the file.
 
 ---
 
-# Task 3 — Customize the CLAUDE.md
+## 3. Real-World Scenario
 
-## Goal
-
-Update the generated `CLAUDE.md` file by adding project-specific instructions across all required sections.
-
-### Evidence
-
-#### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
-
-Add your screenshot here.
+On real engineering teams, every new team member reads the onboarding doc before writing a single line of code. CLAUDE.md is that document — but for AI. Without it, Claude guesses at your architecture and ignores your conventions. With it, Claude knows your stack, your rules, and what it is not allowed to do. Engineers who invest time in a good CLAUDE.md spend far less time correcting AI mistakes later.
 
 ---
 
-# Task 4 — Test the After State
+## 4. Learning Outcomes
 
-## Goal
-
-Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a new session and comparing responses before and after context is applied.
-
-### Evidence
-
-#### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
-
-Add your screenshot here.
+- Understand the difference between README.md (for humans) and CLAUDE.md (for AI)
+- Generate a starter CLAUDE.md using `/init`
+- Write all 5 sections: Overview, Architecture, Commands, Conventions, Safety
+- Prove the file works by testing before and after Claude reads it
 
 ---
 
-#### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
+## 5. Important Instructions (Global Rules)
 
-Add your screenshot here.
-
----
-
-# Task 5 — Commit and push your changes to your fork in GitHub
-
-## Goal
-
-Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instructions are version-controlled.
-
-### Evidence
-
-#### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
-
-Add your screenshot here.
+**Key Rules:**
+- Full name must be visible in required screenshots
+- Do not expose sensitive information (keys, passwords, account IDs)
+- Follow screenshot requirements exactly as specified in tasks
+- Submission must clearly match task outputs
+- Missing or incorrect proof may result in rejection
 
 ---
 
-# Submission Instructions
+## 6. Prerequisites
 
-- Ensure `CLAUDE.md` is committed to your GitHub repository
-- Add all required screenshots to your submission
-- Push your final changes to your forked repository
-
----
-
-## GitHub Repository URL
-
-Paste your forked repository URL here:
-
-`Add your URL here`
+- Assignment 1 completed
+- Claude Code running in the portfolio project
+- No CLAUDE.md file in the project yet
 
 ---
 
-# Completion Checklist
+## 7. Tasks
 
-[ ] Screenshot 1 shows a generic Claude response (no CLAUDE.md)<br>
-[ ] Screenshot 2 shows the auto-generated `/init` output <br>
-[ ] Screenshot 3 shows all 5 sections in your customized CLAUDE.md <br>
-[ ] Screenshot 4 shows Claude mentioning S3, CloudFront, and Terraform <br>
-[ ] Screenshot 5 shows Claude refusing the React request <br>
-[ ] Screenshot 6 shows `CLAUDE.md` committed and visible in your GitHub repository <br>
-[ ] GitHub repository URL is included in the submission <br>
+Each task must be completed sequentially.
 
 ---
 
-## 📌 About DMI & CloudAdvisory
+### Task 1 — Capture the Before State
 
-DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
+**Goal:** Screenshot Claude's answer before CLAUDE.md exists so you have a baseline to compare.
 
-It helps learners build strong DevOps foundations with hands-on experience.
+**Steps:**
+1. Open Claude Code in your project
+2. Confirm there is no CLAUDE.md file (the project should only have `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
+3. Ask this exact question: `"What is this project and how should I deploy it?"`
+4. Screenshot the response — it will be generic and vague
+
+**Commands (in Claude Code):**
+```
+What is this project and how should I deploy it?
+```
+
+**Expected Output:** Claude gives a generic answer based only on the existing project files. It may describe the project as a static HTML/CSS website and suggest common deployment options.
+
+**Screenshots Required:**
+- Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
+
+![Terminal](./screenshots/Q2-SS1.png)
 
 ---
 
-## 📌 Resources
+### Task 2 — Generate an initial CLAUDE.md using /init and review the auto-generated content in VS Code.
 
-- 🌐 DMI Official Website: https://pravinmishra.com/dmi  
-- 🎓 DevOps for Beginners (Udemy): https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
-- 🎓 Agentic AI DevOps with Claude Code: https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/  
-- 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+**Goal:** Use the built-in `/init` command to create an auto-generated CLAUDE.md.
+
+**Steps:**
+1. In the Claude Code terminal, type `/init`
+2. Wait for Claude to scan the project files and generate the CLAUDE.md
+3. Open the generated file in VS Code and read through it
+
+**Commands (in Claude Code):**
+```
+/init
+```
+
+**Expected Output:** A CLAUDE.md appears at the project root. It has a Project Overview and Architecture section but is missing important details like the intended AWS deployment.
+
+**Screenshots Required:**
+- Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
+
+![claudemd](./screenshots/Q2-SS2.png)
+
+![claudemd](./screenshots/Q2-SS2a.png)
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+### Task 3 — Customize the CLAUDE.md
+
+**Goal:** Replace the generic content with specific, actionable instructions across all 5 sections.
+
+**Steps:**
+1. Open CLAUDE.md in VS Code
+2. Update **Project Overview** to:
+   > "Static HTML/CSS portfolio website deployed to AWS using S3 and CloudFront, provisioned with Terraform, and automated via GitHub Actions."
+3. Update **Architecture** to include this line:
+   > "Pure HTML5 and CSS3. No JavaScript. No build step. No framework."
+4. Add a **Commands** section listing: `terraform init`, `terraform plan`, `terraform apply`
+5. Add a **Conventions** section with these three rules:
+   - All infrastructure changes go through Terraform — never modify AWS resources manually
+   - No JavaScript in this project
+   - CSS uses mobile-first approach with breakpoints at 900px, 768px, and 600px
+6. Add a **Safety** section:
+   > "Never put secrets in this file. No API keys, passwords, or AWS credentials."
+7. Save the file
+
+**Expected Output:** A complete CLAUDE.md with all 5 sections, each containing project-specific content.
+
+**Screenshots Required:**
+- Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
+
+![claudemd](./screenshots/Q2-SS3.png)
+
+---
+
+### Task 4 — Test the After State
+
+**Goal:** Run two tests that prove CLAUDE.md changed how Claude behaves.
+
+**Steps:**
+1. Start a **new Claude Code session** — close the current terminal and open a fresh one
+2. Ask: `"What is this project and how should I deploy it?"` — Claude should now mention S3, CloudFront, and Terraform clearly.
+3. Then ask: `"Add a React component to the homepage"` — Claude should push back because of the No JavaScript rule
+4. Screenshot both responses
+
+**Commands (in Claude Code, new session):**
+```
+What is this project and how should I deploy it?
+Add a React component to the homepage.
+```
+
+**Expected Output:**
+- Test 1: Claude gives a specific, detailed answer mentioning S3, CloudFront, and Terraform
+- Test 2: Claude refuses or warns — citing the "No JavaScript" convention from CLAUDE.md
+
+**Screenshots Required:**
+- Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
+
+![claude](./screenshots/Q2-SS4.png)
+
+- Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
+
+![claude](./screenshots/Q2-SS5.png)
+
+---
+
+### Task 5 — Commit and push your changes to your fork in GitHub
+
+**Goal:** Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instructions are version-controlled.
+
+**Steps:**
+
+1. Check the Git status to verify that `CLAUDE.md` has been created or modified
+
+2. Stage the changes (`git add .`)
+
+3. Commit the changes with a meaningful commit message
+
+4. Push the commit to your GitHub fork
+
+5. Open your GitHub repository in the browser and verify that `CLAUDE.md` is visible in the repository root
+
+
+**Commands (Terminal):**
+
+```bash
+
+git status
+git add CLAUDE.md
+git commit -m "Add project-specific CLAUDE.md"
+git push origin main
+
+```
+
+**Expected Output:** The `CLAUDE.md` file is committed, pushed to your GitHub fork, and visible in the repository.
+
+
+**Screenshots Required:**
+
+- Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
+
+![Github](./screenshots/Q2-SS6.png)
+
+![Github](./screenshots/Q2-SS6a.png)
+
+---
+
+## 8. Industry Insight
+
+The CLAUDE.md is where the engineer's knowledge becomes permanent. Every line you write there is an instruction that applies to every session, every command, every file Claude touches — automatically. Senior engineers on agentic teams treat their CLAUDE.md like production code: they version control it, review changes to it, and keep it updated as the project evolves. A 90-line CLAUDE.md written carefully can save weeks of correction across a year of usage.
+
+---
+
+## 9. Submission Instructions
+
+Complete all tasks in sequence.
+
+Your submission must include:
+- All 6 required screenshots
+- Your GitHub repo URL (`CLAUDE.md` must be committed and pushed)
+
+  https://github.com/Ginny-Ibe/Ultimate-Agentic-DevOps-with-Claude-Code.git
+
+---
+
+## 10. Solution Walkthrough
+
+A step-by-step solution and troubleshooting guide is available for reference.
+
+---
+
+## 11. LinkedIn Requirement
+
+Not required for this assignment.
+
+---
+
+### 12. Completion Checklist
+
+Before submission, verify:
+
+- [x] Screenshot 1 shows a generic Claude response (no CLAUDE.md)<br>
+- [x] Screenshot 2 shows the auto-generated `/init` output <br>
+- [x] Screenshot 3 shows all 5 sections in your customized CLAUDE.md <br>
+- [x] Screenshot 4 shows Claude mentioning S3, CloudFront, and Terraform r>
+- [x] Screenshot 5 shows Claude refusing the React request <br>
+- [x] Screenshot 6 shows `CLAUDE.md` committed and visible in your GitHub repository <br>
+- [x] GitHub repository URL is included in the submission <br>
+
+---
+

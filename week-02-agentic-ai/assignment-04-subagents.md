@@ -1,152 +1,209 @@
-# Assignment 4 — Building Your AI Team
-
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+# Assignment 4: Building Your AI Team
 
 ---
 
-## Purpose
+## 1. Assignment Overview
 
-In this assignment, you will build and configure a set of specialized AI subagents inside your project. You will learn how different models and tool permissions define agent behavior, and you will trigger two real agent delegations to analyze security and cost aspects of your Terraform infrastructure.
-
----
-
-# Task 1 — Create the Agents Folder and Add Files
-
-## Goal
-
-Create the `.claude/agents/` directory and add all required agent files.
-
-### Evidence
-
-#### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
-
-Add your screenshot here.
+**Assignment:** Subagents              
+**Estimated Time:** 60 minutes            
+**Difficulty:** Intermediate             
+**Category:** Agentic AI, Subagents              
 
 ---
 
-# Task 2 — Compare the Agent Configurations
+## 2. Objective
 
-## Goal
-
-Analyze the configuration differences between the three agents and demonstrate understanding of model and tool selection.
-
-### Written Answers
-
-#### 1. Why does the cost optimizer use Haiku instead of Sonnet?
-
-Add your answer here...
+Build all 3 subagent files, understand why each one uses a different model and tool set, run two live subagent delegations, and analyze the reports they produce.
 
 ---
 
-#### 2. Why does the security auditor NOT have Write in its tools list?
+## 3. Real-World Scenario
 
-Add your answer here...
-
----
-
-#### 3. Why does the tf-writer use `inherit` instead of a specific model?
-
-Add your answer here...
+No senior engineer on a real team does everything themselves. Security reviews, cost checks, and code generation are separate concerns — done by people with different expertise, different access levels, and different tools. Subagents bring the same separation to AI workflows. Instead of one overloaded general assistant with full access to everything, you build a team of specialists. Each one knows its job, uses only the tools it needs, and runs on the model that fits the task. That is professional-grade agentic engineering.
 
 ---
 
-### Evidence
+## 4. Learning Outcomes
 
-#### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
-
-Add your screenshot here.
-
----
-
-#### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
-
-Add your screenshot here.
+- Understand the difference between skills (shared context) and subagents (isolated context)
+- Configure subagents with correct tools, model, and description for their job
+- Understand why model selection matters: Sonnet for deep analysis, Haiku for fast checks
+- Trigger agent delegation by typing a natural language prompt
+- Read and interpret a security audit report and a cost optimization report
 
 ---
 
-# Task 3 — Run the Security Auditor
+## 5. Important Instructions (Global Rules)
 
-## Goal
-
-Trigger the security auditor agent and analyze the generated security report for your Terraform infrastructure.
-
-### Evidence
-
-#### Screenshot 4 — The delegation message showing Claude launched the security-auditor
-
-Add your screenshot here.
+**Key Rules:**
+- Full name must be visible in required screenshots
+- Do not expose sensitive information (keys, passwords, account IDs)
+- Follow screenshot requirements exactly as specified in tasks
+- Submission must clearly match task outputs
+- Missing or incorrect proof may result in rejection
 
 ---
 
-#### Screenshot 5 — Security audit report output
+## 6. Prerequisites
 
-Add your screenshot here.
-
----
-
-# Task 4 — Run the Cost Optimizer
-
-## Goal
-
-Trigger the cost optimizer agent and review the generated cost optimization report.
-
-### Evidence
-
-#### Screenshot 6 — The full cost optimization report
-
-Add your screenshot here.
+- Assignment 3 completed — Terraform files scaffolded and visible in `terraform/`
+- All 3 agent files downloaded from the Resources section of Lecture 6.3
 
 ---
 
-# Submission Instructions
+## 7. Tasks
 
-- Ensure all agent files are committed in `.claude/agents/`
-- Complete all written answers in your GitHub Repo
-- Push final changes to your forked GitHub repository
+Each task must be completed sequentially.
 
 ---
 
-## GitHub Repository URL
+### Task 1 — Create the Agents Folder and Add Files
 
-Paste your forked repository URL here:
+**Goal:** Set up `.claude/agents/` and place all 3 agent files.
 
-`Add your URL here`
+**Steps:**
+1. Open the VS Code terminal
+2. Create the agents folder
+3. Move the 3 downloaded agent files into it - Resource [Click here](https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/learn/lecture/54915307#overview)
+4. Verify file names match exactly — the file name must match the `name` field in each file's frontmatter
 
----
+**Commands:**
+```bash
+mkdir -p .claude/agents
+```
 
-# Completion Checklist
+**Expected Output:** `.claude/agents/` contains `security-auditor.md`, `tf-writer.md`, `cost-optimizer.md`.
 
-- [ ] `.claude/agents/` folder contains all 3 agent files
-- [ ] Screenshot 2 shows correct `security-auditor.md` configuration
-- [ ] Screenshot 3 shows correct `cost-optimizer.md` configuration
-- [ ] All 3 written answers completed 
-- [ ] Security auditor executed successfully
-- [ ] Cost optimizer executed successfully
-- [ ] Security report is visible with findings
-- [ ] Cost report is visible with recommendations
-- [ ] All required screenshots added
-- [ ] GitHub repo updated with agents
+**Screenshots Required:**
+- Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
----
-
-## 📌 About DMI & CloudAdvisory
-
-DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
-
-It helps learners build strong DevOps foundations with hands-on experience.
+![agent structure](./screenshots/Q4-SS1.png)
 
 ---
 
-## 📌 Resources
+### Task 2 — Compare the Agent Configurations
 
-- 🌐 DMI Official Website: https://pravinmishra.com/dmi  
-- 🎓 DevOps for Beginners (Udemy): https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
-- 🎓 Agentic AI DevOps with Claude Code: https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/  
-- 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+**Goal:** Read the frontmatter of each agent and understand why they are configured differently.
+
+**Steps:**
+1. Open `security-auditor.md` — note the `tools` and `model` fields
+2. Open `cost-optimizer.md` — note the `tools` and `model` fields
+3. Open `tf-writer.md` — note the `tools` and `model` fields
+4. Write a short answer (2–3 sentences each) to these 3 questions:
+   - **Why does the cost optimizer use Haiku instead of Sonnet?**
+The cost optimizer just checks Terraform resources and flags obvious savings — nothing that needs deep reasoning like the security auditor does. Haiku is cheaper and fast enough for that.
+
+   - **Why does the security auditor NOT have Write in its tools list?**
+It's read-only on purpose. It's there to inspect Terraform configs, not touch them — giving it Write would mean one misfire could modify infrastructure instead of just flagging problems with it.
+
+   - **Why does the tf-writer use `inherit` instead of a specific model?**
+Because it's doing code generation, and you don't want to lock that to one model. inherit just means it picks up whatever Claude Code is already configured to use.
+
+**Expected Output:** 3 written answers in your GitHub Repository folder showing you understand the design decisions behind each agent.
+
+**Screenshots Required:**
+- Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
+
+![security auditor](./screenshots/Q4-SS2.png)
+
+- Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
+
+![cost optimizer](./screenshots/Q4-SS3.png)
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+### Task 3 — Run the Security Auditor
+
+**Goal:** Trigger the security auditor by natural language and read the report.
+
+**Steps:**
+1. Open the Claude Code terminal
+2. Type this exact prompt: `"Audit my Terraform files for security issues."`
+3. Watch Claude match the prompt to the security-auditor description and delegate
+4. Read the full report — note any HIGH severity findings
+
+**Commands (in Claude Code):**
+```
+Audit my Terraform files for security issues.
+```
+
+**Expected Output:** Claude shows a delegation message — "Launching security-auditor agent." The report comes back organized by severity. Likely findings include missing S3 encryption, TLS version, and access logging.
+
+**Screenshots Required:**
+- Screenshot 4 — The delegation message showing Claude launched the security-auditor
+
+![delegation](./screenshots/Q4-SS4.png)
+
+- Screenshot 5 — Security audit report output
+
+![SS5](./screenshots/Q4-SS5.png)
+
+---
+
+### Task 4 — Run the Cost Optimizer
+
+**Goal:** Trigger the cost optimizer and note how it differs from the security auditor in speed and focus.
+
+**Steps:**
+1. In the Claude Code terminal, type: `"Review my Terraform infrastructure for cost optimization."`
+2. Note how much faster it finishes compared to the security auditor — Haiku vs Sonnet
+3. Read the cost report
+
+**Commands (in Claude Code):**
+```
+Review my Terraform infrastructure for cost optimization.
+```
+
+**Expected Output:** Claude delegates to cost-optimizer. It finishes noticeably faster. Report covers CloudFront price class, versioning lifecycle policy recommendation, and estimated monthly cost.
+
+**Screenshots Required:**
+- Screenshot 6 — The full cost optimization report
+
+![SS6](./screenshots/Q4-SS6.png)
+
+---
+
+## 8. Industry Insight
+
+The most common mistake teams make when adopting agentic AI is building one large general-purpose agent and giving it every tool and every capability. This works until something goes wrong — and then it is very hard to diagnose. The subagent pattern solves this. When a security audit runs on read-only tools and produces a wrong result, you know exactly where to look: the agent body and its checklist. Small, focused agents are easier to debug, easier to trust, and easier to improve over time. Start small. Specialize deliberately.
+
+---
+
+## 9. Submission Instructions
+
+Complete all tasks in sequence.
+
+Your submission must include:
+- All 6 required screenshots
+- 3 written answers in the Google Doc (from Task 2)
+- Your GitHub repo URL (agents committed and visible)
+https://github.com/Ginny-Ibe/Ultimate-Agentic-DevOps-with-Claude-Code.git
+
+Submit only a Google Doc link.
+Follow the Assignment Submission Guidelines — (LINK)
+
+---
+
+## 10. Solution Walkthrough
+
+A step-by-step solution and troubleshooting guide is available for reference:
+Full solution walkthrough → [Click here](../assignment-solutions/assignment-04-subagents.md)
+
+---
+
+## 11. LinkedIn Requirement
+
+Not required for this assignment.
+
+---
+
+## 12. Completion Checklist
+
+Before submission, verify:
+- [ ] All 3 agent files in `.claude/agents/`
+- [ ] Screenshot 2 and 3 show different tools and models for each agent
+- [ ] 3 written answers 
+- [ ] Security auditor ran and produced a report with findings
+- [ ] Cost optimizer ran and produced a report
+- [ ] Agents committed and visible in GitHub repo
+
