@@ -20,19 +20,25 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
+An AWS account is a personal account that gives you access to Amazon Web Services, allowing you to create, manage, and monitor cloud resources. At this stage, it provides a standardized environment for hands-on DevOps learning, where I can launch virtual machines, explore core AWS services, and gain practical experience building and managing cloud infrastructure.
 
 ---
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
+AWS Free Tier is a program that lets new users explore many AWS services without paying, as long as they stay within the free usage limits. Most Free Tier offers are available for 12 months after creating an AWS account, while some services have always-free limits and others provide short-term free trials. It is a great way to learn cloud computing while keeping costs under control.
 
 ---
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+Here are three commonly used AWS Free Tier services:
+
+Amazon EC2: Up to 750 hours per month of a t2.micro or t3.micro virtual machine (depending on the region) for 12 months.
+Amazon S3: 5 GB of Standard Storage, along with limited requests and data transfer, for 12 months.
+Amazon RDS: Up to 750 hours per month of a db.t3.micro or db.t2.micro database instance, plus 20 GB of storage, for 12 months.
+
+These services provide enough resources to practice deploying applications, storing files, and working with databases without incurring charges if used within the Free Tier limits.
 
 ---
 
@@ -56,7 +62,7 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
+![AWS Account page](screenshots/q1-ss1.png)
 
 ---
 
@@ -70,11 +76,11 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1 answers written in own words
-- [ ] AWS Free Tier account created successfully
-- [ ] Signed in to AWS Management Console
-- [ ] Screenshot of AWS Account page captured (full name visible, no sensitive data)
-- [ ] All required screenshots added to repository
+- [x] Task 1 answers written in own words
+- [x] AWS Free Tier account created successfully
+- [x] Signed in to AWS Management Console
+- [x] Screenshot of AWS Account page captured (full name visible, no sensitive data)
+- [x] All required screenshots added to repository
 
 ---
 
