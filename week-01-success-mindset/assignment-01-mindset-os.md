@@ -172,8 +172,6 @@ His 2.0 version proved that reinvention was not about abandoning the past. It wa
 
 https://medium.com/@ginnyibe/by-2030-ginnys-story-was-no-longer-just-about-starting-over-in-a-new-country-e56ad8a38095?sharedUserId=ginnyibe
 
-`Add your URL here`
-
 ---
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
@@ -306,10 +304,8 @@ List topics only. No need to share numbers.
 * Community contribution, mentorship, or knowledge-sharing activities
 
 ### Public Link
+https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7478325426596048896-5XH9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM
 
-https://www.linkedin.com/feed/update/urn:li:activity:7478325426596048896/
-
-`__________________________`
 
 ---
 
@@ -441,16 +437,16 @@ I commit to one focused hour every Monday to Thursday from 10:00 to 11:00 p.m. d
 
 https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7478574053218242560-1mc7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM
 
-`Add your URL here`
-
 ---
 
 ## 10. Proof of Work
 
 - LinkedIn Post URL1: **https://www.linkedin.com/feed/update/urn:li:activity:7478325426596048896/**
-- LinkedIn Post URL2: **https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7478574053218242560-1mc7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM**
+- LinkedIn Post URL2:
+  **https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7478574053218242560-1mc7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM**
 
-- Blog / Medium : **https://medium.com/@ginnyibe/by-2030-ginnys-story-was-no-longer-just-about-starting-over-in-a-new-country-e56ad8a38095?sharedUserId=ginnyibe**  
+- Blog / Medium : 
+  **https://medium.com/@ginnyibe/by-2030-ginnys-story-was-no-longer-just-about-starting-over-in-a-new-country-e56ad8a38095?sharedUserId=ginnyibe**  
 
 ---
 
