@@ -387,13 +387,14 @@ Stopping or terminating unused resources helps reduce cloud costs, improves secu
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7483607389368233985-XuNt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![linkedln post](screenshots/q3-ss.png)
+![linkedln post](screenshots/q3-ss1.png)
 
 ---
 

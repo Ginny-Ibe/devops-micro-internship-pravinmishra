@@ -36,19 +36,19 @@ Answer the following in your own words:
 
 **1. What is Bash?**
 
-Add your answer here.
+Bash (Bourne Again Shell) is a command-line shell and scripting language used to interact with Linux. It allows users to run commands and automate tasks using scripts.
 
 ---
 
 **2. What is the difference between shell and Bash?**
 
-Add your answer here.
+A shell is a program that lets you communicate with the operating system. Bash is one type of shell that provides additional features for command execution and scripting.
 
 ---
 
 **3. Why is it important to confirm the Bash version before writing scripts?**
 
-Add your answer here.
+Checking the Bash version ensures that the features and syntax used in your script are supported by the installed version of Bash.
 
 ---
 
@@ -84,19 +84,19 @@ Answer the following in your own words:
 
 **1. What is the purpose of `#!/bin/bash`?**
 
-Add your answer here.
+It is called the shebang. It tells the operating system to use the Bash interpreter to execute the script.
 
 ---
 
 **2. Why do we use `chmod +x` before running a script?**
 
-Add your answer here.
+The chmod +x command gives the script execute permission so it can be run directly.
 
 ---
 
 **3. What is the difference between running a script using `./script.sh` and `bash script.sh`?**
 
-Add your answer here.
+./script.sh runs the script directly and requires execute permission. bash script.sh runs the script using Bash and does not require execute permission.
 
 ---
 
@@ -126,19 +126,19 @@ Answer the following in your own words:
 
 **1. What is a variable in Bash?**
 
-Add your answer here.
+A variable is a named storage location that holds a value which can be used later in the script.
 
 ---
 
 **2. Why should we avoid spaces around the `=` sign when creating variables?**
 
-Add your answer here.
+Bash treats spaces as separators. Adding spaces around = causes Bash to interpret the statement incorrectly.
 
 ---
 
 **3. How do you access the value stored inside a Bash variable?**
 
-Add your answer here.
+To access the value stored in a Bash variable, place the `$` symbol before the variable name. For example, `echo $name` displays the value stored in the variable.
 
 ---
 
@@ -168,25 +168,25 @@ Answer the following in your own words:
 
 **1. What is an array in Bash?**
 
-Add your answer here.
+An array is a variable that can store multiple values under a single name.
 
 ---
 
 **2. Why are arrays useful in scripts?**
 
-Add your answer here.
+Arrays keep related data together and make it easier to process multiple values using loops.
 
 ---
 
 **3. What does `"${tools[@]}"` mean?**
 
-Add your answer here.
+It represents all the values stored in the tools array so each item can be processed individually.
 
 ---
 
 **4. What is the purpose of the `for` loop in this script?**
 
-Add your answer here.
+The for loop goes through each item in the array and prints it one at a time.
 
 ---
 
@@ -216,25 +216,25 @@ Answer the following in your own words:
 
 **1. What is a loop?**
 
-Add your answer here.
+A loop is a programming structure that repeats a set of commands until all specified values have been processed.
 
 ---
 
 **2. Why do we use loops in Bash scripting?**
 
-Add your answer here.
+Loops automate repetitive tasks, making scripts shorter and more efficient.
 
 ---
 
 **3. How many times did the loop run in your script?**
 
-Add your answer here.
+The loop ran five times because it processed the numbers 1 through 5.
 
 ---
 
 **4. What would you change if you wanted the loop to run 10 times?**
 
-Add your answer here.
+I would update the loop to include the numbers 1 through 10 or use a range like {1..10}.
 
 ---
 
@@ -272,7 +272,7 @@ Answer the following in your own words:
 
 **1. What does `-d` check in Bash?**
 
-Add your answer here.
+The -d option checks whether a specified path exists and is a directory.
 
 ---
 

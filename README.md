@@ -133,7 +133,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_devops-cloudcomputing-networking-activity-7468887694417526784-gpUR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM  | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_devops-cloudcomputing-networking-activity-7468887694417526784-gpUR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM  | https://medium.com/@ginnyibe/i-spent-my-first-week-of-devops-training-without-touching-a-single-server-f10efefa0e75?sharedUserId=ginnyibe|
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/feed/update/urn:li:activity:7478325426596048896/ | https://medium.com/@ginnyibe/by-2030-ginnys-story-was-no-longer-just-about-starting-over-in-a-new-country-e56ad8a38095?sharedUserId=ginnyibe |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7482205106373910529-Jved?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM  | https://medium.com/@ginnyibe/i-typed-terraform-destroy-on-purpose-heres-why-it-changed-how-i-think-about-ai-engineering-00889e15d42e |
 | 03 | Linux for DevOps | 🔄 In Progress  | ⏳ Pending | — | — |
