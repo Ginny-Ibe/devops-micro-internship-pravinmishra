@@ -90,13 +90,13 @@ It is called the shebang. It tells the operating system to use the Bash interpre
 
 **2. Why do we use `chmod +x` before running a script?**
 
-The chmod +x command gives the script execute permission so it can be run directly.
+The `chmod +x` command gives the script execute permission so it can be run directly.
 
 ---
 
 **3. What is the difference between running a script using `./script.sh` and `bash script.sh`?**
 
-./script.sh runs the script directly and requires execute permission. bash script.sh runs the script using Bash and does not require execute permission.
+`script.sh` runs the script directly and requires execute permission. `bash script.sh` runs the script using Bash and does not require execute permission.
 
 ---
 
@@ -272,25 +272,25 @@ Answer the following in your own words:
 
 **1. What does `-d` check in Bash?**
 
-The -d option checks whether a specified path exists and is a directory.
+The `-d` option checks whether a specified path exists and is a directory.
 
 ---
 
 **2. What does `-f` check in Bash?**
 
-Add your answer here.
+The `-f` option checks whether a specified path exists and is a regular file.
 
 ---
 
 **3. Why should file and directory paths be stored in variables?**
 
-Add your answer here.
+Using variables makes scripts easier to read, maintain, and update because the path only needs to be changed in one place.
 
 ---
 
 **4. What happens if the file does not exist?**
 
-Add your answer here.
+The condition evaluates to false, and the commands inside the else `else` block are executed.
 
 ---
 
@@ -333,25 +333,25 @@ Answer the following in your own words:
 
 **1. What is the purpose of if-else in Bash?**
 
-Add your answer here.
+An `if-else` statement allows the script to make decisions and execute different commands based on whether a condition is true or false.
 
 ---
 
 **2. What does `-ge` mean?**
 
-Add your answer here.
+`-ge` means greater than or equal to. It is used to compare numeric values.
 
 ---
 
 **3. Why should conditions be tested with different values?**
 
-Add your answer here.
+Testing different values confirms that both the true and false conditions work correctly and helps identify errors.
 
 ---
 
 **4. How can conditionals help in automation scripts?**
 
-Add your answer here.
+Conditionals allow scripts to make decisions automatically based on the current situation, such as checking whether a file exists or a service is running.
 
 ---
 
@@ -389,25 +389,29 @@ Answer the following in your own words:
 
 **1. What is a function in Bash?**
 
-Add your answer here.
+A function is a reusable block of commands that performs a specific task when it is called.
 
 ---
 
 **2. Why are functions useful in scripts?**
 
-Add your answer here.
+Functions organize code into smaller sections, reduce repetition, and make scripts easier to read and maintain.
 
 ---
 
 **3. Which functions did you create in this script?**
 
-Add your answer here.
+The script contains four functions:
+- `print_header`
+- `print_user_details`
+- `check_files`
+- `print_tools`
 
 ---
 
 **4. How does this final script combine variables, arrays, loops, conditionals, files, and functions?**
 
-Add your answer here.
+The script uses variables to store information such as the user's name and file paths. It uses an array to store tool names, a loop to display each tool, conditionals to check whether the required file and directory exist, and functions to organize the tasks into reusable sections. Together, these features create a structured and automated Bash script.
 
 ---
 
@@ -419,13 +423,14 @@ Add your answer here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/dr-ginny-ibe_devops-linux-bash-share-7484217690522378243-f4qD/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![linkedln post](screenshots/a5-ss.png)
+
 
 ---
 
@@ -441,18 +446,18 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
-- [ ] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
-- [ ] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
-- [ ] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
-- [ ] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
-- [ ] All scripts run without errors
-- [ ] Full Name visible in all required screenshots
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [x] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
+- [x] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
+- [x] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
+- [x] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
+- [x] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
+- [x] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
+- [x] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
+- [x] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
+- [x] All scripts run without errors
+- [x] Full Name visible in all required screenshots
+- [x] LinkedIn post published and URL submitted
+- [x] No sensitive data exposed
 
 ---
 

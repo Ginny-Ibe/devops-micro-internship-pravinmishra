@@ -304,7 +304,7 @@ List topics only. No need to share numbers.
 * Community contribution, mentorship, or knowledge-sharing activities
 
 ### Public Link
-https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7478325426596048896-5XH9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM
+https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-share-7478325424473903104-TXUb/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM
 
 
 ---
@@ -441,7 +441,7 @@ https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-a
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL1: **https://www.linkedin.com/feed/update/urn:li:activity:7478325426596048896/**
+- LinkedIn Post URL1: **https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-share-7478325424473903104-TXUb/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM**
 - LinkedIn Post URL2:
   **https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7478574053218242560-1mc7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM**
 

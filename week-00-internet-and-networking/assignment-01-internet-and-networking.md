@@ -1,4 +1,4 @@
-# Week 00 - Internet and Networking
+clear# Week 00 - Internet and Networking
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
