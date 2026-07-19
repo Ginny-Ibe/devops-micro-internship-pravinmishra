@@ -306,7 +306,6 @@ List topics only. No need to share numbers.
 ### Public Link
 https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-share-7478325424473903104-TXUb/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM
 
-
 ---
 
 # Assignment 7. Brain Dump + 5-Month System Plan

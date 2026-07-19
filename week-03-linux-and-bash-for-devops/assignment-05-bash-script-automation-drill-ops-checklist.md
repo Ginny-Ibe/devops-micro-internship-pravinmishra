@@ -96,7 +96,7 @@ The `chmod +x` command gives the script execute permission so it can be run dire
 
 **3. What is the difference between running a script using `./script.sh` and `bash script.sh`?**
 
-`script.sh` runs the script directly and requires execute permission. `bash script.sh` runs the script using Bash and does not require execute permission.
+`./script.sh` runs the script directly and requires execute permission. `bash script.sh` runs the script using Bash and does not require execute permission.
 
 ---
 
