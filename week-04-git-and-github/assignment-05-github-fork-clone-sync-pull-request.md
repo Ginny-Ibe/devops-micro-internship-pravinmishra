@@ -108,15 +108,13 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 
 #### Screenshot 8 — Pull Request creation page showing the correct base repository, base branch, head repository, compare branch, and title
 
-Add your screenshot here.![ouput](./screenshots/wk4a5t5-ss8.png)
-
+![ouput](./screenshots/wk4a5t5-ss8.png)
 
 ---
 
 #### Screenshot 9 — Successfully created Pull Request page with the PR number visible
 
-Add your screenshot here.![ouput](./screenshots/wk4a5t5-ss9.png)
-
+![ouput](./screenshots/wk4a5t5-ss9.png)
 
 ---
 
