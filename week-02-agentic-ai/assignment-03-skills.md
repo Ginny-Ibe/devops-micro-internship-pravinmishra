@@ -177,6 +177,7 @@ Then in Claude Code:
 ![analysis](./screenshots/Q2-SS6c.png)
 
 ![analysis](./screenshots/Q3-SS6d.png)
+
 ---
 
 ## 8. Industry Insight

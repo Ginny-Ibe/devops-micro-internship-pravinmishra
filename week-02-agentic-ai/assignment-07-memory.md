@@ -192,7 +192,6 @@ Your submission must include:
 A step-by-step solution and troubleshooting guide is available for reference:
 Full solution walkthrough → [Click here](../assignment-solutions/assignment-07-memory.md)
 
-
 ---
 
 ## 11. LinkedIn Requirement
