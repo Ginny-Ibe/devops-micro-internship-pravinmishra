@@ -80,7 +80,7 @@ This is not a course. It is an internship-style program — real deployments, re
 [![Week 03 – Linux](./badges/week-03.svg)](./week-03-linux-for-devops/)
 
 <!-- Week 04 → Bash Scripting -->
-<!-- [![Week 04 – Bash](./badges/week-04.svg)](./week-04-bash-scripting/) -->
+[![Week 04 – Bash](./badges/week-04.svg)](./week-04-bash-scripting/)
 
 <!-- Week 05 → Git & GitHub -->
 <!-- [![Week 05 – Git](./badges/week-05.svg)](./week-05-github/) -->
@@ -137,9 +137,9 @@ This is not a course. It is an internship-style program — real deployments, re
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7478325426596048896-5XH9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://medium.com/@ginnyibe/by-2030-ginnys-story-was-no-longer-just-about-starting-over-in-a-new-country-e56ad8a38095?sharedUserId=ginnyibe |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7482205106373910529-Jved?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://medium.com/@ginnyibe/i-typed-terraform-destroy-on-purpose-heres-why-it-changed-how-i-think-about-ai-engineering-00889e15d42e |
 | 03 | Linux for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-ugcPost-7484532837069635584-Hx8n/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://medium.com/@ginnyibe/the-website-was-down-my-instinct-was-to-fix-it-538f6f3afa24?sharedUserId=ginnyibe |
-| 04 | Bash Scripting | 🔄 In Progress | ⏳ Pending | — | — |
-| 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
-| 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
+| 04 | Bash Scripting | ✅ Completed  | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7484532840320118784-kAvh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://medium.com/@ginnyibe/the-website-was-down-my-instinct-was-to-fix-it-538f6f3afa24?sharedUserId=ginnyibe |
+| 05 | Git & GitHub | ✅ Completed  | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-git-activity-7487008946495602688-mCIV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://medium.com/@ginnyibe/i-tried-to-commit-a-security-mistake-git-stopped-me-before-production-could-3f88b0d9f4fb?sharedUserId=ginnyibe |
+| 06 | DevOps Lifecycle & Agile | 🔄 In Progress | ⏳ Pending | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
