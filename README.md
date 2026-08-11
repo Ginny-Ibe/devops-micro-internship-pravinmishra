@@ -83,10 +83,10 @@ This is not a course. It is an internship-style program — real deployments, re
 [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/)
 
 <!-- Week 05 → Git & GitHub -->
-<!-- [![Week 05 – Git](./badges/week-05.svg)](./week-05-github/) -->
+[![Week 05 – Git](./badges/week-05.svg)](./week-05-github/)
 
 <!-- Week 06 → DevOps Lifecycle & Agile -->
-<!-- [![Week 06 – Agile](./badges/week-06.svg)](./week-06-devops-lifecycle/) -->
+[![Week 06 – Agile](./badges/week-06.svg)](./week-06-devops-lifecycle/)
 
 <!-- Week 07 → AWS Cloud -->
 <!-- [![Week 07 – AWS](./badges/week-07.svg)](./week-07-aws-cloud/) -->
@@ -139,8 +139,8 @@ This is not a course. It is an internship-style program — real deployments, re
 | 03 | Linux for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-ugcPost-7484532837069635584-Hx8n/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://medium.com/@ginnyibe/the-website-was-down-my-instinct-was-to-fix-it-538f6f3afa24?sharedUserId=ginnyibe |
 | 04 | Bash Scripting | ✅ Completed  | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7484532840320118784-kAvh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://medium.com/@ginnyibe/the-website-was-down-my-instinct-was-to-fix-it-538f6f3afa24?sharedUserId=ginnyibe |
 | 05 | Git & GitHub | ✅ Completed  | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-git-activity-7487008946495602688-mCIV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://medium.com/@ginnyibe/i-tried-to-commit-a-security-mistake-git-stopped-me-before-production-could-3f88b0d9f4fb?sharedUserId=ginnyibe |
-| 06 | DevOps Lifecycle & Agile | 🔄 In Progress | 🔄 In Progress | — | — |
-| 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7492318943592976385-VkeL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://medium.com/@ginnyibe/doctype-html-html-lang-en-head-meta-charset-utf-8-meta-name-viewport-1e5634bbe6e6?sharedUserId=ginnyibe |
+| 07 | AWS Cloud | 🔄 In Progress | ⏳ Pending | — | — |
 | 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 10 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
