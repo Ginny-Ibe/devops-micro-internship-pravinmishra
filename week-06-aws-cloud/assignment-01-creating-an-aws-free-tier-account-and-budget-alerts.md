@@ -30,7 +30,14 @@ In the Billing Dashboard, create a monthly Cost Budget with a name, amount, and 
 
 #### Screenshot 1 — AWS Budget setup page showing the budget name, budget amount, and alert thresholds
 
-Add your screenshot here.
+![ouput](./screenshots/wk6a1t2-ss1.png)
+
+![ouput](./screenshots/wk6a1t2-ss1a.png)
+
+![ouput](./screenshots/wk6a1t2-ss1b.png)
+
+
+
 
 ---
 
@@ -40,7 +47,15 @@ Answer the following in your own words:
 
 **1. Why is it important to set up budget alerts when using an AWS account?**
 
-Write your answer here.
+Budget alerts are important because they help me keep track of my AWS spending and avoid unexpected charges. They notify me when my usage approaches a limit I have set, so I can investigate unusual costs early and take action before the bill grows. This is especially important when learning or testing AWS services, where it is easy to leave resources running accidentally.
+
+Budget alerts are important because AWS uses a pay-as-you-go model, so costs can continue to increase while resources are running. Even when working within the AWS Free Tier, some services have usage limits, and exceeding those limits can result in charges.
+
+Setting up budget alerts gives me an early warning when my spending reaches a specific threshold. This helps me catch things like EC2 instances left running, unused resources, unexpected data-transfer costs, or services that are consuming more than expected.
+
+It’s also a good cloud engineering practice. Instead of waiting until the end of the month to discover an unexpected bill, I can monitor costs proactively and take action early. In a real DevOps environment, this same principle supports cost visibility, accountability, and FinOps practices.
+
+So, budget alerts act as a financial safety net: AWS gives me the flexibility to create resources, while budget alerts help me stay aware of what those resources are costing.
 
 ---
 
@@ -53,13 +68,13 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] AWS Free Tier account created and Basic Support Plan (Free) selected
-- [ ] Logged in to the AWS Management Console
-- [ ] Monthly Cost Budget created with name, amount, and start month
-- [ ] Budget alert thresholds and notification email configured
-- [ ] Screenshot captured showing budget name, amount, and thresholds (Screenshot 1)
-- [ ] Notes question answered
-- [ ] No sensitive billing or account information exposed
+- [x] AWS Free Tier account created and Basic Support Plan (Free) selected
+- [x] Logged in to the AWS Management Console
+- [x] Monthly Cost Budget created with name, amount, and start month
+- [x] Budget alert thresholds and notification email configured
+- [x] Screenshot captured showing budget name, amount, and thresholds (Screenshot 1)
+- [x] Notes question answered
+- [x] No sensitive billing or account information exposed
 
 ---
 

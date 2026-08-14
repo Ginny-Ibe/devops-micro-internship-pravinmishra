@@ -143,16 +143,9 @@ Ask Claude to list the issues in your current active sprint through the Jira MCP
 
 
 ### Notes You Must Write (Very Important):
-
 How did you confirm this was real board data and not something Claude guessed?
 
-# Verification Report: Jira Board Data (GJGI Sprint 13)
-
-## Question
-How was it confirmed that the returned Jira data was real board data pulled from Atlassian, and not something Claude fabricated?
-
-Claims and verification results
-
+fours ways to confirm Claims and verify results
 1. Tool calls executed — VERIFIED
 Four Jira MCP tool calls were made and returned raw JSON, confirmed by observing the tool_use/tool_result blocks fire in the transcript:
 - `mcp__jira__jira_search_projects` → found project GJGI
@@ -179,7 +172,7 @@ IDs were consistent across all four tool calls with no mismatches.
 
 All 4 clicked and confirmed to match the live board (titles, statuses, assignee).
 
-**4. Sprint dates — VERIFIED**
+4. Sprint dates — VERIFIED**
 Start 2026-08-09, end 2026-08-13, confirmed against the live sprint record — consistent with "today = 2026-08-10" and state "active."
 
 Verification status
@@ -205,7 +198,7 @@ Create a `/sprint-health` skill restricted to read-only Jira tools plus `Read`, 
 
 #### Screenshot 6 — `SKILL.md` frontmatter showing `allowed-tools` limited to read-only Jira tools plus `Read`, with `disable-model-invocation: true`
 
-Add your screenshot here.![ouput](./screenshots/wk5a5t6-ss6.png)
+![ouput](./screenshots/wk5a5t6-ss6.png)
 
 
 #### Screenshot 7 — `/sprint-health` output showing the full triage report against your real sprint

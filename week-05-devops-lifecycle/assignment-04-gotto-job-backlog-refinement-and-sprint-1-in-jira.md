@@ -22,7 +22,7 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 ![ouput](./screenshots/wk5a4t1-ss1.png)
 
-**Notes**
+Notes
 Mode: Solo Mode — I will performed all four roles as part of the one-person exercise.
 
 Product Owner(PO): Prioritized the backlog by product value, placing discoverability and the search experience ahead of secondary trust signals and form labelling.
@@ -63,7 +63,7 @@ Create a Team-managed Scrum project named `Gotto Job – Team <#>` (Team Mode) o
 
 ![ouput](./screenshots/wk5a4t2-ss2.png)
 
-**Page showing key**
+*Page showing key*
 ![ouput](./screenshots/wk5a4t2-ss2a.png)
 
 ---
@@ -98,7 +98,7 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 
 #### Screenshot 5 — One Story opened showing its Story Points and acceptance criteria filled in
 
-Add your screenshot here.![ouput](./screenshots/wk5a4t4-ss5.png)
+![ouput](./screenshots/wk5a4t4-ss5.png)
 
 ---
 

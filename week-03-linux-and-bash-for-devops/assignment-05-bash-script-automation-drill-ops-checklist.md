@@ -431,8 +431,9 @@ https://www.linkedin.com/posts/dr-ginny-ibe_devops-linux-bash-share-748421769052
 
 ![linkedln post](screenshots/a5-ss.png)
 
-
 ---
+
+**My Medium Blog Post: [Blog](https://medium.com/@ginnyibe/i-tried-to-commit-a-security-mistake-git-stopped-me-before-production-could-3f88b0d9f4fb?sharedUserId=ginnyibe)**
 
 # Submission Instructions
 
