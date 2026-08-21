@@ -1,3 +1,4 @@
+
 # Assignment 5 — Open-Source Collaboration: Fork, Clone, Sync & Pull Request
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
@@ -143,6 +144,8 @@ Paste your LinkedIn post URL here:
 ![linkedln post](./screenshots/wk4a5link-ss.png)
 
 ---
+
+**My Medium Blog Post: [Blog](https://medium.com/@ginnyibe/i-tried-to-commit-a-security-mistake-git-stopped-me-before-production-could-3f88b0d9f4fb?sharedUserId=ginnyibe)**
 
 # Submission Instructions
 
