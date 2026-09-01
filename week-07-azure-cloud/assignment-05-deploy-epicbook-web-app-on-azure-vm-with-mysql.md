@@ -20,19 +20,25 @@ Create a VNet (10.0.0.0/16) with a public subnet (10.0.1.0/24) for the VM and a 
 
 #### Screenshot 1 — Virtual Network overview showing the 10.0.0.0/16 address space and both subnets
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a5t1-ss1.png)
+
+![ouput](./screenshots/wk7a5t1-ss1a.png)
 
 ---
 
 #### Screenshot 2 — Public and private NSG inbound rules showing ports 80, 22, and restricted 3306 access
 
-Add your screenshot here.
+Public NSG
+![ouput](./screenshots/wk7a5t1-ss2.png)
+
+Private NSG
+![ouput](./screenshots/wk7a5t1-ss2a.png)
 
 ---
 
 #### Screenshot 3 — Public IP and Network Interface association for the Virtual Machine
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a5t1-ss3.png)
 
 ---
 
@@ -46,13 +52,13 @@ Launch an Ubuntu 22.04 LTS VM (Standard B1s or equivalent) in the public subnet,
 
 #### Screenshot 4 — Virtual Machine overview showing Ubuntu, size, public IP, and subnet
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a5t2-ss4.png)
 
 ---
 
 #### Screenshot 5 — Terminal showing successful software installation or installed-version checks
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a5t2-ss5.png)
 
 ---
 
@@ -66,19 +72,21 @@ Clone the EpicBook repository, install dependencies, build the frontend, configu
 
 #### Screenshot 6 — Terminal showing the EpicBook repository cloned and dependencies installed
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a5t3-ss6.png)
 
 ---
 
 #### Screenshot 7 — Nginx configuration or service status proving the frontend is configured to be served
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a5t3-ss7.png)
 
 ---
 
 #### Screenshot 8 — Backend process or listening-port evidence (without exposing environment-variable secrets)
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a5t3-ss8.png)
+
+![ouput](./screenshots/wk7a5t3-ss8a.png)
 
 ---
 
@@ -92,19 +100,18 @@ Create a private Azure Database for MySQL Flexible Server (VNet Integration) in 
 
 #### Screenshot 9 — MySQL Flexible Server overview showing Private access (VNet Integration)
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a5t4-ss9.png)
 
 ---
 
 #### Screenshot 10 — Networking configuration showing the private subnet and restricted access
-
-Add your screenshot here.
+![ouput](./screenshots/wk7a5t4-ss10.png)
 
 ---
 
 #### Screenshot 11 — MySQL Client output showing the EpicBook database or imported tables (no password visible)
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a5t4-ss11.png)
 
 ---
 
@@ -118,13 +125,17 @@ Confirm the EpicBook application loads through the VM's public IP and that viewi
 
 #### Screenshot 12 — Browser showing the EpicBook application with the Virtual Machine public IP visible
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a5t5-ss12.png)
+
+![ouput](./screenshots/wk7a5t5-ss12a.png)
 
 ---
 
 #### Screenshot 13 — Proof of a successful database-backed action (viewing products, adding to cart, or placing an order)
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a5t5-ss13.png)
+
+![ouput](./screenshots/wk7a5t5-ss13a.png)
 
 ---
 
@@ -132,7 +143,7 @@ Add your screenshot here.
 
 Paste the public IP URL of your Virtual Machine here:
 
-`Add your URL here`
+**http://4.154.19.47/**
 
 ---
 
@@ -146,12 +157,12 @@ Paste the public IP URL of your Virtual Machine here:
 
 # Completion Checklist
 
-- [ ] Task 1: Network foundation created with public/private subnets and NSGs (Screenshots 1–3)
-- [ ] Task 2: VM provisioned and required software installed (Screenshots 4–5)
-- [ ] Task 3: EpicBook frontend and backend deployed (Screenshots 6–8)
-- [ ] Task 4: Private Azure Database for MySQL created and data imported (Screenshots 9–11)
-- [ ] Task 5: End-to-end functionality validated (Screenshots 12–13, Public IP URL)
-- [ ] No sensitive data exposed
+- [x] Task 1: Network foundation created with public/private subnets and NSGs (Screenshots 1–3)
+- [x] Task 2: VM provisioned and required software installed (Screenshots 4–5)
+- [x] Task 3: EpicBook frontend and backend deployed (Screenshots 6–8)
+- [x] Task 4: Private Azure Database for MySQL created and data imported (Screenshots 9–11)
+- [x] Task 5: End-to-end functionality validated (Screenshots 12–13, Public IP URL)
+- [x] No sensitive data exposed
 
 ---
 

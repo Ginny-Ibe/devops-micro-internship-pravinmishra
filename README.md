@@ -89,10 +89,10 @@ This is not a course. It is an internship-style program — real deployments, re
 [![Week 06 – Agile](./badges/week-06.svg)](./week-06-devops-lifecycle/)
 
 <!-- Week 07 → AWS Cloud -->
-<!-- [![Week 07 – AWS](./badges/week-07.svg)](./week-07-aws-cloud/) -->
+[![Week 07 – AWS](./badges/week-07.svg)](./week-07-aws-cloud/)
 
 <!-- Week 08 → Azure Cloud -->
-<!-- [![Week 08 – Azure](./badges/week-08.svg)](./week-08-azure-cloud/) -->
+[![Week 08 – Azure](./badges/week-08.svg)](./week-08-azure-cloud/)
 
 <!-- Week 09 → Terraform -->
 <!-- [![Week 09 – Terraform](./badges/week-09.svg)](./week-09-terraform/) -->
@@ -141,15 +141,15 @@ This is not a course. It is an internship-style program — real deployments, re
 | 05 | Git & GitHub | ✅ Completed  | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-git-activity-7487008946495602688-mCIV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | [Blog 2](https://ginnyibe.hashnode.dev/how-a-git-pre-commit-hook-and-an-ai-code-review-skill-worked-together-to-catch-a-security-mistake-before-it-shipped) |
 | 06 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7492318943592976385-VkeL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://medium.com/@ginnyibe/doctype-html-html-lang-en-head-meta-charset-utf-8-meta-name-viewport-1e5634bbe6e6?sharedUserId=ginnyibe |
 | 07 | AWS Cloud | ✅  Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-ugcPost-7495686784727752704-vL8J/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://medium.com/@ginnyibe/i-built-an-ai-assisted-aws-audit-but-i-didnt-let-the-ai-fix-anything-394a71a29bce?sharedUserId=ginnyibe |
-| 08 | Azure Cloud |🔄 In Progress| ⏳ Pending | — | — |
-| 09 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
+| 08 | Azure Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-azure-agenticai-activity-7500401048617013249-ug38?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://ginnyibe.hashnode.dev/i-automated-my-cloud-security-audit-but-kept-the-trigger-finger-human|
+| 09 | Terraform | 🔄 In Progress | ⏳ Pending | — | — |
 | 10 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
 | 11 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 14 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
-**Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
+**Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed <br>
 **Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved
 
 ---

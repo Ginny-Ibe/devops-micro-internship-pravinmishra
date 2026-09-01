@@ -20,7 +20,7 @@ Confirm your Azure CLI is authenticated and can see the VM, network, storage acc
 
 #### Screenshot 1 — `az account show` and `az vm list -d -o table` confirming your subscription and running VM (subscription ID partially blurred)
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a7t1-ss1.png)
 
 ---
 
@@ -34,7 +34,7 @@ Create a `CLAUDE.md` for this workspace that tells Claude what the audit covers 
 
 #### Screenshot 2 — `CLAUDE.md` open in your editor showing the project overview, audit workflow, and safety rules
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a7t2-ss2.png)
 
 ---
 
@@ -48,7 +48,8 @@ Ask Claude Code to read `CLAUDE.md` and propose a read-only, four-check audit pl
 
 #### Screenshot 3 — Claude Code showing the four-check plan, with no files created or modified
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a7t3-ss3.png)
+![ouput](./screenshots/wk7a7t3-ss3a.png)
 
 ---
 
@@ -62,13 +63,17 @@ Write a Bash script that runs the four checks from Task 3 using read-only `az` c
 
 #### Screenshot 4 — Your script open in your editor, showing the check functions and the `az` commands they call
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a7t4-ss4.png)
+![ouput](./screenshots/wk7a7t4-ss4a.png)
+![ouput](./screenshots/wk7a7t4-ss4b.png)
 
 ---
 
 #### Screenshot 5 — Output of `bash -n` (no syntax errors) and `ls -l` showing the script is executable
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a7t4-ss5.png)
+
+**`bash -n`only checks syntax — it doesn't run the script — so a clean pass here just means there are no typos or unclosed braces, not that the logic is correct.**
 
 ---
 
@@ -82,7 +87,7 @@ Run the script against your live resources and read the report honestly, even if
 
 #### Screenshot 6 — Script output showing your Full Name and all four checks with a PASS, WARN, or FAIL result
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a7t5-ss6.png)
 
 ---
 
@@ -96,13 +101,14 @@ Create a Claude Code skill restricted to read-only tools (no `Write`) that runs 
 
 #### Screenshot 7 — Your skill file's frontmatter showing `allowed-tools` without `Write`
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a7t6-ss7.png)
 
 ---
 
 #### Screenshot 8 — `/azure-audit` output showing the baseline findings and Claude's explanation
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a7t6-ss8.png)
+![ouput](./screenshots/wk7a7t6-ss8a.png)
 
 ---
 
@@ -116,27 +122,47 @@ Pick one WARN or FAIL finding (or deliberately open an NSG rule to port 22 from 
 
 #### Screenshot 9 — Saved report showing the original finding before the fix
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a7t7-ss9.png)
 
 ---
 
 #### Screenshot 10 — Terminal output of the remediation command you ran yourself
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a7t7-ss10.png)
 
 ---
 
 #### Screenshot 11 — Second `/azure-audit` run (or report) showing the finding resolved
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a7t7-ss11.png)
 
 ---
 
 ### Notes
 
-Compare this assignment to the AWS audit you built in Week 6: which finding categories map to each other across the two clouds, and what stayed exactly the same about the workflow even though the `az`/`aws` commands are completely different?
+Comparing this assignment to the AWS audit I built in Week 6: which finding categories map to each other across the two clouds, and what stayed exactly the same about the workflow even though the `az`/`aws` commands are completely different?
 
-Add your answer here
+Finding categories that map across clouds
+
+| Azure (Week 7) | AWS (Week 6) | What both are really checking |
+|---|---|---|
+| NSG rule allowing unrestricted inbound SSH/RDP | Security Group allowing unrestricted inbound SSH/RDP | **Network exposure** — can anyone on the internet attempt to log into a compute instance? |
+| Storage Account public blob access | S3 bucket public access | **Data exposure** — can anonymous users read objects/blobs without authentication? |
+| Managed disk encryption-at-rest type | EBS volume encryption | **Storage-level encryption** — is data on disk protected if the underlying storage is ever accessed outside the running instance? |
+| MySQL Flexible Server public network access | RDS public accessibility | **Database exposure** — can the database be reached from outside the private network at all? |
+
+Every check on one side has a direct structural twin on the other, because the underlying *risk categories* aren't cloud-specific — they're the same four questions any cloud deployment raises: *who can reach compute, is storage public, is data encrypted at rest, is the database reachable from outside.*
+
+What stayed exactly the same about the workflow
+
+- **The Gather → Analyze → Human Act → Verify loop itself.** Neither assignment changed this shape — Bash still does 100% of the evidence collection, Claude still does 100% of the interpretation, and a human still executes every remediation command by hand.
+- **The Bash script's internal structure** — variables, an array of check function names, one function per check, a `mark_pass`/`mark_warning`/`mark_failure` pattern, a loop that calls each function by name, and a final summary that maps PASS/WARN/FAIL counts to distinct exit codes. This scaffolding is cloud-agnostic; only the body of each check function (the actual CLI call and its JSON parsing) changed.
+- **The Skill's permission boundary.** Both `SKILL.md` files restrict tools to something like `Bash, Read, Grep` with no `Write`, and both explicitly forbid the Skill from ever executing a remediation command — same guardrail, same reasoning, regardless of which cloud's CLI is being wrapped.
+- **The "evidence before claim" discipline.** Both `CLAUDE.md` files include a rule that Claude cannot report a finding unless the report contains supporting evidence — preventing the AI from speculating about a misconfiguration it hasn't actually observed in the data.
+
+What's genuinely different
+- Azure's audit has **no cost-estimation step** — it's framed purely as security, while your AWS `CLAUDE.md` explicitly asked Claude to estimate monthly cost impact per finding. That's a real scope difference between the two assignments, not something that "should" be the same.
+- The exact banned commands differ because the destructive operations differ per service (`az vm delete` vs `aws ec2 terminate-instances`, etc.) — but the *category* of ban (never delete, never modify a live resource, never execute the human's remediation for them) is identical.
 
 ---
 
@@ -152,15 +178,15 @@ Your submission must include:
 
 # Completion Checklist
 
-- [ ] Task 1: Azure resources confirmed and workspace created (Screenshot 1)
-- [ ] Task 2: `CLAUDE.md` created with project context and safety rules (Screenshot 2)
-- [ ] Task 3: Claude produced a read-only four-check plan before any script existed (Screenshot 3)
-- [ ] Task 4: Audit script built, syntax-checked, and executable (Screenshots 4–5)
-- [ ] Task 5: Baseline audit run and reviewed honestly (Screenshot 6)
-- [ ] Task 6: `/azure-audit` skill created with no `Write` permission and run successfully (Screenshots 7–8)
-- [ ] Task 7: A real finding fixed by you (not Claude) and re-verified as resolved (Screenshots 9–11)
-- [ ] Notes comparing this to the Week 6 AWS audit completed
-- [ ] No subscription IDs, tenant IDs, or credentials exposed
+- [x] Task 1: Azure resources confirmed and workspace created (Screenshot 1)
+- [x] Task 2: `CLAUDE.md` created with project context and safety rules (Screenshot 2)
+- [x] Task 3: Claude produced a read-only four-check plan before any script existed (Screenshot 3)
+- [x] Task 4: Audit script built, syntax-checked, and executable (Screenshots 4–5)
+- [x] Task 5: Baseline audit run and reviewed honestly (Screenshot 6)
+- [x] Task 6: `/azure-audit` skill created with no `Write` permission and run successfully (Screenshots 7–8)
+- [x] Task 7: A real finding fixed by you (not Claude) and re-verified as resolved (Screenshots 9–11)
+- [x] Notes comparing this to the Week 6 AWS audit completed
+- [x] No subscription IDs, tenant IDs, or credentials exposed
 
 ---
 

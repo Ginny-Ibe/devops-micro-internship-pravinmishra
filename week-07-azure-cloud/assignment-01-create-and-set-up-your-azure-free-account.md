@@ -30,13 +30,15 @@ Sign in to the Azure Portal, locate key services (Resource Groups, Virtual Machi
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a1t2-ss1.png)
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a1t2-ss2.png)
+
+![ouput](./screenshots/wk7a1t2-ss2a.png)
 
 ---
 
@@ -44,7 +46,7 @@ Add your screenshot here.
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+I plan to start with Azure Virtual Machines and Azure App Service, since they map closely to the EC2 and Nginx deployment work I've already done on AWS and will let me compare the two platforms' compute and hosting models directly. From there, I want to explore Azure Active Directory (Entra ID) and Azure Cost Management, partly out of necessity. Finally, I'm interested in Azure DevOps Pipelines, to extend my current CI/CD and Git-based workflow into a second cloud ecosystem.
 
 ---
 
@@ -57,12 +59,12 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Azure Free Account created with identity, phone, and payment verification completed
-- [ ] Microsoft Agreement and Offer Terms accepted
-- [ ] Azure Portal accessed successfully (Screenshot 1)
-- [ ] Free Trial subscription confirmed (Screenshot 2)
-- [ ] Reflection paragraph written (Notes)
-- [ ] No sensitive information exposed
+- [x] Azure Free Account created with identity, phone, and payment verification completed
+- [x] Microsoft Agreement and Offer Terms accepted
+- [x] Azure Portal accessed successfully (Screenshot 1)
+- [x] Free Trial subscription confirmed (Screenshot 2)
+- [x] Reflection paragraph written (Notes)
+- [x] No sensitive information exposed
 
 ---
 
