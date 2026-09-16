@@ -95,10 +95,10 @@ This is not a course. It is an internship-style program — real deployments, re
 [![Week 08 – Azure](./badges/week-08.svg)](./week-08-azure-cloud/)
 
 <!-- Week 09 → Terraform -->
-<!-- [![Week 09 – Terraform](./badges/week-09.svg)](./week-09-terraform/) -->
+[![Week 09 – Terraform](./badges/week-09.svg)](./week-09-terraform/)
 
 <!-- Week 10 → Ansible -->
-<!-- [![Week 10 – Ansible](./badges/week-10.svg)](./week-10-ansible/) -->
+[![Week 10 – Ansible](./badges/week-10.svg)](./week-10-ansible/) 
 
 <!-- Week 11 → Azure DevOps CI/CD -->
 <!-- [![Week 11 – CI/CD](./badges/week-11.svg)](./week-11-azure-devops/) -->
@@ -142,9 +142,9 @@ This is not a course. It is an internship-style program — real deployments, re
 | 06 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7492318943592976385-VkeL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://medium.com/@ginnyibe/doctype-html-html-lang-en-head-meta-charset-utf-8-meta-name-viewport-1e5634bbe6e6?sharedUserId=ginnyibe |
 | 07 | AWS Cloud | ✅  Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-ugcPost-7495686784727752704-vL8J/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://medium.com/@ginnyibe/i-built-an-ai-assisted-aws-audit-but-i-didnt-let-the-ai-fix-anything-394a71a29bce?sharedUserId=ginnyibe |
 | 08 | Azure Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-azure-agenticai-activity-7500401048617013249-ug38?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://ginnyibe.hashnode.dev/i-automated-my-cloud-security-audit-but-kept-the-trigger-finger-human|
-| 09 | Terraform | 🔄 In Progress | ⏳ Pending | — | — |
-| 10 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
-| 11 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
+| 09 | Terraform | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7505869737545912320-JC1T?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://ginnyibe.hashnode.dev/when-i-deliberately-created-terraform-drift-to-test-my-cloud-safety-net |
+| 10 | Ansible | 🔄 In Progress | ⏳ Pending | — | — |
+| 11 | Azure DevOps (CI/CD) | 🔄 In Progres | ⏳ Pending | — | — |
 | 12 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 14 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |

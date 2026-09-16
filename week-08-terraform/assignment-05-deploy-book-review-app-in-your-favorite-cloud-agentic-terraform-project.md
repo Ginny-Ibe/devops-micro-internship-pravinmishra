@@ -6,9 +6,9 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Student Details
 
-**Full Name:** Add your full name here  
+**Full Name:** Ginny Ibe
 **Cloud Platform:** AWS or Azure  
-**GitHub Repository URL:** Add your repository URL here  
+**GitHub Repository URL:** https://github.com/Ginny-Ibe
 **Public Application URL / Load-Balancer DNS:** Add the public URL or DNS here
 
 ---
@@ -31,7 +31,9 @@ Prepare the Book Review App project and configure the provided Claude Code Agent
 
 Add a screenshot of the project `CLAUDE.md` showing the three-tier architecture, security boundaries, Terraform requirements, and human-approval rules.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t0-ss1.png)
+![ouput](./screenshots/wk8a5t0-ss1a.png)
+![ouput](./screenshots/wk8a5t0-ss1b.png)
 
 ---
 
@@ -39,7 +41,7 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform Engineer subagent configuration.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t0-ss2.png)
 
 ---
 
@@ -47,15 +49,15 @@ Add your screenshot here.
 
 Add a screenshot showing the Architecture and Security Reviewer subagent configuration.
 
-Add your screenshot here.
-
+![ouput](./screenshots/wk8a5t0-ss3.png)
+![ouput](./screenshots/wk8a5t0-ss3a.png)
 ---
 
 ### Screenshot 4 — Terraform MCP Connection
 
 Add a screenshot showing Terraform MCP connected and available.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t0-ss4.png)
 
 ---
 
@@ -63,7 +65,7 @@ Add your screenshot here.
 
 Add a screenshot showing the configured Claude Code validation hooks.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t0-ss5.png)
 
 ---
 
@@ -90,7 +92,8 @@ The diagram must show:
 
 ## Architecture Diagram
 
-Add the completed architecture diagram here.
+![ouput](./screenshots/wk8a5t1-diag.png)
+
 
 ---
 
@@ -106,7 +109,7 @@ Create the modular Terraform project and implement the network and security laye
 
 Add a screenshot showing the modular Terraform project structure.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t2-ss6.png)
 
 ---
 
@@ -114,7 +117,10 @@ Add your screenshot here.
 
 Add a screenshot showing the six-subnet architecture across two availability locations.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t2-ss7.png)
+![ouput](./screenshots/wk8a5t2-ss7a.png)
+![ouput](./screenshots/wk8a5t2-ss7b.png)
+![ouput](./screenshots/wk8a5t2-ss7c.png)
 
 ---
 
@@ -122,7 +128,9 @@ Add your screenshot here.
 
 Add a screenshot showing the public and private tier separation, including routing and security boundaries.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t2-ss8.png)
+![ouput](./screenshots/wk8a5t2-ss8a.png)
+![ouput](./screenshots/wk8a5t2-ss8b.png)
 
 ---
 
@@ -138,7 +146,9 @@ Deploy the public and internal load balancers and the Web and Application comput
 
 Add a screenshot showing the Web and Application compute resources in their required subnets.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t3-ss9.png)
+
+![ouput](./screenshots/wk8a5t3-ss9a.png)
 
 ---
 
@@ -146,7 +156,9 @@ Add your screenshot here.
 
 Add a screenshot showing the internet-facing public load balancer.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t3-ss10.png)
+
+![ouput](./screenshots/wk8a5t3-ss10a.png)
 
 ---
 
@@ -154,7 +166,7 @@ Add your screenshot here.
 
 Add a screenshot showing the private internal load balancer.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t3-ss11.png)
 
 ---
 
@@ -162,7 +174,7 @@ Add your screenshot here.
 
 Add a screenshot showing healthy target groups or backend pools.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t3-ss12.png)
 
 ---
 
@@ -178,7 +190,7 @@ Deploy a private, highly available managed MySQL database with a read replica an
 
 Add a screenshot showing the managed MySQL database deployment.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t4-ss13.png)
 
 ---
 
@@ -186,15 +198,17 @@ Add your screenshot here.
 
 Add a screenshot showing the Multi-AZ or high-availability configuration.
 
-Add your screenshot here.
-
+![ouput](./screenshots/wk8a5t4-ss14.png)
+![ouput](./screenshots/wk8a5t4-ss14a.png)
 ---
 
 ### Screenshot 15 — Read Replica
 
 Add a screenshot showing the read replica configuration.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t4-ss15.png)
+
+![ouput](./screenshots/wk8a5t4-ss15a.png)
 
 ---
 
@@ -202,7 +216,9 @@ Add your screenshot here.
 
 Add a screenshot showing that the database is private and accepts MySQL traffic only from the Application Tier.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t4-ss16.png)
+
+![ouput](./screenshots/wk8a5t4-ss16a.png)
 
 ---
 
@@ -218,7 +234,7 @@ Validate the Terraform configuration, review the execution plan using both Agent
 
 Add a screenshot showing successful `terraform validate` output.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t5-ss17.png)
 
 ---
 
@@ -226,7 +242,9 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform plan output.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t5-ss18.png)
+![ouput](./screenshots/wk8a5t5-ss18a.png)
+![ouput](./screenshots/wk8a5t5-ss18b.png)
 
 ---
 
@@ -234,7 +252,8 @@ Add your screenshot here.
 
 Add a screenshot showing successful `terraform apply` completion.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t5-ss19.png)
+![ouput](./screenshots/wk8a5t5-ss19a.png)
 
 ---
 
@@ -250,7 +269,7 @@ Deploy and configure the Book Review App across the Web, Application, and Databa
 
 Add a screenshot showing the Book Review App homepage through the public endpoint.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t6-ss20.png)
 
 ---
 
@@ -258,7 +277,7 @@ Add your screenshot here.
 
 Add a screenshot showing successful login or authentication.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t6-ss21.png)
 
 ---
 
@@ -266,7 +285,7 @@ Add your screenshot here.
 
 Add a screenshot showing the book listing or book details.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t6-ss22.png)
 
 ---
 
@@ -274,7 +293,7 @@ Add your screenshot here.
 
 Add a screenshot showing the review functionality working successfully.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t6-ss23.png)
 
 ---
 
@@ -282,7 +301,8 @@ Add your screenshot here.
 
 Add a screenshot showing that the backend or API is working successfully.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t6-ss24.png)
+![ouput](./screenshots/wk8a5t6-ss24a.png)
 
 ---
 
@@ -290,7 +310,8 @@ Add your screenshot here.
 
 Add a screenshot showing successful database reads and writes.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t6-ss25.png)
+![ouput](./screenshots/wk8a5t6-ss25a.png)
 
 ## Public Application URL
 
@@ -312,7 +333,8 @@ You do not need to submit your complete Claude Code conversation history. Includ
 
 Add a screenshot showing one useful example of AI-assisted Terraform generation or improvement.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t7-ss26.png)
+![ouput](./screenshots/wk8a5t7-ss26a.png)
 
 ---
 
@@ -320,15 +342,18 @@ Add your screenshot here.
 
 Add a screenshot showing one structured architecture or security review result.
 
-Add your screenshot here.
-
+![ouput](./screenshots/wk8a5t7-ss27.png)
+![ouput](./screenshots/wk8a5t7-ss27a.png)
+![ouput](./screenshots/wk8a5t7-ss27b.png)
 ---
 
 ### Screenshot 28 — AI-Assisted Troubleshooting
 
 Add a screenshot showing one AI-assisted troubleshooting interaction based on collected evidence.
 
-Add your screenshot here.
+![ouput](./screenshots/wk8a5t7-ss28.png)
+![ouput](./screenshots/wk8a5t7-ss28a.png)
+![ouput](./screenshots/wk8a5t7-ss28b.png)
 
 ---
 
@@ -367,67 +392,67 @@ Reflect on the architecture, Terraform implementation, and Agentic AI workflow. 
 
 ### 1. Why did you separate the Web, Application, and Database tiers?
 
-Write your answer here.
+To limit blast radius. Each tier only talks to the tier next to it — Internet → Web (via the App Gateway) → App (via the internal load balancer) → MySQL — so a compromise of the public-facing Web tier doesn't hand an attacker a direct path to the database. It also lets each tier have different exposure rules: only Web needs to be reachable from the internet at all.
 
 ### 2. Why is the Application Tier private?
 
-Write your answer here.
+The Express backend on port 3001 is the only thing allowed to talk to the database, so it shouldn't be reachable from outside at all. It has no public IP and NSG rules only allow inbound traffic from the Web tier and the load balancers — there's no way to reach it directly from the internet, even if someone knew the port.
 
 ### 3. Why is MySQL private?
 
-Write your answer here.
+It holds the actual application data, the highest-value target. public_network_access is disabled entirely, and NSG rules on the DB subnet only allow inbound 3306 from the App tier specifically, with explicit deny rules for both VNet-wide and internet traffic as backstops. Even leaked credentials wouldn't be usable from outside the App subnet.
 
 ### 4. Why are multiple Availability Zones used?
 
-Write your answer here.
+Azure AZs are physically separate datacenters (independent power, cooling, networking) within one region. Spreading the Web/App VMSS instances and the DB's HA standby across two AZs means one datacenter going down doesn't take the whole app with it.
 
 ### 5. What is the difference between Multi-AZ/high availability and a read replica?
 
-Write your answer here.
+HA keeps a synchronously-replicated standby of the same primary for automatic failover — if the primary fails, the standby takes over with little to no data loss, but it isn't queryable on its own and doesn't add read capacity. A read replica is a separate, independently-connectable server that copies data from the primary asynchronously — it's for scaling out read traffic, not failover, and it can lag slightly behind the primary since replication isn't instant.
 
 ## Terraform
 
 ### 6. How did you divide your Terraform into modules?
 
-Write your answer here.
+By responsibility, matching the required build order: network, security, load-balancer, database, compute, keyvault. Each module owns exactly one concern — network only creates the VNet/subnets, security only creates NSGs and rules — so a change to one layer doesn't touch unrelated files.
 
 ### 7. How do the modules communicate through variables and outputs?
 
-Write your answer here.
+Root main.tf wires them together: one module's output becomes another's input variable — e.g., module.network's subnet IDs feed into module.database, and module.compute's VMSS managed-identity principal ID feeds into module.keyvault so it can grant that identity access. No module reaches into another's resources directly; everything crosses the boundary explicitly, so the dependency graph stays visible.
 
 ### 8. What did you specifically check in `terraform plan`?
 
-Write your answer here.
+Beyond fmt/validate: any unexpected public IP or 0.0.0.0/0 rule, anything that would expose port 3001 or 3306 outside its intended tier, any destroy/forces replacement on a resource that's currently live, and, after this session's password-rotation incident — specifically grepping the plan for administrator_password/Key Vault secret diffs before approving anything, since that turned out to be the actual recurring failure mode.
 
 ## Agentic AI
 
 ### 9. What was the purpose of `CLAUDE.md`?
 
-Write your answer here.
+It's the checked-in, durable contract for how Claude Code should behave on this project: the required architecture, the build sequence, safety rules (never auto-apply, never auto-destroy, never expose secrets), and the validation workflow. It's why Claude stopped and asked before applying a plan that would've silently rotated the DB password, instead of just proceeding.
 
 ### 10. What work did the Terraform Engineer subagent perform?
 
-Write your answer here.
+Implementing and fixing actual Terraform code — writing module resource blocks (like the Bastion IP Connect fix and the adopted read-replica resource), running fmt/validate/plan, and checking current provider documentation before writing arguments instead of recalling them from memory.
 
 ### 11. What did the Architecture and Security Reviewer identify?
 
-Write your answer here.
+Two untracked, actively-billing MySQL read replicas that existed in Azure but nowhere in Terraform state; and a structural defect where the database password could get silently rotated as a side effect of unrelated applies, traced through several real incidents in the session's own plan/apply logs. It also flagged that`.tfplan` files weren't gitignored despite being able to contain the plaintext DB password internally.
 
 ### 12. Why did you use Terraform MCP instead of relying only on Claude's existing Terraform knowledge?
 
-Write your answer here.
+Because provider arguments change between versions, and a wrong guess doesn't fail loudly — it either breaks mid-apply or silently does the wrong thing. This actually happened: a web-search-sourced service_endpoints argument turned out to be from an older provider release; this project's pinned provider (~> 5.5) uses a different service_endpoint block shape entirely. Checking the real, currently-installed provider schema instead of trusting memory or a search result is what caught it before it reached an apply.
 
 ### 13. What was the purpose of your validation hooks?
 
-Write your answer here.
+To catch problems at the cheapest possible point — formatting and typos before anything is evaluated, schema errors before any API call, full resource diffs before anything touches real Azure infrastructure — so that by the time I actually review and approve an apply, it's already been mechanically checked, and I can spend my attention on judgment calls a tool can't make (is this diff actually intended).
 
 ### 14. Describe one real issue Claude helped you troubleshoot.
 
-Write your answer here.
+After restarting the backend with a refreshed database password, the app started returning 502 Bad Gateway instead of connecting. Rather than guessing, Claude traced it to a shell heredoc escaping bug in its own earlier instructions — an escaped \$DB_PASS had written the literal text "$DB_PASS" into the app's config instead of the real password, which meant the backend's DB connection failed at startup and it never even started listening on its port. It asked me to confirm via pm2 logs before proposing the fix, rather than just applying a guess.
 
 ### 15. Describe one recommendation you reviewed, modified, or rejected instead of accepting blindly.
 
-Write your answer here.
+When importing an orphaned MySQL replica into Terraform, the first version of the resource block produced a plan that would have destroyed and recreated the live, working replica — a known provider import limitation. I didn't apply it; the code got corrected (missing subnet/DNS/storage arguments added, an ignore_changes guard added for the field Azure never returns) until a second plan showed zero drift. Separately, Claude's first attempt at a Key Vault service-endpoint argument failed terraform validate outright — instead of accepting that as final, it checked the actual installed provider schema and replaced it with the correct block syntax.
 
 ---
 
@@ -441,7 +466,13 @@ Write the post in your own words, include at least one project image or other pr
 
 ## LinkedIn Post URL
 
-**LinkedIn Post URL:** Add your LinkedIn post URL here
+**LinkedIn Post URL:** **https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-agenticai-terraform-activity-7505715005628174336-xPKm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM**
+
+## Screenshot
+
+
+![ouput](./screenshots/wk8a5tlink-ss.png)
+
 
 ---
 
@@ -464,11 +495,11 @@ Write the post in your own words, include at least one project image or other pr
 
 # Completion Checklist
 
-- [ ] Selected AWS or Azure
-- [ ] Added and reviewed the Agentic AI starter files
-- [ ] Configured `CLAUDE.md`
-- [ ] Configured the Terraform Engineer subagent
-- [ ] Configured the Architecture and Security Reviewer subagent
+- [x] Selected AWS or Azure
+- [x] Added and reviewed the Agentic AI starter files
+- [x] Configured `CLAUDE.md`
+- [x] Configured the Terraform Engineer subagent
+- [x] Configured the Architecture and Security Reviewer subagent
 - [ ] Connected Terraform MCP
 - [ ] Configured validation hooks and safety guardrails
 - [ ] Created the architecture diagram
