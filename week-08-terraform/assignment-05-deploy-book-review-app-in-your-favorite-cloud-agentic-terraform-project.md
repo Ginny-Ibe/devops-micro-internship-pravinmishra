@@ -7,7 +7,7 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 ## Student Details
 
 **Full Name:** Ginny Ibe
-**Cloud Platform:** AWS or Azure  
+**Cloud Platform:**  Azure  
 **GitHub Repository URL:** https://github.com/Ginny-Ibe
 **Public Application URL / Load-Balancer DNS:** Add the public URL or DNS here
 
@@ -315,7 +315,7 @@ Add a screenshot showing successful database reads and writes.
 
 ## Public Application URL
 
-**Public Application URL / DNS:** Add the working public application URL or load-balancer DNS here
+**Public Application URL / DNS:**   http://4.154.233.128/
 
 ---
 

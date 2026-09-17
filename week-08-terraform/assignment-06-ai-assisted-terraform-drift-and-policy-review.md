@@ -518,6 +518,10 @@ Suggested tags:
 
 https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7505869737545912320-JC1T?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM
 
+**Meduim Blog Post URL**
+https://medium.com/@ginnyibe/when-i-deliberately-created-terraform-drift-to-test-my-cloud-safety-net-a4898bdf8e35?sharedUserId=ginnyibe
+
+
 ### Published LinkedIn Post Screenshot — Mandatory
 
 ![ouput](./screenshots/wk8a6tlink-ss.png)
