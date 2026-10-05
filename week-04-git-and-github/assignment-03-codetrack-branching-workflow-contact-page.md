@@ -20,8 +20,7 @@ Start from a clean default branch (`main` or `master`) and confirm the repositor
 
 #### Screenshot 1 — Output of `git status` and `git branch` showing a clean status and the default branch checked out
 
-![ouput](./screenshots/wk4a3t1-ss1.png)
-
+Add your screenshot here.
 
 ---
 
@@ -35,7 +34,7 @@ Create a branch named exactly `feature/contact-page` and switch to it.
 
 #### Screenshot 2 — Output of `git checkout -b feature/contact-page` and `git branch` showing `* feature/contact-page`
 
-![ouput](./screenshots/wk4a3t2-ss2.png)
+Add your screenshot here.
 
 ---
 
@@ -49,19 +48,19 @@ Create `contact.html` with the provided content and commit it alone using the me
 
 #### Screenshot 3 — Output of `ls` showing `contact.html`
 
-![ouput](./screenshots/wk4a3t3-ss3.png)
+Add your screenshot here.
 
 ---
 
 #### Screenshot 4 — Output of `git commit`
 
-![ouput](./screenshots/wk4a3t3-ss4.png)
+Add your screenshot here.
 
 ---
 
 #### Screenshot 5 — Output of `git log --oneline -3` showing the new commit
 
-![ouput](./screenshots/wk4a3t3-ss5.png)
+Add your screenshot here.
 
 ---
 
@@ -75,21 +74,19 @@ Add the provided Contact Page link to `index.html` and commit it separately usin
 
 #### Screenshot 6 — Output of `git status` showing `index.html` as modified before staging
 
-![ouput](./screenshots/wk4a3t4-ss6.png)
+Add your screenshot here.
 
 ---
 
 #### Screenshot 7 — Output of `git commit`
 
-![ouput](./screenshots/wk4a3t4-ss7.png)
+Add your screenshot here.
 
 ---
 
 #### Screenshot 8 — Browser showing the Contact Page link on the homepage while on `feature/contact-page`
 
-![ouput](./screenshots/wk4a3t4-ss8.png)
-
-![ouput](./screenshots/wk4a3t4-ss8a.png)
+Add your screenshot here.
 
 ---
 
@@ -103,13 +100,13 @@ Switch back to the default branch and confirm that `contact.html` and the Contac
 
 #### Screenshot 9 — Terminal showing the checkout and `ls` output, proving `contact.html` is absent
 
-![ouput](./screenshots/wk4a3t5-ss9.png)
+Add your screenshot here.
 
 ---
 
 #### Screenshot 10 — Browser showing the homepage on the default branch with no Contact Page link
 
-![ouput](./screenshots/wk4a3t5-ss10.png)
+Add your screenshot here.
 
 ---
 
@@ -123,20 +120,19 @@ Merge `feature/contact-page` into your default branch and confirm the Contact pa
 
 #### Screenshot 11 — Output of `git merge feature/contact-page`
 
-![ouput](./screenshots/wk4a3t6-ss11.png)
+Add your screenshot here.
 
 ---
 
 #### Screenshot 12 — Output of `ls` showing `contact.html` after the merge
 
-![ouput](./screenshots/wk4a3t6-ss12.png)
+Add your screenshot here.
 
 ---
 
 #### Screenshot 13 — Browser showing the Contact page opened from the homepage link on the default branch
 
-![ouput](./screenshots/wk4a3t6-ss13.png)
-
+Add your screenshot here.
 
 ---
 
@@ -150,12 +146,11 @@ Display the repository history as a graph and locate both feature commits.
 
 #### Screenshot 14 — Full output of `git log --oneline --graph --decorate --all`
 
-![ouput](./screenshots/wk4a3t7-ss14.png)
-
+Add your screenshot here.
 
 ---
 
-# Task 8 — Optional Cleanup (Delete the Feature Branch)
+# Task 8 — Cleanup (Delete the Feature Branch)
 
 ## Goal
 
@@ -163,16 +158,31 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 ### Evidence
 
-#### Screenshot 15 (Optional) — Output showing `feature/contact-page` deleted and no longer listed
+#### Screenshot 15 — Output showing `feature/contact-page` deleted and no longer listed
 
-![ouput](./screenshots/wk4a3t8-ss15.png)
+Add your screenshot here.
 
+---
+
+# LinkedIn Post (Required)
+
+## Evidence
+
+#### LinkedIn Post URL
+
+Paste your LinkedIn post URL here:
+
+Add your URL here...
+
+#### Screenshot 16 — LinkedIn post published with the Git branching workflow summary
+
+Add your screenshot here.
 
 ---
 
 # Submission Instructions
 
-- Tasks 1–7 are required; Task 8 is optional
+- Tasks 1–8 is completed.
 - Add all required screenshots in your submission
 - Evidence must show `contact.html` and the homepage link were absent before merging, and working after merging
 - Do not expose passwords, access tokens, or private keys
@@ -181,15 +191,16 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 # Completion Checklist
 
-- [x] Repository confirmed clean on the default branch (Screenshot 1)
-- [x] `feature/contact-page` created and checked out (Screenshot 2)
-- [x] `contact.html` added in its own commit (Screenshots 3–5)
-- [x] Homepage Contact link added in a separate commit (Screenshots 6–8)
-- [x] Default branch proven unchanged before merge (Screenshots 9–10)
-- [x] Feature branch merged and Contact page verified (Screenshots 11–13)
-- [x] Graph history reviewed (Screenshot 14)
-- [x] Optional cleanup completed (Screenshot 15)
-- [x] No sensitive data exposed
+- [ ] Repository confirmed clean on the default branch (Screenshot 1)
+- [ ] `feature/contact-page` created and checked out (Screenshot 2)
+- [ ] `contact.html` added in its own commit (Screenshots 3–5)
+- [ ] Homepage Contact link added in a separate commit (Screenshots 6–8)
+- [ ] Default branch proven unchanged before merge (Screenshots 9–10)
+- [ ] Feature branch merged and Contact page verified (Screenshots 11–13)
+- [ ] Graph history reviewed (Screenshot 14)
+- [ ] Cleanup completed (Screenshot 15)
+- [ ] LinkedIn post added
+- [ ] No sensitive data exposed
 
 ---
 

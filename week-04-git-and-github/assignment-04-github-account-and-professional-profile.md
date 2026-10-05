@@ -20,13 +20,13 @@ Confirm that you have a working GitHub account and can access your GitHub dashbo
 
 #### Screenshot 1 — GitHub dashboard or Home page showing you're signed in, with your username visible
 
-![ouput](./screenshots/wk4a4t1-ss1.png)
+Add your screenshot here.
 
 ---
 
 #### Screenshot 2 (Optional but Recommended) — Your GitHub profile with `https://github.com/<username>` visible in the browser address bar
 
-![ouput](./screenshots/wk4a4t1-ss2.png)
+Add your screenshot here.
 
 ---
 
@@ -40,20 +40,19 @@ Browse Trending, search for a public project, star at least one repository, and 
 
 #### Screenshot 3 — GitHub Trending page visible in the browser
 
-![ouput](./screenshots/wk4a4t2-ss3.png)
+Add your screenshot here.
 
 ---
 
 #### Screenshot 4 — A repository page showing the Star button in the Starred state
 
-![ouput](./screenshots/wk4a4t2-ss4.png)
+Add your screenshot here.
 
 ---
 
 #### Screenshot 5 — Your forked repository page with your username and repository name visible in the URL
 
-![ouput](./screenshots/wk4a4t2-ss5.png)
-
+Add your screenshot here.
 
 ---
 
@@ -67,9 +66,21 @@ Add a professional bio to your GitHub profile — and optionally your location, 
 
 #### Screenshot 6 — Your public GitHub profile showing your username and professional bio
 
-![ouput](./screenshots/wk4a4t3-ss6.png)
+Add your screenshot here.
 
-![ouput](./screenshots/wk4a4t3-ss6a.png)
+---
+
+# Task 4 — Share Your GitHub Setup Progress on WhatsApp Status
+
+## Goal
+
+Share your GitHub learning progress on WhatsApp Status, including your generated DMI leaderboard progress link.
+
+### Evidence
+
+#### Screenshot 7 — Published WhatsApp Status showing your GitHub setup message and generated DMI leaderboard progress link
+
+Add your screenshot here.
 
 ---
 
@@ -85,19 +96,20 @@ Add a professional bio to your GitHub profile — and optionally your location, 
 
 Paste your GitHub profile URL here:
 
-[Ginny-Ibe](https://github.com/Ginny-Ibe)
+`Add your URL here`
 
 ---
 
 # Completion Checklist
 
-- [x] GitHub account created or existing account confirmed (Screenshot 1)
-- [x] Trending repositories explored (Screenshot 3)
-- [x] At least one repository starred (Screenshot 4)
-- [x] At least one public repository forked (Screenshot 5)
-- [x] Professional bio added to your GitHub profile (Screenshot 6)
-- [x] GitHub profile URL included
-- [x] No passwords, codes, or authentication secrets exposed
+- [ ] GitHub account created or existing account confirmed (Screenshot 1)
+- [ ] Trending repositories explored (Screenshot 3)
+- [ ] At least one repository starred (Screenshot 4)
+- [ ] At least one public repository forked (Screenshot 5)
+- [ ] Professional bio added to your GitHub profile (Screenshot 6)
+- [ ] GitHub profile URL included
+- [ ] WhatsApp Status shared for Task 4
+- [ ] No passwords, codes, or authentication secrets exposed
 
 ---
 

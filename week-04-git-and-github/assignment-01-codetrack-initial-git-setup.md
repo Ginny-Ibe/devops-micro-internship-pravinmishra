@@ -20,13 +20,13 @@ Create a `CodeTrack` project folder and initialize it as a Git repository.
 
 #### Screenshot 1 — Output of `git init` inside `CodeTrack` showing "Initialized empty Git repository"
 
-![ouput](./screenshots/wk4a1t1-ss1.png)
+Add your screenshot here.
 
 ---
 
 #### Screenshot 2 — Output of `ls -a` showing the `.git` folder
 
-![ouput](./screenshots/wk4a1t1-ss2.png)
+Add your screenshot here.
 
 ---
 
@@ -34,7 +34,7 @@ Create a `CodeTrack` project folder and initialize it as a Git repository.
 
 **1. What is the `.git` folder, and why does it matter?**
 
-The `.git` folder is a hidden directory that stores your Git repository's history, commits, branches, tags, configuration, and other version control data. It matters because it allows Git to track changes, manage different versions of your project, and restore or collaborate on code safely.
+Add your answer here.
 
 ---
 
@@ -48,7 +48,7 @@ Set your Git username and email for the `CodeTrack` repository only, using `git 
 
 #### Screenshot 3 — Output of `git config --local --list` showing your `user.name` and `user.email`
 
-![ouput](./screenshots/wk4a1t2-ss3.png)
+Add your screenshot here.
 
 ---
 
@@ -62,7 +62,21 @@ Set a global Git username and email for this machine using `git config --global`
 
 #### Screenshot 4 — Output of `git config --global --list` showing your `user.name` and `user.email`
 
-![ouput](./screenshots/wk4a1t3-ss4.png)
+Add your screenshot here.
+
+---
+
+# Task 4 — Share Your Git Setup Progress
+
+## Goal
+
+Share your Git setup progress on WhatsApp Status, including your generated DMI leaderboard progress link.
+
+### Evidence
+
+#### Screenshot 5 — Published WhatsApp Status showing your Git setup message and leaderboard progress link
+
+Add your screenshot here.
 
 ---
 
@@ -76,11 +90,20 @@ Set a global Git username and email for this machine using `git config --global`
 
 # Completion Checklist
 
-- [x] `CodeTrack` folder created and initialized as a Git repository (Screenshots 1–2)
-- [x] Explanation of the `.git` folder written in your own words
-- [x] Local `user.name` and `user.email` configured and verified (Screenshot 3)
-- [x] Global `user.name` and `user.email` configured and verified (Screenshot 4)
-- [x] No sensitive data exposed
+Before submission, verify:
+
+- All tasks completed in sequence
+- CodeTrack initialized as a Git repository
+- .git folder visible in the required evidence
+- Local user.name and user.email configured and verified
+- Global user.name and user.email configured and verified
+- All four Git setup screenshots included and readable
+- Explanation of the .git folder written in your own words
+- WhatsApp Status shared for Task 4
+- WhatsApp Status screenshot included and readable
+- Leaderboard progress link visible in the WhatsApp Status screenshot
+- No sensitive data exposed
+
 
 ---
 

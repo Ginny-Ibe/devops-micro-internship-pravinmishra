@@ -20,9 +20,7 @@ Create or access your Jira Cloud account and reach the Jira Software workspace s
 
 #### Screenshot 1 — Jira welcome page, dashboard, or main workspace after successful login, with your name or avatar visible
 
-![ouput](./screenshots/wk5a1t1-ss1.png)
-
-![ouput](./screenshots/wk5a1t1-ss1a.png)
+Add your screenshot here.
 
 ---
 
@@ -36,7 +34,7 @@ Confirm your email address if Atlassian requests verification.
 
 #### Screenshot 2 (if applicable) — Confirmation screen after email verification, or the inbox showing the Atlassian verification email subject
 
-![ouput](./screenshots/wk5a1t2-ss2.png)
+Add your screenshot here.
 
 ---
 
@@ -44,7 +42,9 @@ Confirm your email address if Atlassian requests verification.
 
 If you signed up with Google and no separate email verification was required, include the following statement instead of Screenshot 2:
 
-I signed up using Google, and Atlassian did not require separate email verification.
+> I signed up using Google, and Atlassian did not require separate email verification.
+
+Add any additional notes here.
 
 ---
 
@@ -58,7 +58,7 @@ Update your Jira profile with your full name, a job title or role (e.g. "Aspirin
 
 #### Screenshot 3 — Updated profile page showing your full name, role/title, and bio
 
-![ouput](./screenshots/wk5a1t3-ss3.png)
+Add your screenshot here.
 
 ---
 
@@ -72,15 +72,27 @@ Locate the project list and open a project's Board or Backlog, and view Project 
 
 #### Screenshot 4 — "View all projects" page showing at least one project
 
-![ouput](./screenshots/wk5a1t4-ss4.png)
+Add your screenshot here.
 
 ---
 
 #### Screenshot 5 — Opened project showing either the Board or Backlog screen
 
-![ouput](./screenshots/wk5a1t4-ss5.png)
+Add your screenshot here.
 
-![ouput](./screenshots/wk5a1t4-ss5a.png)
+---
+
+# Task 5 — Share Your Jira Setup Progress on WhatsApp Status
+
+## Goal
+
+Share your Jira setup progress on WhatsApp Status, including your generated DMI leaderboard progress link.
+
+### Evidence
+
+#### Screenshot 6 — Published WhatsApp Status showing your Jira setup message and generated DMI leaderboard progress link
+
+Add your screenshot here.
 
 ---
 
@@ -96,13 +108,14 @@ Locate the project list and open a project's Board or Backlog, and view Project 
 
 # Completion Checklist
 
-- [x] Task 1: Jira Software Cloud account created or existing account accessed (Screenshot 1)
-- [x] Task 2: Email verification completed, or a Google sign-in note included (Screenshot 2 or Notes)
-- [x] Task 3: Professional profile updated with full name, role/title, and bio (Screenshot 3)
-- [x] Task 4: Projects page and a Board or Backlog explored (Screenshots 4 & 5)
-- [x] No Jira issues created
-- [x] Full Name visible in required screenshots
-- [x] No sensitive data exposed
+- [ ] Task 1: Jira Software Cloud account created or existing account accessed (Screenshot 1)
+- [ ] Task 2: Email verification completed, or a Google sign-in note included (Screenshot 2 or Notes)
+- [ ] Task 3: Professional profile updated with full name, role/title, and bio (Screenshot 3)
+- [ ] Task 4: Projects page, Board or Backlog, and Project settings explored without making changes (Screenshots 4 & 5)
+- [ ] Task 5: WhatsApp Status shared with the Jira setup message and generated DMI leaderboard progress link (Screenshot 6)
+- [ ] No Jira issues created
+- [ ] Full Name visible in required screenshots
+- [ ] No sensitive data exposed
 
 ---
 

@@ -1,234 +1,138 @@
-# Assignment 3: Building Your Command Center
+# Assignment 3 — Building Your Command Center
+
+Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ---
 
-## 1. Assignment Overview
+## Purpose
 
-**Assignment:** Skills                
-**Estimated Time:** 90 minutes             
-**Difficulty:** Intermediate          
-**Category:** Agentic AI, Skills               
+In this assignment, you will build a local Claude Skills system by creating the `.claude/skills/` folder structure, adding predefined skill files, and executing a real agentic command (`/scaffold-terraform`) to generate infrastructure code. You will also observe how skills enforce tool restrictions and enable controlled automation.
 
 ---
 
-## 2. Objective
+# Task 1 — Create the Skill Folder Structure
 
-Create the complete `.claude/skills/` folder structure with all 4 skill files, understand why each skill has different tool restrictions, and trigger `/scaffold-terraform` to generate infrastructure code using a single slash command.
+## Goal
 
----
+Create the required `.claude/skills/` directory structure for all skills.
 
-## 3. Real-World Scenario
+### Evidence
 
-Senior DevOps engineers on agentic teams do not type long prompts from memory every time they run infrastructure commands. They build skills once — then run them with a single slash command. The flags are always correct, the restrictions are always enforced, and the process is identical every run. This is what separates an agentic workflow from just chatting with AI: consistency, repeatability, and control encoded into reusable commands.
+#### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
----
-
-## 4. Learning Outcomes
-
-- Understand skill frontmatter fields: name, description, allowed-tools, disable-model-invocation
-- Create the correct folder structure for skills
-- Understand why different skills have different tool restrictions
-- Run `/scaffold-terraform` to generate real Terraform infrastructure files
-- Observe the Agentic Loop triggered by a skill command
+Add your screenshot here.
 
 ---
 
-## 5. Important Instructions (Global Rules)
+# Task 2 — Add the Skill Files
 
-**Key Rules:**
-- Full name must be visible in required screenshots
-- Do not expose sensitive information (keys, passwords, account IDs)
-- Follow screenshot requirements exactly as specified in tasks
-- Submission must clearly match task outputs
-- Missing or incorrect proof may result in rejection
+## Goal
 
----
+Place all required skill files into their correct directories and verify their configuration.
 
-## 6. Prerequisites
+### Evidence
 
-- Assignment 2 completed (CLAUDE.md in place)
-- Terraform installed (`terraform version` works — from course Lecture 1.3)
-- All 5 skill files downloaded from the Resources section of Lecture 5.1
+#### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
+
+Add your screenshot here.
 
 ---
 
-## 7. Tasks
+#### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-Each task must be completed sequentially.
-
----
-
-### Task 1 — Create the Skill Folder Structure
-
-**Goal:** Set up the `.claude/skills/` directory with all 4 skill folders.
-
-**Steps:**
-1. Open the terminal in VS Code
-2. Run the `mkdir` commands below
-3. Verify the structure is correct in the VS Code sidebar
-
-**Commands:**
-```bash
-mkdir -p .claude/skills/scaffold-terraform
-mkdir -p .claude/skills/tf-plan
-mkdir -p .claude/skills/tf-apply
-mkdir -p .claude/skills/deploy
-```
-
-**Expected Output:** VS Code sidebar shows `.claude/skills/` with 4 folders inside it.
-
-**Screenshots Required:**
-- Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
-
-![folder structure](./screenshots/Q3-SS1.png)
+Add your screenshot here.
 
 ---
 
-### Task 2 — Add the Skill Files
+# Task 3 — Run /scaffold-terraform
 
-**Goal:** Place all 5 downloaded files into their correct folders.
+## Goal
 
-**Steps:**
-1. Download all 5 files from the Resources section of [Setup The Skills Files](https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/learn/lecture/54819705#overview) from Udemy. 
-2. Move each file to its correct location and rename it:
-   - `scaffold-terraform-SKILL.md` → `.claude/skills/scaffold-terraform/SKILL.md`
-   - `scaffold-terraform-template-spec.md` → `.claude/skills/scaffold-terraform/template-spec.md`
-   - `tf-plan-SKILL.md` → `.claude/skills/tf-plan/SKILL.md`
-   - `tf-apply-SKILL.md` → `.claude/skills/tf-apply/SKILL.md`
-   - `deploy-SKILL.md` → `.claude/skills/deploy/SKILL.md`
-3. Open `tf-plan/SKILL.md` and read the `allowed-tools` field
+Execute the `/scaffold-terraform` skill to generate a full Terraform infrastructure setup.
 
-**Expected Output:** Each skill folder contains exactly the right files. `scaffold-terraform` has 2 files. The other 3 have 1 file each.
+### Evidence
 
-**Screenshots Required:**
-- Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
+#### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-![STS](../screenshots/Q3-SS2.png)
-
-- Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
-
-![STS](./screenshots/Q3-SS3.png)
+Add your screenshot here.
 
 ---
 
-### Task 3 — Run /scaffold-terraform
+#### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-**Goal:** Trigger the scaffold skill and watch Claude generate the full Terraform infrastructure files.
-
-**Steps:**
-1. Open the Claude Code terminal in VS Code
-2. Type `/scaffold-terraform`
-3. Watch Claude read the template spec and generate all the files
-4. Open the `terraform/` folder in VS Code and verify the files exist
-
-**Commands (in Claude Code):**
-```
-/scaffold-terraform
-```
-
-**Expected Output:** Claude creates `main.tf`, `variables.tf`, `outputs.tf`, `providers.tf`, `backend.tf` inside a `terraform/` folder. Claude shows a summary checklist of what was created.
-
-**Screenshots Required:**
-- Screenshot 4 — Claude's response showing the scaffold complete with the file list
-
-![Scaffold](./screenshots/Q3-SS4.png)
-
-![Scafford](./screenshots/Q3-SS4a.png)
-
-- Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
-
-![Terraform](./screenshots/Q3-SS5.png)
+Add your screenshot here.
 
 ---
 
-### Task 4 — Run terraform init then /tf-plan
+# Task 4 — Run terraform init and /tf-plan
 
-**Goal:** Initialize Terraform and trigger `/tf-plan` to observe Claude analyze the output.
+## Goal
 
-**Steps:**
-1. In the regular terminal (not Claude Code), navigate into the terraform folder and run `terraform init`
-2. Open the Claude Code terminal
-3. Type `/tf-plan`
-4. Watch Claude run the plan command and analyze the output
+Initialize Terraform and execute the `/tf-plan` skill to observe plan execution and output analysis.
 
-**Note:** `terraform plan` will fail with an AWS authentication error because you do not have AWS credentials yet. That is expected and fine. The important thing is to see the skill trigger correctly and Claude analyze the error output — this is the Agentic Loop error-handling in action.
+### Evidence
 
-**Commands:**
-```bash
-cd terraform && terraform init
-```
+#### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-Then in Claude Code:
-```
-/tf-plan
-```
-
-**Expected Output:** Claude runs `terraform plan`, receives output or an auth error, and analyzes it. If it errors, Claude explains why it failed and what would be needed to fix it.
-
-**Screenshots Required:**
-- Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
-
-![analysis](./screenshots/Q3-SS6.png)
-
-![analysis](./screenshots/Q3-SS6a.png)
-
-![analysis](./screenshots/Q3-SS6b.png)
-
-![analysis](./screenshots/Q2-SS6c.png)
-
-![analysis](./screenshots/Q3-SS6d.png)
+Add your screenshot here.
 
 ---
 
-## 8. Industry Insight
+# Submission Instructions
 
-The tool restriction pattern in skills — giving each skill only the tools it actually needs — is called the principle of least privilege. It applies everywhere in DevOps: IAM roles, Kubernetes RBAC, Linux file permissions. A skill that can only read files cannot corrupt your infrastructure even if it runs a thousand times. A skill that can write files needs to earn that permission. The same thinking that keeps your cloud infrastructure safe applies directly to how you configure your AI tools.
-
----
-
-## 9. Submission Instructions
-
-Complete all tasks in sequence.
-
-Your submission must include:
-- All 6 required screenshots
-- Your GitHub repo URL (skills committed and visible)
-
-https://github.com/Ginny-Ibe/Ultimate-Agentic-DevOps-with-Claude-Code.git
+- Ensure `.claude/skills/` folder and all skill files are committed to your GitHub repository
+- Run all commands successfully and capture required screenshots
+- Push final changes to your forked repository
 
 ---
 
-## 10. Solution Walkthrough
+## GitHub Repository URL
 
-A step-by-step solution and troubleshooting guide is available for reference:
-Full solution walkthrough → [Click here](../assignment-solutions/assignment-03-skills.md)
+Paste your forked repository URL here:
 
----
+`Add your URL here`
 
-## 11. LinkedIn Requirement
+## LinkedIn post URL
 
-Create a LinkedIn post including:
-- Screenshot of the `terraform/` folder with all files generated by `/scaffold-terraform`
-- Caption: "**Just built my first agentic DevOps skill. One command generated an entire Terraform infrastructure. No manual code written.**"
-- Tag: #DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps
+Paste your forked repository URL here:
 
-**Submit:**
-- LinkedIn post URL
-https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-ugcPost-7481229162469552128-QWPW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM
-
-- **Screenshot of the post**
-![Linkedln](./screenshots/Q3-SS7.png)
+`Add your URL here`
 
 ---
 
-## 12. Completion Checklist
+# Completion Checklist
 
-Before submission, verify:
-- [x] All 4 skill folders created under `.claude/skills/`
-- [x] All 5 files in their correct locations
-- [x] `tf-plan/SKILL.md` shows no Write in allowed-tools (Screenshot 3)
-- [x] `/scaffold-terraform` ran and generated all 5 Terraform files
-- [x] `terraform init` completed
-- [x] `/tf-plan` was triggered and Claude analyzed the output
-- [x] Skills committed and visible in GitHub repo
+- [ ] `.claude/skills/` folder created with all 4 skill folders
+- [ ] All skill files placed correctly
+- [ ] `tf-plan/SKILL.md` shows correct `allowed-tools` restrictions
+- [ ] `/scaffold-terraform` executed successfully
+- [ ] Terraform files generated inside `terraform/` folder
+- [ ] `terraform init` executed successfully
+- [ ] `/tf-plan` executed and output analyzed by Claude
+- [ ] All required screenshots added
+- [ ] GitHub repository URL included
+- [ ] LinkedIn post URL included
 
+---
+
+## 📌 About DMI & CloudAdvisory
+
+DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
+
+It helps learners build strong DevOps foundations with hands-on experience.
+
+---
+
+## 📌 Resources
+
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
+- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
+- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
+- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+
+---
+
+*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
