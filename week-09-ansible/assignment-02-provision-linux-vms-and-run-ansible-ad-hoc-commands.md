@@ -120,7 +120,7 @@ Initialize and validate the Terraform configuration, review the execution plan, 
 
 ### Notes
 
-Add your task notes here.Provisioned the AWS infrastructure using Terraform for the four-server option: web1, web2, app1, and db1. Running terraform init, terraform validate, terraform plan, and terraform apply created the VPC, subnet, internet gateway, route table, security group, key pair, and four Ubuntu EC2 instances.
+  Provisioned the AWS infrastructure using Terraform for the four-server option: web1, web2, app1, and db1. Running terraform init, terraform validate, terraform plan, and terraform apply created the VPC, subnet, internet gateway, route table, security group, key pair, and four Ubuntu EC2 instances.
 
 The lab was first deployed on Azure, but VM creation in East US failed because the Standard_B1s size was unavailable due to an Azure capacity restriction. The lab was then deployed successfully on AWS in us-east-1.
 
