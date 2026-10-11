@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-I believe starting over is not failure; it is evidence of courage, humility, resilience, and unfinished growth. As a foreign-trained healthcare practitioner rebuilding my career in Canada while learning DevOps, I have learned that smaller roles, quiet seasons, unfamiliar systems, and disciplined repetition can become a powerful foundation for long-term success. Immigration and career transition are not gaps to explain away or hide; they prove adaptability, resilience, and discipline. My path may not look linear, but it is honest, layered, earned, and still moving forward.
+- I believe starting over is not failure; it is evidence of courage, humility, resilience, and unfinished growth. As a foreign-trained healthcare practitioner rebuilding my career in Canada while learning DevOps, I have learned that smaller roles, quiet seasons, unfamiliar systems, and disciplined repetition can become a powerful foundation for long-term success. Immigration and career transition are not gaps to explain away or hide; they prove adaptability, resilience, and discipline. My path may not look linear, but it is honest, layered, earned, and still moving forward.
 
 ---
 
@@ -59,7 +59,7 @@ Truth: Consistency produces better results than intensity when you are trying to
 
 ### Evidence from my life
 
-When I moved abroad, I had to adjust from being an experienced health care professional to learning how the Canadian workplace operates. I did not rebuild everything in one day. I improved gradually by applying for roles, rewriting my resume, preparing for interviews, taking healthcare support jobs, and learning new skills step by step. The same applies to DevOps. When I study consistently, even in small blocks, I understand more than when I try to learn everything at once.
+- When I moved abroad, I had to adjust from being an experienced health care professional to learning how the Canadian workplace operates. I did not rebuild everything in one day. I improved gradually by applying for roles, rewriting my resume, preparing for interviews, taking healthcare support jobs, and learning new skills step by step. The same applies to DevOps. When I study consistently, even in small blocks, I understand more than when I try to learn everything at once.
 
 ---
 
@@ -71,7 +71,7 @@ Truth: Diagnostic accuracy in clinical work comes from repeated volume of exposu
 
 ### Evidence from my life
 
-In clinical practise and ophthalmic pre-testing, no two patients presented identically even with the exact same condition — variations in cooperation levels, anatomy, or comorbidities all shifted the picture, and meant textbook descriptions only got me partway there. It was repeated exposure to atypical, messy real cases that built actual diagnostic confidence, not the initial coursework.
+- In clinical practise and ophthalmic pre-testing, no two patients presented identically even with the exact same condition — variations in cooperation levels, anatomy, or comorbidities all shifted the picture, and meant textbook descriptions only got me partway there. It was repeated exposure to atypical, messy real cases that built actual diagnostic confidence, not the initial coursework.
 
 ---
 
@@ -83,7 +83,7 @@ Truth: Humility accelerates learning because it allows you to accept correction,
 
 ### Evidence from my life
 
-As a foreign-trained healthcare professional, I had to accept that I could have strong experience and still need to learn new systems in Canada. Taking support roles in healthcare did not reduce my value; it helped me understand the environment better. The same mindset helps me in Devops and tech in general. Instead of pretending to know everything, I am learning to ask better questions, practise consistently, accept feedback, and improve my skills one step at a time. Humility has helped me grow faster than pride ever could.
+- As a foreign-trained healthcare professional, I had to accept that I could have strong experience and still need to learn new systems in Canada. Taking support roles in healthcare did not reduce my value; it helped me understand the environment better. The same mindset helps me in Devops and tech in general. Instead of pretending to know everything, I am learning to ask better questions, practise consistently, accept feedback, and improve my skills one step at a time. Humility has helped me grow faster than pride ever could.
 
 ---
 
@@ -220,11 +220,11 @@ If Yes:
 
 ## Answer
 
-There have been times when I tried to take shortcuts because I was tired, overwhelmed, or under pressure to move faster. It was never about doing anything illegal, but more about rushing a process, not giving a task my full attention, or wanting the result without fully respecting the discipline behind it.
+- There have been times when I tried to take shortcuts because I was tired, overwhelmed, or under pressure to move faster. It was never about doing anything illegal, but more about rushing a process, not giving a task my full attention, or wanting the result without fully respecting the discipline behind it.
 
-The main emotion I felt was guilt mixed with stress. Even when no one noticed, I noticed. Deep down, I knew I was not operating at the standard I expected from myself. That made me uncomfortable because I value professionalism, honesty, patient safety, and doing things properly.
+- The main emotion I felt was guilt mixed with stress. Even when no one noticed, I noticed. Deep down, I knew I was not operating at the standard I expected from myself. That made me uncomfortable because I value professionalism, honesty, patient safety, and doing things properly.
 
-What stayed with me was the realization that shortcuts may save time in the moment, but they create a mental burden later. They make you question your discipline, judgment, and identity. I learned that my 2.0 version must be built on patience, integrity, and accuracy, especially when no one is watching. 
+- What stayed with me was the realization that shortcuts may save time in the moment, but they create a mental burden later. They make you question your discipline, judgment, and identity. I learned that my 2.0 version must be built on patience, integrity, and accuracy, especially when no one is watching. 
 
 ---
 
@@ -348,7 +348,7 @@ Examples:
 
 Answer:
 
-I did a brain dump of the major things on my mind, including my DevOps Micro-Internship tasks, career transition goals, GitHub projects, resume and LinkedIn improvements, Linkedln and blog post and articles, healthcare work responsibilities, bills, personal worries, certification goals, and ideas for technical blogs. Writing everything down helped me reduce mental pressure. It also made me realize that the problem was not lack of ambition; the problem was needing a better system to organize my energy and time.
+- I did a brain dump of the major things on my mind, including my DevOps Micro-Internship tasks, career transition goals, GitHub projects, resume and LinkedIn improvements, Linkedln and blog post and articles, healthcare work responsibilities, bills, personal worries, certification goals, and ideas for technical blogs. Writing everything down helped me reduce mental pressure. It also made me realize that the problem was not lack of ambition; the problem was needing a better system to organize my energy and time.
 
 ---
 

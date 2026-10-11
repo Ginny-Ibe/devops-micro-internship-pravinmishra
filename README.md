@@ -101,13 +101,13 @@ This is not a course. It is an internship-style program — real deployments, re
 [![Week 10 – Ansible](./badges/week-10.svg)](./week-10-ansible/) 
 
 <!-- Week 11 → Azure DevOps CI/CD -->
-<!-- [![Week 11 – CI/CD](./badges/week-11.svg)](./week-11-azure-devops/) -->
+[![Week 11 – CI/CD](./badges/week-11.svg)](./week-11-azure-devops/) 
 
 <!-- Week 12 → Docker -->
-<!-- [![Week 12 – Docker](./badges/week-12.svg)](./week-12-docker/) -->
+[![Week 12 – Docker](./badges/week-12.svg)](./week-12-docker/)
 
 <!-- Week 13 → Kubernetes -->
-<!-- [![Week 13 – K8s](./badges/week-13.svg)](./week-13-kubernetes/) -->
+[![Week 13 – K8s](./badges/week-13.svg)](./week-13-kubernetes/)
 
 <!-- Week 14 → Final Project / Capstone -->
 <!-- [![Week 14 – Capstone](./badges/week-14.svg)](./week-14-final-project/) -->
@@ -143,7 +143,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 07 | AWS Cloud | ✅  Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-ugcPost-7495686784727752704-vL8J/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://medium.com/@ginnyibe/i-built-an-ai-assisted-aws-audit-but-i-didnt-let-the-ai-fix-anything-394a71a29bce?sharedUserId=ginnyibe |
 | 08 | Azure Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-azure-agenticai-activity-7500401048617013249-ug38?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://ginnyibe.hashnode.dev/i-automated-my-cloud-security-audit-but-kept-the-trigger-finger-human|
 | 09 | Terraform | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7505869737545912320-JC1T?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://ginnyibe.hashnode.dev/when-i-deliberately-created-terraform-drift-to-test-my-cloud-safety-net |
-| 10 | Ansible | 🔄 In Progress | ⏳ Pending | — | — |
+| 10 | Ansible | ✅ Completed | ✅ Solved |https://lnkd.in/p/gQE-cEDa  | https://ginnyibe.hashnode.dev/teaching-an-ai-to-review-not-apply |
 | 11 | Azure DevOps (CI/CD) | 🔄 In Progres | ⏳ Pending | — | — |
 | 12 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
