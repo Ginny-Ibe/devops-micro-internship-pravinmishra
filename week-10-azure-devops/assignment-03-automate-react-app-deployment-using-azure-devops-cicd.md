@@ -37,7 +37,7 @@ Add a screenshot of Azure Repos showing:
 * `main` branch
 * Project files
 
-Add your screenshot here.
+![ouput](./screenshots/wk10a3t1-ss1.png)
 
 ---
 
@@ -81,7 +81,11 @@ Add a screenshot of the Azure Pipeline YAML open in the editor showing:
 * Publish stage
 * Deploy stage
 
-Add your screenshot here.
+![ouput](./screenshots/wk10a3t4-ss2.png)
+![ouput](./screenshots/wk10a3t4-ss2a.png)
+![ouput](./screenshots/wk10a3t4-ss2b.png)
+![ouput](./screenshots/wk10a3t4-ss2c.png)
+![ouput](./screenshots/wk10a3t4-ss2d.png)
 
 > Do not expose passwords, private keys, tokens, or cloud credentials.
 
@@ -104,7 +108,8 @@ Add a screenshot of one Azure DevOps pipeline run showing all four stages succee
 * Publish
 * Deploy
 
-Add your screenshot here.
+![ouput](./screenshots/wk10a3t5-ss3.png)
+![ouput](./screenshots/wk10a3t5-ss3a.png)
 
 ---
 
@@ -122,7 +127,8 @@ Add a screenshot of the pipeline SSH verification log or VM terminal showing the
 
 `/var/www/html`
 
-Add your screenshot here.
+![ouput](./screenshots/wk10a3t6-ss4.png)
+
 
 ---
 
@@ -143,15 +149,12 @@ Add a browser screenshot showing:
 * Your Full Name
 * Deployment date
 
-Add your screenshot here.
+![ouput](./screenshots/wk10a3t7-ss5.png)
+
 
 ## Final Application URL
 
-`http://<vm-public-ip>`
-
-Replace the placeholder and paste your final application URL below:
-
-[Paste your final application URL here.]
+**http://54.236.34.158/**
 
 ---
 
@@ -159,7 +162,21 @@ Replace the placeholder and paste your final application URL below:
 
 Write a short explanation of the CI/CD workflow you created.
 
-[Write your summary here.]
+- This project uses an Azure DevOps pipeline to build, test and deploy a React application to an Nginx web server on AWS EC2. Every commit to the main branch of the Azure Repos repository starts the pipeline automatically, with no manual steps.
+
+Before the pipeline, I used Ansible to prepare both machines:
+- Web server (EC2): site.yml installed and set up Nginx so that React page routes fall back to index.html, cleared the old website files from /var/www/html, and turned on SSH password login so the pipeline can connect.
+- Self-hosted agent (Azure VM): install_node.yml installed Node.js and npm.
+
+The pipeline runs four stages on the self-hosted agent in StaticSiteAgentPool. Each stage runs only if the one before it succeeds:
+
+1. Build: checks out the code, installs Node.js 20 and the dependencies, runs npm run build, confirms that build/index.html exists, and saves the build output as the reactBuild artifact.
+2. Test: installs the dependencies again and runs the unit tests in CI mode. If a test fails, the pipeline stops before anything is deployed.
+3. Publish: downloads reactBuild, confirms that index.html and the static/ assets are present, and publishes the result as the deploymentPackage artifact.
+4. Deploy: copies deploymentPackage to /var/www/html over SSH through the ubuntu-nginx-ssh service connection, clearing out the old files first. It then connects to the server to confirm that index.html is in place, Nginx is running, and the site returns HTTP 200.
+
+Artifacts carry the build output between stages, because each job may start with an empty working folder. The service connection keeps the server password out of the YAML file, and the password in the Ansible files is stored encrypted with Ansible Vault. Only the compiled static files reach the server; the source code and node_modules do not. The result is a repeatable workflow: commit to main, and the change is built, tested, deployed and verified on the live site.
+
 
 ---
 
@@ -174,11 +191,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+![ouput](./screenshots/wk10a3tlink-ss0.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+**https://lnkd.in/p/gCnuyHhs**
 
 > Do not expose VM passwords, tokens, private keys, cloud credentials, or other sensitive information.
 
@@ -199,27 +216,27 @@ Add your screenshot here.
 
 # Completion Checklist
 
-* [ ] All tasks were completed in sequence
-* [ ] The correct React repository was imported into Azure Repos
-* [ ] Your Full Name and date were added to the application
-* [ ] The pipeline YAML was authored and committed to the repository
-* [ ] Commits to `main` trigger the pipeline automatically
-* [ ] The pipeline contains Build, Test, Publish, and Deploy stages
-* [ ] All four stages succeeded in the same pipeline run
-* [ ] The production build moved between stages as a pipeline artifact
-* [ ] The Deploy stage used the SSH Service Connection
-* [ ] No password or secret is stored in the YAML
-* [ ] `index.html` is directly inside `/var/www/html`
-* [ ] Raw React source code was not deployed to the Nginx web root
-* [ ] `node_modules/` was not deployed to the Nginx web root
-* [ ] Nginx is active
-* [ ] The application opens through the VM public IP address
-* [ ] Your Full Name and date are visible in the browser screenshot
-* [ ] Screenshots 1–6 are included and readable
-* [ ] No password, token, private key, account ID, or other secret is visible
-* [ ] The final application URL is included
-* [ ] The LinkedIn post is published
-* [ ] The LinkedIn post URL is included
+* [x] All tasks were completed in sequence
+* [x] The correct React repository was imported into Azure Repos
+* [x] Your Full Name and date were added to the application
+* [x] The pipeline YAML was authored and committed to the repository
+* [x] Commits to `main` trigger the pipeline automatically
+* [x] The pipeline contains Build, Test, Publish, and Deploy stages
+* [x] All four stages succeeded in the same pipeline run
+* [x] The production build moved between stages as a pipeline artifact
+* [x] The Deploy stage used the SSH Service Connection
+* [x] No password or secret is stored in the YAML
+* [x] `index.html` is directly inside `/var/www/html`
+* [x] Raw React source code was not deployed to the Nginx web root
+* [x] `node_modules/` was not deployed to the Nginx web root
+* [x] Nginx is active
+* [x] The application opens through the VM public IP address
+* [x] Your Full Name and date are visible in the browser screenshot
+* [x] Screenshots 1–6 are included and readable
+* [x] No password, token, private key, account ID, or other secret is visible
+* [x] The final application URL is included
+* [x] The LinkedIn post is published
+* [x] The LinkedIn post URL is included
 
 ---
 

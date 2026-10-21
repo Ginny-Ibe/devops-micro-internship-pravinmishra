@@ -144,12 +144,12 @@ This is not a course. It is an internship-style program — real deployments, re
 | 08 | Azure Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-azure-agenticai-activity-7500401048617013249-ug38?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://ginnyibe.hashnode.dev/i-automated-my-cloud-security-audit-but-kept-the-trigger-finger-human|
 | 09 | Terraform | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-agenticai-activity-7505869737545912320-JC1T?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://ginnyibe.hashnode.dev/when-i-deliberately-created-terraform-drift-to-test-my-cloud-safety-net |
 | 10 | Ansible | ✅ Completed | ✅ Solved |https://lnkd.in/p/gQE-cEDa  | https://ginnyibe.hashnode.dev/teaching-an-ai-to-review-not-apply |
-| 11 | Azure DevOps (CI/CD) | 🔄 In Progres | ⏳ Pending | — | — |
-| 12 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
-| 13 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
+| 11 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Solved | https://lnkd.in/p/gz7T28dS  | — |
+| 12 | Docker | ✅ Completed | ✅ Solved | — | — |
+| 13 | Kubernetes | ✅ Completed| ✅ Solved | — | — |
 | 14 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
-**Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed <br>
+**Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed 
 **Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved
 
 ---

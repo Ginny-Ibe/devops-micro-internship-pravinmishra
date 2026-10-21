@@ -36,7 +36,7 @@ Add a screenshot of Azure Repos showing:
 * Project files
 * `index.html`
 
-Add your screenshot here.
+![ouput](./screenshots/wk10a2t1-ss1.png)
 
 ---
 
@@ -65,7 +65,7 @@ Add a screenshot of the saved SSH Service Connection **Overview** page showing:
 * Service Connection name
 * SSH connection type
 
-Add your screenshot here.
+![ouput](./screenshots/wk10a2t3-ss2.png)
 
 > Do not expose a password, SSH private key, passphrase, or another credential.
 
@@ -91,7 +91,10 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * `CopyFilesOverSSH@0` task
 * `SSH@0` verification task
 
-Add your screenshot here.
+![ouput](./screenshots/wk10a2t4-ss3.png)
+![ouput](./screenshots/wk10a2t4-ss3a.png)
+![ouput](./screenshots/wk10a2t4-ss3b.png)
+![ouput](./screenshots/wk10a2t4-ss3c.png)
 
 > Ensure that no password, SSH private key, PAT, or AWS credential is visible.
 
@@ -115,7 +118,10 @@ Add a screenshot of the successful pipeline run and log summary showing:
 * Remote-verification step completed
 * Your Full Name visible in the pipeline output
 
-Add your screenshot here.
+![ouput](./screenshots/wk10a2t5-ss4.png)
+![ouput](./screenshots/wk10a2t5-ss4a.png)
+![ouput](./screenshots/wk10a2t5-ss4b.png)
+![ouput](./screenshots/wk10a2t5-ss4c.png)
 
 ---
 
@@ -136,15 +142,12 @@ Add a browser screenshot showing:
 * Your Full Name
 * Updated website content after the automatic deployment
 
-Add your screenshot here.
+![ouput](./screenshots/wk10a2t6-ss5.png)
+![ouput](./screenshots/wk10a2t6-ss5a.png)
 
 ## Final Website URL
 
-`http://<target-vm-public-ip>`
-
-Replace the placeholder with your actual website URL:
-
-[Paste your final website URL here]
+**http://35.172.100.179/**
 
 ---
 
@@ -152,7 +155,17 @@ Replace the placeholder with your actual website URL:
 
 Write a short summary of the completed CI/CD workflow.
 
-[Write your summary here.]
+CI/CD workflow summary: Azure Static Website to AWS EC2
+
+The workflow deploys a static website from Azure Repos to an Nginx web server on AWS EC2, using a self-hosted Azure Pipelines agent.
+
+1. Infrastructure (Terraform): created an Ubuntu 22.04 EC2 instance (35.172.100.179) with its own VPC, subnet, internet gateway and key pair. The security group opens port 22 (SSH) and port 80 (HTTP).
+2. Server setup (Ansible): site.yml installed and enabled Nginx, gave ubuntu:www-data ownership of /var/www/html, and turned on password SSH login for the Azure DevOps service connection. The server password is encrypted with Ansible Vault. Checks confirmed HTTP 200 from the server and password login enabled.
+3. Agent registration (Ansible + Vault): install_agent.yml installed agent 5.279.0 on the Azure VM (20.110.202.150) and registered it as static-site-agent-1 in StaticSiteAgentPool. It runs as a systemd service, next to the agent that was already there. The PAT is encrypted with Vault and hidden from output with no_log.
+4. Secure connection: the ubuntu-nginx-ssh SSH service connection holds the server login details, so the pipeline YAML contains no credentials.
+5. Pipeline (azure-pipelines.yml): runs on a push to any branch, on StaticSiteAgentPool. It does a clean checkout and prints the run details (name, branch, commit, agent, files). It then copies the site to /var/www/html with CopyFilesOverSSH@0 (clears the folder first, skips .git and azure-pipelines.yml, 20-second timeout). Finally it checks the server with SSH@0: lists the files, confirms index.html exists, requests http://localhost, and stops if any check fails.
+
+Flow: Push → Azure DevOps runs the pipeline → self-hosted agent checks out the code → files copied to EC2 over SSH → checks on the server → site live at http://35.172.100.179.
 
 ---
 
@@ -167,11 +180,11 @@ Add a screenshot of your LinkedIn post containing:
 * Three to five lines describing the CI/CD workflow
 * A screenshot of the successful pipeline or deployed website
 
-Add your screenshot here.
+![ouput](./screenshots/wk10a2tlink-ss0.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here]
+**https://lnkd.in/p/g-CNNeXQ**
 
 > Do not expose AWS credentials, SSH private keys, passwords, PATs, or other sensitive information.
 
