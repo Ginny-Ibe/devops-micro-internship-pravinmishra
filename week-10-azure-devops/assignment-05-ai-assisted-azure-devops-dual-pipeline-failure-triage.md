@@ -11,7 +11,7 @@ Part of the DevOps Micro Internship (DMI) — Agentic AI Track
 
 **GitHub Repository or Fork URL:** https://github.com/Ginny-Ibe/devops-micro-internship-pravinmishra
 
-**Public LinkedIn Post URL:**  https://www.linkedin.com/feed/update/urn:li:activity:7518485274989969408/
+**Public LinkedIn Post URL:**  https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-azuredevops-ugcPost-7518485271588311041-OZyX
 
 ---
 
@@ -343,7 +343,7 @@ Recovery `/pipeline-triage` output showing Overall Status `HEALTHY`, exit code `
 
 ## LinkedIn Post URL
 
-https://www.linkedin.com/feed/update/urn:li:activity:7518485274989969408/
+https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-azuredevops-ugcPost-7518485271588311041-OZyX
 
 ## Evidence
 
@@ -420,7 +420,7 @@ Confirm that the following files are available in your repository:
 **GitHub Repository or Fork URL:**  https://github.com/Ginny-Ibe/devops-micro-internship-pravinmishra
 
 
-**LinkedIn Post URL:** https://www.linkedin.com/feed/update/urn:li:activity:7518485274989969408/
+**LinkedIn Post URL:** https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-azuredevops-ugcPost-7518485271588311041-OZyX
 
 ---
 
