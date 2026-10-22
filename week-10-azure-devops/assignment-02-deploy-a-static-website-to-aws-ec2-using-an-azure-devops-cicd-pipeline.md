@@ -184,7 +184,7 @@ Add a screenshot of your LinkedIn post containing:
 
 ## LinkedIn Post URL
 
-**https://lnkd.in/p/g-CNNeXQ**
+**https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-azuredevops-ugcPost-7516709178179010560--dCd**
 
 > Do not expose AWS credentials, SSH private keys, passwords, PATs, or other sensitive information.
 

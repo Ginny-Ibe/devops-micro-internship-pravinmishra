@@ -195,7 +195,7 @@ Add a screenshot of your LinkedIn post showing:
 
 ## LinkedIn Post URL
 
-**https://lnkd.in/p/gCnuyHhs**
+**https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-azuredevops-ugcPost-7517178064032665602-FLPt**
 
 > Do not expose VM passwords, tokens, private keys, cloud credentials, or other sensitive information.
 

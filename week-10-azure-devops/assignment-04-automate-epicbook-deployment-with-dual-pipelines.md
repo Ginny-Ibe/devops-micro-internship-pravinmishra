@@ -239,7 +239,7 @@ Add a screenshot of your LinkedIn post showing:
 
 ## LinkedIn Post URL
 
-**https://lnkd.in/p/gHpqf3Ru**  
+**https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-azuredevops-ugcPost-7518354503398735872-2N9R**  
 
 Your post must include:
 

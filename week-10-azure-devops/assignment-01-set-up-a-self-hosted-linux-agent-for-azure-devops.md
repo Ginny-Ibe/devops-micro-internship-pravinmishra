@@ -222,7 +222,7 @@ Add a screenshot of your LinkedIn post showing:
 
 ![ouput](./screenshots/wk10a1tlink-ss0.png)
 
-**LinkedIn Post URL:**  **https://lnkd.in/p/gbhQJhaY**
+**LinkedIn Post URL:**  **https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-azuredevops-ugcPost-7516384063746932736-Z7dM**
 
 ---
 
