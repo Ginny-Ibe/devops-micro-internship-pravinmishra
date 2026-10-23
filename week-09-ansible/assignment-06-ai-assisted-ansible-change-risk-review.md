@@ -480,7 +480,7 @@ To confirm the server now matches the playbook and nothing unexpected is still p
 
 Paste your LinkedIn post URL here:
 
-**https://lnkd.in/p/gQE-cEDa**
+**https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-ansible-devops-ugcPost-7514880025351847936-_1k3/?utm_source=sharehttps://lnkd.in/p/gQE-cEDautm_medium=member_desktophttps://lnkd.in/p/gQE-cEDarcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM**
 
 ---
 
