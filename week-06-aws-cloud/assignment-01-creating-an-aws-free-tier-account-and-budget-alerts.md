@@ -10,21 +10,71 @@ In this assignment, you will create your own AWS Free Tier account and configure
 
 ---
 
-# Task 1 — Sign Up for AWS and Access the Console
+# Task 1 — Sign Up for AWS
 
 ## Goal
 
-Create your AWS Free Tier account, select the Basic Support Plan (Free), and log in to the AWS Management Console.
+Create your AWS Free Tier account and select the Basic Support Plan (Free).
 
-> No screenshot required for this task. Completion is verified through Task 2.
+> No screenshot required for this task.
 
 ---
 
-# Task 2 — Create a Monthly Cost Budget with Alerts
+# Task 2 — Log in to the AWS Management Console
 
 ## Goal
 
-In the Billing Dashboard, create a monthly Cost Budget with a name, amount, and start month, then configure alert thresholds (e.g. 50%, 80%, 100%) and a notification email address.
+Log in to your AWS account and access the AWS Management Console.
+
+> No screenshot required for this task.
+
+---
+
+# Task 3 — Familiarize Yourself with the AWS Console
+
+## Goal
+
+Explore the AWS Management Console and review the AWS Free Tier offerings.
+
+> No screenshot required for this task.
+
+---
+
+# Task 4 — Access the Billing Dashboard
+
+## Goal
+
+Open the Billing Dashboard from the AWS Management Console.
+
+> No screenshot required for this task.
+
+---
+
+# Task 5 — Create a Budget
+
+## Goal
+
+Configure a monthly Cost Budget with a descriptive name, the current month as the start month, and your selected budget amount.
+
+> No screenshot required for this task.
+
+---
+
+# Task 6 — Set Budget Alerts
+
+## Goal
+
+Configure budget alert thresholds, such as 50%, 80%, and 100%, and enter your notification email address.
+
+> No screenshot required for this task.
+
+---
+
+# Task 7 — Review & Confirm Your Budget
+
+## Goal
+
+Review your budget and notification settings, then create the budget.
 
 ### Evidence
 
@@ -38,8 +88,6 @@ In the Billing Dashboard, create a monthly Cost Budget with a name, amount, and 
 
 
 
-
----
 
 ### Notes
 
@@ -59,22 +107,45 @@ So, budget alerts act as a financial safety net: AWS gives me the flexibility to
 
 ---
 
+# Task 8 — Share Your Progress on WhatsApp
+
+## Goal
+
+Publish the automatically generated DMI Leaderboard message containing your rank and personal progress link on your WhatsApp Status.
+
+Go to the DMI Leaderboard, find your name, select **Share your progress**, and click the **WhatsApp icon**. Copy the generated message, paste it into your WhatsApp Status, and publish it.
+
+### Evidence
+
+#### Screenshot 2 — Published WhatsApp Status showing the automatically generated DMI Leaderboard rank and personal progress link
+
+Add your screenshot here.
+
+> **Privacy Note:** Make sure no private phone numbers, personal messages, or sensitive information are visible in the screenshot.
+
+---
+
 # Submission Instructions
 
-- Add the required screenshot in your submission
-- Do not expose sensitive billing, card, identity, or account information
+- Add Screenshot 1 showing your AWS budget name, amount, and alert thresholds
+- Answer the Notes question under Task 7 in your own words
+- Add Screenshot 2 showing your published WhatsApp Status with your DMI Leaderboard rank and personal progress link
+- Do not expose sensitive billing, card, identity, account information, private phone numbers, or personal messages
 
 ---
 
 # Completion Checklist
 
-- [x] AWS Free Tier account created and Basic Support Plan (Free) selected
-- [x] Logged in to the AWS Management Console
-- [x] Monthly Cost Budget created with name, amount, and start month
-- [x] Budget alert thresholds and notification email configured
-- [x] Screenshot captured showing budget name, amount, and thresholds (Screenshot 1)
-- [x] Notes question answered
-- [x] No sensitive billing or account information exposed
+- [x] Task 1: AWS Free Tier account created and Basic Support Plan (Free) selected
+- [x] Task 2: Logged in to the AWS Management Console
+- [x] Task 3: Explored the AWS Console and reviewed AWS Free Tier offerings
+- [x] Task 4: Opened the Billing Dashboard
+- [x] Task 5: Configured a monthly Cost Budget with name, amount, and start month
+- [x] Task 6: Configured budget alert thresholds and notification email
+- [x] Task 7: Reviewed and created the budget, and included Screenshot 1
+- [x] Task 7: Answered the budget alerts question
+- [ ] Task 8: Published the DMI Leaderboard message on WhatsApp Status and included Screenshot 2
+- [x] No sensitive information exposed
 
 ---
 
