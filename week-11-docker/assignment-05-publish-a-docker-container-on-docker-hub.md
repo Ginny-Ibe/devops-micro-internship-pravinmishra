@@ -187,22 +187,22 @@ Add a screenshot of the published LinkedIn post here.
 
 # Completion Checklist
 
-- [ ] Public `my-react-app` repository created
-- [ ] Docker login completed successfully
-- [ ] `react-multistage:latest` tagged correctly
-- [ ] Image pushed to Docker Hub
-- [ ] `latest` tag verified in Docker Hub
-- [ ] Targeted local image tags removed
-- [ ] Image pulled again from Docker Hub
-- [ ] Pulled image runs successfully
-- [ ] React application is accessible through the VM public IP
-- [ ] Docker Hub repository URL included
-- [ ] Registry and image-tagging notes completed
-- [ ] LinkedIn post URL and screenshot included
-- [ ] All required screenshots included
-- [ ] Full name visible in terminal screenshots
-- [ ] Browser screenshot has a full-name caption
-- [ ] No passwords, tokens, or credentials exposed
+- [x] Public `my-react-app` repository created
+- [x] Docker login completed successfully
+- [x] `react-multistage:latest` tagged correctly
+- [x] Image pushed to Docker Hub
+- [x] `latest` tag verified in Docker Hub
+- [x] Targeted local image tags removed
+- [x] Image pulled again from Docker Hub
+- [x] Pulled image runs successfully
+- [x] React application is accessible through the VM public IP
+- [x] Docker Hub repository URL included
+- [x] Registry and image-tagging notes completed
+- [x] LinkedIn post URL and screenshot included
+- [x] All required screenshots included
+- [x] Full name visible in terminal screenshots
+- [x] Browser screenshot has a full-name caption
+- [x] No passwords, tokens, or credentials exposed
 ---
 
 ## 📌 About DMI & CloudAdvisory

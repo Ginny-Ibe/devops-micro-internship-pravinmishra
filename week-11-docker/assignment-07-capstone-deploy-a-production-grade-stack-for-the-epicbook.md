@@ -608,28 +608,28 @@ Add a screenshot of the published LinkedIn post showing the text body and deploy
 
 # Submission Checklist
 
-- [ ] EpicBook repository reviewed and architecture diagram created
-- [ ] Environment variables, ports, persistence, and health-check details documented
-- [ ] Backend and frontend production Dockerfiles created
-- [ ] Backend runs as a non-root user
-- [ ] Docker image-size comparison completed
-- [ ] Docker Compose stack includes reverse proxy, frontend, backend, and database
-- [ ] `front-tier` and `back-tier` networks configured
-- [ ] `db_data` named volume configured
-- [ ] MySQL, backend, frontend, and reverse-proxy health checks configured
-- [ ] Startup dependencies use `service_healthy`
-- [ ] Nginx or Traefik selected as the only public reverse proxy
-- [ ] Only reverse-proxy port 80 is publicly published
-- [ ] Same-origin routing configured and CORS used only when required
-- [ ] Backup, restore, and persistence testing completed
-- [ ] Reverse-proxy and backend logs verified
-- [ ] Cloud VM deployment verified through the public IP
-- [ ] Backend and database reliability tests completed
-- [ ] Screenshots 1–36 included
-- [ ] Required notes completed
-- [ ] LinkedIn post URL and screenshot included
-- [ ] Full name visible in required screenshots or captions
-- [ ] No passwords, tokens, private keys, account IDs, or other sensitive information exposed
+- [x] EpicBook repository reviewed and architecture diagram created
+- [x] Environment variables, ports, persistence, and health-check details documented
+- [x] Backend and frontend production Dockerfiles created
+- [x] Backend runs as a non-root user
+- [x] Docker image-size comparison completed
+- [x] Docker Compose stack includes reverse proxy, frontend, backend, and database
+- [x] `front-tier` and `back-tier` networks configured
+- [x] `db_data` named volume configured
+- [x] MySQL, backend, frontend, and reverse-proxy health checks configured
+- [x] Startup dependencies use `service_healthy`
+- [x] Nginx or Traefik selected as the only public reverse proxy
+- [x] Only reverse-proxy port 80 is publicly published
+- [x] Same-origin routing configured and CORS used only when required
+- [x] Backup, restore, and persistence testing completed
+- [x] Reverse-proxy and backend logs verified
+- [x] Cloud VM deployment verified through the public IP
+- [x] Backend and database reliability tests completed
+- [x] Screenshots 1–36 included
+- [x] Required notes completed
+- [x] LinkedIn post URL and screenshot included
+- [x] Full name visible in required screenshots or captions
+- [x] No passwords, tokens, private keys, account IDs, or other sensitive information exposed
 
 ---
 

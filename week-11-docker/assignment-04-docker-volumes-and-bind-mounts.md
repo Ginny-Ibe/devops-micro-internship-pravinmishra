@@ -355,26 +355,26 @@ Add a screenshot of the published LinkedIn post here. Include a screenshot of th
 
 # Completion Checklist
 
-- [ ] Nginx image pulled successfully
-- [ ] Host log directory created
-- [ ] Bind Mount configured successfully
-- [ ] Nginx logs remain after container removal
-- [ ] Custom Docker network created
-- [ ] Docker Volume created
-- [ ] Backend Dockerfile and image created
-- [ ] Frontend Dockerfile and image created
-- [ ] Both containers mount `shared-data`
-- [ ] Backend writes data to the Docker Volume
-- [ ] Frontend reads the same data from the Docker Volume
-- [ ] Updated data appears after browser refresh
-- [ ] Data remains after frontend and backend containers are removed and recreated
-- [ ] All required screenshots included
-- [ ] Storage Persistence Notes completed
-- [ ] Public application URL included
-- [ ] LinkedIn post URL and screenshot included
-- [ ] Full name visible in terminal screenshots
-- [ ] Browser screenshots have full-name captions
-- [ ] No sensitive information exposed
+- [x] Nginx image pulled successfully
+- [x] Host log directory created
+- [x] Bind Mount configured successfully
+- [x] Nginx logs remain after container removal
+- [x] Custom Docker network created
+- [x] Docker Volume created
+- [x] Backend Dockerfile and image created
+- [x] Frontend Dockerfile and image created
+- [x] Both containers mount `shared-data`
+- [x] Backend writes data to the Docker Volume
+- [x] Frontend reads the same data from the Docker Volume
+- [x] Updated data appears after browser refresh
+- [x] Data remains after frontend and backend containers are removed and recreated
+- [x] All required screenshots included
+- [x] Storage Persistence Notes completed
+- [x] Public application URL included
+- [x] LinkedIn post URL and screenshot included
+- [x] Full name visible in terminal screenshots
+- [x] Browser screenshots have full-name captions
+- [x] No sensitive information exposed
 
 ---
 

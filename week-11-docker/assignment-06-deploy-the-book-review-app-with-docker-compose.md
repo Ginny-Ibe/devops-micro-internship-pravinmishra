@@ -313,27 +313,27 @@ Add a screenshot of your published LinkedIn post here.
 
 # Submission Checklist
 
-- [ ] Book Review App repository forked and used
-- [ ] `.env` excluded from Git tracking
-- [ ] `.env.example` contains only safe placeholder values
-- [ ] Frontend and backend Dockerfiles created or confirmed
-- [ ] MySQL health check configured
-- [ ] Backend waits for healthy MySQL
-- [ ] Backend uses `mysql` as the database hostname
-- [ ] Frontend API URL uses the VM public IP and backend port
-- [ ] Backend CORS origin matches the frontend origin
-- [ ] MySQL port 3306 is not publicly exposed
-- [ ] Registration and login work
-- [ ] Book review creation works
-- [ ] Data persists after a non-destructive down/up cycle
-- [ ] Screenshots 1–17 included
-- [ ] Teardown explanation completed
-- [ ] Public frontend URL included
-- [ ] GitHub repository URL included
-- [ ] LinkedIn post URL and screenshot included
-- [ ] Full name visible in required terminal screenshots
-- [ ] Browser screenshots include a full-name caption
-- [ ] No sensitive information exposed
+- [X] Book Review App repository forked and used
+- [x] `.env` excluded from Git tracking
+- [x] `.env.example` contains only safe placeholder values
+- [x] Frontend and backend Dockerfiles created or confirmed
+- [x] MySQL health check configured
+- [x] Backend waits for healthy MySQL
+- [x] Backend uses `mysql` as the database hostname
+- [x] Frontend API URL uses the VM public IP and backend port
+- [x] Backend CORS origin matches the frontend origin
+- [x] MySQL port 3306 is not publicly exposed
+- [x] Registration and login work
+- [x] Book review creation works
+- [x] Data persists after a non-destructive down/up cycle
+- [x] Screenshots 1–17 included
+- [x] Teardown explanation completed
+- [x] Public frontend URL included
+- [x] GitHub repository URL included
+- [x] LinkedIn post URL and screenshot included
+- [x] Full name visible in required terminal screenshots
+- [x] Browser screenshots include a full-name caption
+- [x] No sensitive information exposed
 
 ---
 

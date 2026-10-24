@@ -214,18 +214,18 @@ Add a screenshot of the published LinkedIn post here.
 
 # Completion Checklist
 
-- [ ] Assignment completed locally
-- [ ] `.dockerignore` created and verified (Screenshot 1)
-- [ ] `Dockerfile.single` created (Screenshot 2)
-- [ ] Single-stage container verified in the browser (Screenshot 3)
-- [ ] Multi-stage `Dockerfile` created (Screenshot 4)
-- [ ] Multi-stage container verified in the browser (Screenshot 5)
-- [ ] Both Docker image sizes captured (Screenshot 6)
-- [ ] Percentage reduction calculated
-- [ ] Optimization analysis completed
-- [ ] LinkedIn post URL and screenshot included
-- [ ] Full name visible in all required screenshots
-- [ ] No sensitive information exposed
+- [X] Assignment completed locally
+- [X] `.dockerignore` created and verified (Screenshot 1)
+- [X] `Dockerfile.single` created (Screenshot 2)
+- [X] Single-stage container verified in the browser (Screenshot 3)
+- [X] Multi-stage `Dockerfile` created (Screenshot 4)
+- [X] Multi-stage container verified in the browser (Screenshot 5)
+- [X] Both Docker image sizes captured (Screenshot 6)
+- [X] Percentage reduction calculated
+- [X] Optimization analysis completed
+- [X] LinkedIn post URL and screenshot included
+- [X] Full name visible in all required screenshots
+- [X] No sensitive information exposed
 
 ---
 

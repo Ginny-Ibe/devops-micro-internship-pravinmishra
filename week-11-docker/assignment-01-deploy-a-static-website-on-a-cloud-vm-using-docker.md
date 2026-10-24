@@ -230,21 +230,21 @@ Add a screenshot of the published LinkedIn post here.
 
 # Completion Checklist
 
-- [ ] Cloud VM provisioned successfully
-- [ ] Public IP enabled
-- [ ] SSH port 22 restricted to my IP address
-- [ ] HTTP port 80 enabled from Anywhere
-- [ ] Docker installed using Cloud-Init
-- [ ] Cloud-Init Docker installation log captured
-- [ ] Docker installation verified
-- [ ] Static website repository cloned
-- [ ] Dockerfile created and verified
-- [ ] Docker image built successfully
-- [ ] Docker container is running with port 80 mapped
-- [ ] Website is accessible through the VM public IP
-- [ ] All required screenshots included
-- [ ] Full name visible in required screenshots
-- [ ] No sensitive information exposed
+- [x] Cloud VM provisioned successfully
+- [x] Public IP enabled
+- [x] SSH port 22 restricted to my IP address
+- [x] HTTP port 80 enabled from Anywhere
+- [x] Docker installed using Cloud-Init
+- [x] Cloud-Init Docker installation log captured
+- [x] Docker installation verified
+- [x] Static website repository cloned
+- [x] Dockerfile created and verified
+- [x] Docker image built successfully
+- [x] Docker container is running with port 80 mapped
+- [x] Website is accessible through the VM public IP
+- [x] All required screenshots included
+- [x] Full name visible in required screenshots
+- [x] No sensitive information exposed
 
 ---
 

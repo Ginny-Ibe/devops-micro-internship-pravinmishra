@@ -372,24 +372,24 @@ Add a screenshot of the published LinkedIn post here.
 
 # Completion Checklist
 
-- [ ] Completed on a Linux VM or EC2 instance
-- [ ] Docker Engine is running
-- [ ] HTTP port 80 is allowed in the VM firewall or cloud security rules
-- [ ] Default bridge networking verified
-- [ ] Custom bridge network created
-- [ ] Container-name communication verified
-- [ ] `frontend-network` and `backend-network` created
-- [ ] Frontend-to-backend communication verified
-- [ ] Backend-to-database communication verified
-- [ ] Frontend-to-database isolation verified
-- [ ] Only the frontend published port 80 in Task 3
-- [ ] Host network mode verified
-- [ ] All required screenshots included
-- [ ] Networking Notes completed
-- [ ] LinkedIn post URL and screenshot included
-- [ ] Full name visible in terminal screenshots
-- [ ] Browser screenshots include full-name captions
-- [ ] No sensitive information exposed
+- [x] Completed on a Linux VM or EC2 instance
+- [x] Docker Engine is running
+- [x] HTTP port 80 is allowed in the VM firewall or cloud security rules
+- [x] Default bridge networking verified
+- [x] Custom bridge network created
+- [x] Container-name communication verified
+- [x] `frontend-network` and `backend-network` created
+- [x] Frontend-to-backend communication verified
+- [x] Backend-to-database communication verified
+- [x] Frontend-to-database isolation verified
+- [x] Only the frontend published port 80 in Task 3
+- [x] Host network mode verified
+- [x] All required screenshots included
+- [x] Networking Notes completed
+- [x] LinkedIn post URL and screenshot included
+- [x] Full name visible in terminal screenshots
+- [x] Browser screenshots include full-name captions
+- [x] No sensitive information exposed
 
 ---
 
