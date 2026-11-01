@@ -166,7 +166,7 @@ Add your screenshot here.
 - [x] Task 7: Optional small update re-uploaded and verified (Screenshot 7)
 - [x] S3 Website Endpoint URL included
 - [x] No sensitive account information exposed
-- [ ] Linkedin post published
+- [x] Linkedin post published
 
 ---
 
