@@ -26,7 +26,7 @@ Add a screenshot of Docker Hub showing your newly created public repository:
 my-react-app
 ```
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a5t1-ss1.png)
 
 ---
 
@@ -40,7 +40,7 @@ Login Succeeded
 
 Ensure that your full name is visible and that no password, Personal Access Token, or device code is exposed.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a5t1-ss2.png)
 
 ---
 
@@ -49,12 +49,12 @@ Add your screenshot here.
 Add a screenshot of the terminal showing:
 
 ```bash
-docker image ls <YOUR_DOCKERHUB_USERNAME>/my-react-app
+docker image ls ginnyibe/my-react-app
 ```
 
 The output must show the `latest` tag.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a5t1-ss3.png)
 
 ---
 
@@ -63,12 +63,12 @@ Add your screenshot here.
 Add a screenshot of the terminal showing successful completion of:
 
 ```bash
-docker push <YOUR_DOCKERHUB_USERNAME>/my-react-app:latest
+docker push ginnyibe/my-react-app:latest
 ```
 
 The output must include a pushed status or image digest.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a5t1-ss4.png)
 
 ---
 
@@ -76,7 +76,7 @@ Add your screenshot here.
 
 Add a screenshot of your Docker Hub repository showing the uploaded `latest` image tag.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a5t1-ss5.png)
 
 ---
 
@@ -88,7 +88,7 @@ Add a screenshot of the terminal showing:
 - Successful `docker pull` output
 - `docker image ls` showing the pulled image
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a5t1-ss6.png)
 
 ---
 
@@ -106,7 +106,7 @@ The output must show the running `react-container` with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a5t1-ss7.png)
 
 ---
 
@@ -115,18 +115,18 @@ Add your screenshot here.
 Add a browser screenshot showing the React application at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://3.237.253.252/
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a5t1-ss8.png)
 
 ---
 
 # Docker Hub Repository URL
 
-**Repository URL:** `Add your Docker Hub repository URL here`
+**Repository URL:** <https://hub.docker.com/repository/docker/ginnyibe/my-react-app/general>
 
 ---
 
@@ -138,7 +138,17 @@ Write a short explanation covering:
 - Why a container registry is useful in DevOps workflows
 - Why production deployments should use versioned image tags instead of relying only on `latest`
 
-Write your explanation here.
+Why image tagging is required before pushing to Docker Hub
+- When you run docker push, Docker reads the image name to work out where to send it. A local image called my-react-app has no Docker Hub account in its name, so Docker would try to push it to the official library/my-react-app repository, which I don't have permission to push to. Tagging it as ginnyibe/my-react-app:latest adds the account that owns the repository (ginnyibe), the repository name (my-react-app) and the version (latest). A tag doesn't copy or rebuild the image. It's just another name pointing to the same image, which is why both names show the same IMAGE ID in docker images.
+
+Why a container registry is useful in DevOps workflows
+
+- A container registry is a central place to store and share built images. In a DevOps workflow, the CI pipeline builds and tests the image once and pushes it to the registry. Every environment (testing, staging, production) then pulls that same image, so what was tested is exactly what gets deployed. Servers don't need the source code, Node.js or build tools. They only need Docker and access to the registry, and new servers can be set up by pulling the image. Registries also keep a history of image versions, which makes rollbacks possible, and private repositories control who can push or pull.
+
+Why production deployments should use versioned tags instead of only latest
+
+- latest is just the default tag. It doesn't mean "newest" or "stable", and it moves every time someone pushes a new image under that name. If production uses latest, two servers pulling at different times can end up running different code, and it's hard to tell which version is actually live. Rolling back is also difficult, because the previous image no longer has a name. Versioned tags such as my-react-app:1.0.0 or a Git commit SHA always point to one specific build. That makes deployments repeatable and easy to audit, and rolling back is just a matter of redeploying the previous tag. A common approach is to push every image with a version tag (and optionally latest as well), but deploy to production only by version tag.
+
 
 ---
 
@@ -160,15 +170,13 @@ Include:
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-`Add your URL here`
+<https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-docker-share-7521311458073325568-vIhj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM>
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+![ouput](./screenshots/wk11a5tlink-ss0.png)
 
 ---
 

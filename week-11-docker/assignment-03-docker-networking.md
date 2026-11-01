@@ -28,7 +28,7 @@ docker network ls
 
 The output must include the default `bridge`, `host`, and `none` networks.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t1-ss1.png)
 
 ---
 
@@ -40,7 +40,7 @@ Add a screenshot of the terminal showing successful completion of:
 docker pull nginx:alpine
 ```
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t1-ss2.png)
 
 ---
 
@@ -58,7 +58,7 @@ The output must show the running `myweb` container with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t1-ss3.png)
 
 ---
 
@@ -67,12 +67,12 @@ Add your screenshot here.
 Add a browser screenshot showing the Nginx Welcome Page at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://3.237.253.252
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t1-ss4.png)
 
 ---
 
@@ -92,7 +92,7 @@ Add a screenshot of the terminal showing `mynetwork` in:
 docker network ls
 ```
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t2-ss5.png)
 
 ---
 
@@ -106,7 +106,7 @@ docker ps
 
 The output must show both `web` and `client` containers running without published host ports.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t2-ss6.png)
 
 ---
 
@@ -120,7 +120,7 @@ docker exec client wget -qO- http://web
 
 The output must display the Nginx Welcome Page HTML.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t2-ss7.png)
 
 ---
 
@@ -134,7 +134,8 @@ docker network inspect mynetwork
 
 The output must show both `web` and `client` connected to `mynetwork`.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t2-ss8.png)
+![ouput](./screenshots/wk11a3t2-ss8a.png)
 
 ---
 
@@ -156,7 +157,7 @@ docker network ls
 
 The output must include both `frontend-network` and `backend-network`.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t3-ss9.png)
 
 ---
 
@@ -174,7 +175,7 @@ The output must show:
 - `backend` without a published host port
 - `db` without a published host port
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t3-ss10.png)
 
 ---
 
@@ -188,7 +189,7 @@ docker network inspect frontend-network
 
 The output must show `frontend` and `backend`.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t3-ss11.png)
 
 ---
 
@@ -202,7 +203,7 @@ docker network inspect backend-network
 
 The output must show `backend` and `db`.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t3-ss12.png)
 
 ---
 
@@ -216,7 +217,7 @@ docker exec frontend wget -qO- http://backend
 
 The output must display the Nginx Welcome Page HTML.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t3-ss13.png)
 
 ---
 
@@ -224,7 +225,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing a successful connection to `db` on port `27017` from the `backend` container.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t3-ss14.png)
 
 ---
 
@@ -238,7 +239,7 @@ The output must include:
 Expected result: frontend cannot reach db
 ```
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t3-ss15.png)
 
 ---
 
@@ -247,12 +248,12 @@ Add your screenshot here.
 Add a browser screenshot showing the Nginx Welcome Page from the `frontend` container at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://3.237.253.252
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t3-ss16.png)
 
 ---
 
@@ -274,7 +275,7 @@ docker ps
 
 The output must show the running `fastapp` container.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t4-ss17.png)
 
 ---
 
@@ -292,7 +293,7 @@ The output must confirm:
 "NetworkMode": "host"
 ```
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t4-ss18.png)
 
 ---
 
@@ -301,12 +302,12 @@ Add your screenshot here.
 Add a browser screenshot showing the Nginx Welcome Page at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://3.237.253.252/
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t4-ss19.png)
 
 ---
 
@@ -319,7 +320,7 @@ docker stop fastapp
 docker rm fastapp
 ```
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a3t4-ss20.png)
 
 ---
 
@@ -328,11 +329,54 @@ Add your screenshot here.
 Write a short note explaining:
 
 - Default bridge networking
+  
 - Container-name communication on a custom bridge network
 - Why the frontend could not access the database in Task 3
 - The difference between bridge mode and host network mode
 
-Write your note here.
+**Docker Networking Note**
+1. Default Bridge Networking
+When a container starts without a `--network` option, Docker attaches it to the default **bridge** network. In Task 1 that is where `myweb` ran. Each container on this network gets its own private IP address and is isolated from the host. The application is only reachable from outside if a port is published with `-p`. For example, `-p 80:80` forwards host port 80 to the container's port 80.
+The default bridge has no built-in DNS, so containers on it can only reach each other by IP address. IP addresses can change when a container is recreated, which makes them unreliable.
+
+2. Container-Name Communication on a Custom Bridge Network
+A user-defined bridge network, such as `mynetwork` in Task 2, includes Docker's internal DNS. Any container on that network can reach another one by using its container name as a hostname. For example:
+
+```bash
+docker exec frontend curl -s http://backend
+docker exec client wget -qO- http://web
+```
+
+Both commands worked without anyone looking up an IP address. The `backend` and `web` containers had no published ports, but other containers could still reach them on `mynetwork`. That shows a custom network lets containers talk to each other privately without exposing them to the host.
+
+3. Why the Frontend Could Not Access the Database in Task 3
+In Task 3 the containers were spread across two networks:
+
+| Container | Role | frontend-network | backend-network |
+|---|---|:---:|:---:|
+| `ui` | Frontend | ✔ | ✘ |
+| `api` | Backend | ✔ | ✔ |
+| `db` | MongoDB | ✘ | ✔ |
+
+Two containers can only communicate if they share at least one network. `ui` and `db` had no network in common, so `ui` could not resolve the name `db` or open a connection to it. Only `api`, which joined both networks, could reach both of them.
+
+The database also had no published port (`-p`), so the host could not reach it either. This setup follows the security principle that the user-facing tier should never talk to the database directly. All data access goes through the backend:
+
+**ui → api → db**
+
+4. Bridge Mode vs Host Network Mode
+
+| | Bridge mode | Host mode (`--network host`) |
+|---|---|---|
+| Network stack | The container gets its own isolated network and IP address | The container uses the host's network directly |
+| Port access | Needs `-p host:container` to be reachable from outside | No `-p` needed. The app listens straight on the host's ports |
+| Isolation | Isolated from the host network | No network isolation |
+| Port conflicts | Different host ports can be mapped (e.g. 8080→80) | Fails if the host port is already in use |
+| Performance | Small overhead from network address translation (NAT) | Slightly faster because there is no NAT layer |
+
+In Task 4, `fastapp` ran with `--network host` and was reachable on `http://localhost` without any port mapping. `docker inspect fastapp` showed `"NetworkMode": "host"`.
+
+Bridge mode is the safer default. Host mode suits cases that need maximum network performance or direct access to the host's network, at the cost of isolation.
 
 ---
 
@@ -346,15 +390,13 @@ Create a LinkedIn post about the Docker networking modes explored, one key lesso
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-`Add your URL here`
+<https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-docker-ugcPost-7520360924336132096-AobT/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM>
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+![ouput](./screenshots/wk11a3tlink-ss0.png)
 
 ---
 

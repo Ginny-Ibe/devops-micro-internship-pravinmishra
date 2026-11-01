@@ -33,7 +33,7 @@ docker-audit.sh
 SKILL.md
 ```
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a8t1-ss1.png)
 
 ---
 
@@ -49,7 +49,7 @@ Add the supplied `docker-audit` skill to Claude Code and confirm that it is avai
 
 Add a screenshot of Claude Code showing `docker-audit` in the available skill list.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a8t2-ss2.png)
 
 ---
 
@@ -70,7 +70,7 @@ Add a terminal screenshot showing:
 - Your full name
 - The usage message displayed when the script runs without a container name
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a8t3-ss3.png)
 
 ---
 
@@ -90,7 +90,7 @@ Add a terminal screenshot showing:
 - `docker ps`
 - The audit command using the selected target container name
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a8t4-ss4.png)
 
 ---
 
@@ -98,7 +98,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the initial Docker audit results.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a8t4-ss5.png)
 
 ---
 
@@ -119,7 +119,8 @@ Add a Claude Code screenshot showing:
 - Recommended manual fix
 - Verification method
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a8t5-ss6.png)
+![ouput](./screenshots/wk11a8t5-ss6a.png)
 
 ---
 
@@ -135,7 +136,7 @@ Manually fix one WARN or FAIL finding from the initial audit.
 
 Add a screenshot of the updated Dockerfile or `docker-compose.yml` showing the selected hardening fix.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a8t6-ss7.png)
 
 ---
 
@@ -143,7 +144,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing your full name and the rebuilt or recreated service/container running successfully.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a8t6-ss8.png)
 
 ---
 
@@ -163,7 +164,8 @@ Add a terminal screenshot showing:
 - The updated running container
 - The final audit report
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a8t7-ss9.png)
+![ouput](./screenshots/wk11a8t7-ss9a.png)
 
 ---
 
@@ -176,7 +178,36 @@ Write a short comparison covering:
 - Final audit result
 - Security benefit of the improvement
 
-Write your comparison here.
+## Before-and-After Comparison
+
+| Check | Initial Audit | Final Audit | Changed? |
+|---|---|---|---|
+| Container is running | PASS | PASS | No |
+| Container user | ⚠️ WARN: Runs as root or no non-root user configured | PASS: Configured to run as user `nginx` | Yes |
+| Health check | PASS | PASS | No |
+| Image tag | PASS: `epicbook-frontend:1.0` | PASS: `epicbook-frontend:1.0` | No |
+| Privileged mode | PASS | PASS | No |
+| Published host ports | PASS: None published | PASS: None published | No |
+
+Overall: 5 PASS / 1 WARN / 0 FAIL became 6 PASS / 0 WARN / 0 FAIL.
+
+Initial audit finding:
+The first audit of theepicbook-frontend-1 reported [WARN] Container user with the detail "The container runs as root or has no non-root user configured." The frontend Dockerfile was based on nginx:alpine and never set a USER, so the Nginx process serving EpicBook's static files (CSS, JS, images) ran as root. docker exec theepicbook-frontend-1 whoami confirmed this by returning root. The other five checks passed, because the stack already had healthchecks, pinned 1.0 image tags, no privileged mode, and the reverse proxy was the only container publishing a port.
+
+Dockerfile / Docker Compose change applied:
+In frontend/Dockerfile, I replaced the base image nginx:alpine with nginxinc/nginx-unprivileged:alpine. The Dockerfile switches to USER root only long enough to clear the default web root and copy in the static files, then drops to USER nginx before the container runs. A non-root process can't bind port 80, so the frontend now listens on port 8080. Two related settings were updated to match:
+- docker-compose.yml: the frontend healthcheck now checks http://127.0.0.1:8080/assets/css/style.css.
+- proxy/nginx.conf: the frontend upstream changed from http://frontend:80 to http://frontend:8080.
+
+I rebuilt only the frontend with docker compose up -d --build --no-deps frontend, so the backend and database kept running untouched. The reverse proxy wasn't restarted either: its config was checked with nginx -t and reloaded with nginx -s reload.
+
+Final audit result:
+Re-running the audit showed [PASS] Container user with the detail "The container is configured to run as user: nginx." All six checks now pass. docker exec theepicbook-frontend-1 whoami now returns nginx, and the container reports Up (healthy) on port 8080. curl -I http://localhost/assets/css/style.css returned HTTP/1.1 200 OK through the reverse proxy, so the change didn't break the application.
+
+Security benefit of the improvement:
+The frontend's Nginx process no longer runs with root privileges. If an attacker exploited a weakness in Nginx or its configuration, they would only get the nginx user's permissions. They couldn't install packages, change system files or the Nginx binary, or bind privileged ports, and they'd have a much weaker starting point for breaking out of the container to the host. This applies the principle of least privilege: the frontend only needs to read and serve static files, so it now runs with only those rights. It also matches the backend, which already runs as the non-root node user, so every EpicBook application container now runs as non-root. The database and reverse proxy still run on their official images.
+
+
 
 ---
 
@@ -188,13 +219,14 @@ Create a LinkedIn post about the container security checks you performed, one ha
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** <https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-docker-ugcPost-7522539294901796864-aGoY/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM>
 
 #### LinkedIn Post Screenshot
 
 Add a screenshot of the published LinkedIn post, including the final audit result.
 
-Add your screenshot here.
+![ouput](./screenshots/wk11a8tlink-ss0.png)
+![ouput](./screenshots/wk11a8tlink-ss0a.png)
 
 ---
 
