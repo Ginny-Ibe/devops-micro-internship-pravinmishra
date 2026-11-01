@@ -268,7 +268,7 @@ If the baseline is clean, use only the controlled temporary SSH-rule exercise pe
 
 #### Screenshot 16 — `/azure-audit` output or `after-fix-report.txt` showing the finding resolved
 
-Add your screenshot here.
+![ouput](./screenshots/wk7a7t7-ss11.png)
 
 ---
 
@@ -318,15 +318,13 @@ Suggested hashtags: **#DMIByPravinMishra #Azure #AgenticAI #ClaudeCode #DevOps**
 
 #### LinkedIn Post URL
 
-Paste your published LinkedIn post URL here:
-
-`Add your URL here`
+<https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-azure-agenticai-activity-7500401048617013249-ug38?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM>
 
 ---
 
 #### Screenshot 17 — Published LinkedIn post showing your caption and before-and-after audit evidence
 
-![ouput](./screenshots/wk7a7t7-ss11.png)
+Add your screenshot here.
 
 ---
 
