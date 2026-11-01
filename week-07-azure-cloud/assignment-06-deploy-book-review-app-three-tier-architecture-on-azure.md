@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Purpose
 
-This is the most important assignment of the course. You will deploy the Book Review App in a production-ready, best-practice-compliant three-tier architecture on Azure: separated presentation, application, and database tiers, least-privilege network access, a controlled public entry point, protected secrets, and availability/monitoring evidence.
+Deploy the Book Review App in a production-style three-tier architecture on Azure, with private application and database tiers, public and internal Load Balancers, protected secrets, monitoring, and restart-recovery testing.
 
 ---
 
@@ -14,9 +14,9 @@ This is the most important assignment of the course. You will deploy the Book Re
 
 ## Goal
 
-Create an architecture diagram and implementation plan identifying the presentation, application, and database components, the chosen Azure services, the public entry point, and the internal traffic paths.
+Create an architecture diagram and implementation plan showing the selected Azure services, subnet ranges, application ports, administration path, and traffic flow.
 
-### Evidence
+## Evidence
 
 #### Screenshot 1 — Architecture diagram showing the public entry point, three tiers, network boundaries, and traffic flow
 
@@ -24,7 +24,7 @@ Create an architecture diagram and implementation plan identifying the presentat
 
 ---
 
-#### Screenshot 2 — Written architecture assumptions and selected Azure services
+#### Architecture Notes
 
 ![ouput](./screenshots/wk7a6t1-ss2.png)
 
@@ -88,23 +88,23 @@ This design keeps the Presentation Tier publicly accessible while keeping the Ap
 
 ## Goal
 
-Create a dedicated Resource Group and VNet with separate subnets for the web, application, and database tiers, keeping the application and database tiers without direct public access.
+Create a Resource Group and VNet using `10.0.0.0/16`, with web subnet `10.0.1.0/24`, application subnet `10.0.2.0/25`, and delegated database subnet `10.0.3.0/26`. Associate a NAT Gateway with the web and application subnets and reserve a private frontend IP for the Internal Load Balancer.
 
-### Evidence
+## Evidence
 
-#### Screenshot 3 — Resource Group overview showing the assignment resources
+#### Screenshot 2 — Resource Group overview showing the network resources created so far
 
 ![ouput](./screenshots/wk7a6t2-ss3.png)
 
 ---
 
-#### Screenshot 4 — VNet overview showing the address space and all required subnets
+#### Screenshot 3 — VNet subnet configuration showing all three subnet names, CIDR ranges, and database subnet delegation
 
 ![ouput](./screenshots/wk7a6t2-ss4.png)
 
 ---
 
-#### Screenshot 5 — Route-table or Private DNS evidence where applicable
+#### Screenshot 4 — NAT Gateway configuration showing its Public IP and associations with the web and application subnets
 
 ![ouput](./screenshots/wk7a6t2-ss5.png)
 
@@ -114,51 +114,59 @@ Create a dedicated Resource Group and VNet with separate subnets for the web, ap
 
 ## Goal
 
-Apply least-privilege NSG rules so traffic flows Internet → public entry point → web tier → application tier → database tier, and store credentials in Azure Key Vault or another approved secure mechanism.
+Configure NSGs for application, management, and health-probe traffic. Protect database credentials and the JWT signing secret. Create the Web VM with restricted SSH access and use it as the jump host for private App VM administration.
 
-### Evidence
+## Evidence
 
-#### Screenshot 6 — NSG rules proving least-privilege access between the tiers
+#### Screenshot 5 — Web, application, and database NSG rules showing permitted sources, ports, health-probe access, and applicable deny rules
 
 ![ouput](./screenshots/wk7a6t3-ss6.png)
 
 ---
 
-#### Screenshot 7 — Key Vault or approved secret-management configuration (without displaying secret values)
+#### Screenshot 6 — Key Vault or the selected secret-management configuration, without displaying secret values
 
 ![ouput](./screenshots/wk7a6t3-ss7.png)
 
 ---
 
-# Task 4 — Deploy the Presentation (Web) Tier
+# Task 4 — Deploy the Managed Database Tier
 
 ## Goal
 
-Deploy the Book Review App presentation layer on the approved web-tier compute service, configured to route requests to the internal application-tier endpoint, and not directly exposed except through the public entry service.
+Create Azure Database for MySQL Flexible Server using private access in the delegated database subnet. Configure Private DNS, keep secure transport enabled, disable public access, and document backup and availability settings.
 
-### Evidence
+## Evidence
 
-#### Screenshot 8 — Web-tier compute overview showing subnet and availability configuration
+#### Screenshot 7 — MySQL Flexible Server networking configuration showing the private subnet and Private DNS configuration
 
 ![ouput](./screenshots/wk7a6t4-ss8.png)
 
 ---
 
-#### Screenshot 9 — Terminal or service output proving the presentation layer is running
+#### Screenshot 8 — Database backup-retention and availability settings
 
 ![ouput](./screenshots/wk7a6t4-ss9.png)
 
 ---
 
-# Task 5 — Deploy the Business (Application) Tier
+#### Database Notes
+
+Record the database service, selected capacity, backup-retention period, and recovery approach. Do not include passwords.
+
+Write your answer here.
+
+---
+
+# Task 5 — Deploy the Business or Application Tier
 
 ## Goal
 
-Deploy the Book Review App backend privately in the application subnet, configured to use the private database endpoint and secured environment values, reachable only through its internal endpoint.
+Deploy the backend on one private Ubuntu VM using port **3001**. Connect to Azure MySQL over TLS, create `book_review_db` and the application database user, verify startup schema and sample-data initialization, and configure PM2 for automatic recovery.
 
-### Evidence
+## Evidence
 
-#### Screenshot 10 — Application-tier compute overview showing private subnet placement
+#### Screenshot 9 — App VM networking configuration showing placement in the application subnet and no Public IP
 
 ![ouput](./screenshots/wk7a6t5-ss10.png)
 
@@ -168,28 +176,34 @@ Deploy the Book Review App backend privately in the application subnet, configur
 
 ---
 
-#### Screenshot 11 — Backend process, service, or listening-port evidence
+#### Screenshot 10 — Successful database connection and schema verification from the App VM, without displaying credentials
 
 ![ouput](./screenshots/wk7a6t5-ss11.png)
 
 
 ---
 
-#### Screenshot 12 — Internal health-check or API response (without exposing secrets)
+#### Screenshot 11 — PM2 showing `book-review-backend` online after reboot
 
 ![ouput](./screenshots/wk7a6t5-ss12.png)
 
 ---
 
-# Task 6 — Deploy the Managed Database Tier
+#### Screenshot 12 — Successful backend health or API response from the Web VM through the App VM’s private IP
+
+Add your screenshot here.
+
+---
+
+# Task 6 — Deploy the Presentation or Web Tier
 
 ## Goal
 
-Create a private Azure managed database (public access disabled), with availability/backup/retention settings, the Book Review App schema imported, and access restricted to the application tier only.
+Deploy the Next.js frontend on the existing Web VM on port **3000**. Configure Nginx on port **80** to forward page requests to the frontend and `/api/` requests to the Internal Load Balancer on port **3001**. Configure PM2 and verify recovery after reboot.
 
-### Evidence
+## Evidence
 
-#### Screenshot 13 — Database overview showing private connectivity and public access disabled
+#### Screenshot 13 — Web VM overview or networking configuration showing its subnet and VM details
 
 ![ouput](./screenshots/wk7a6t6-ss13.png)
 
@@ -199,7 +213,7 @@ Create a private Azure managed database (public access disabled), with availabil
 
 ---
 
-#### Screenshot 14 — Availability, backup, and retention configuration
+#### Screenshot 14 — Nginx site configuration showing frontend and API routing, together with successful `sudo nginx -t` output
 
 ![ouput](./screenshots/wk7a6t6-ss14.png)
 
@@ -215,22 +229,22 @@ From the above, given my setup (Burstable tier, single-zone, no explicit HA conf
 
 ---
 
-#### Screenshot 15 — Successful schema or connectivity verification (without exposing credentials)
+#### Screenshot 15 — PM2 showing `book-review-frontend` online after reboot, with Nginx active and a successful local HTTP response
 
 ![ouput](./screenshots/wk7a6t6-ss15.png)
 
 
 ---
 
-# Task 7 — Configure Traffic Management, Availability, and Monitoring
+# Task 7 — Configure Load Balancers, Health Checks, and Monitoring
 
 ## Goal
 
-Configure the approved public entry service with health probes and backend pools, internal routing for the application tier where required, and enable Azure Monitor/diagnostics/logs/alerts for the key resources.
+Configure a Standard Public Load Balancer using TCP **80 → 80** and a Standard Internal Load Balancer using TCP **3001 → 3001**. Verify backend health, update the allowed frontend origin, and configure monitoring and at least one alert rule.
 
-### Evidence
+## Evidence
 
-#### Screenshot 16 — Public entry service showing listener, frontend endpoint, and healthy web targets
+#### Screenshot 16 — Public Load Balancer frontend IP, web backend membership, TCP 80 → 80 rule, and health-probe status
 
 **listener/rule**
 ![ouput](./screenshots/wk7a6t7-ss16-lis.png)
@@ -257,7 +271,7 @@ Configure the approved public entry service with health probes and backend pools
 
 ---
 
-#### Screenshot 18 — Azure Monitor, diagnostic settings, logs, metrics, or alert evidence
+#### Screenshot 18 — Monitoring evidence showing a relevant metric or collected log and the configured alert rule
 
 ![ouput](./screenshots/wk7a6t7-ss18.png)
 
@@ -267,23 +281,23 @@ Configure the approved public entry service with health probes and backend pools
 
 ## Goal
 
-Confirm the Book Review App works end to end through the public endpoint, with at least one database read and one write, confirm private tiers are not internet-reachable, and complete a safe availability test.
+Verify registration, login, book viewing, and persistent review creation through the Public Load Balancer. Confirm private-tier restrictions and automatic service recovery after controlled App VM and Web VM restarts. Downtime is expected during these single-instance restart tests.
 
-### Evidence
+## Evidence
 
-#### Screenshot 19 — Browser showing the Book Review App through the public endpoint
+#### Screenshot 19 — Browser showing the Book Review App through the Public Load Balancer endpoint, with the address bar visible
 
 ![ouput](./screenshots/wk7a6t8-ss19.png)
 
 ---
 
-#### Screenshot 20 — Proof of successful database-backed read and write operations
+#### Screenshot 20 — Successful registration/login, book viewing, and review creation, with database evidence that the review persists
 
 ![ouput](./screenshots/wk7a6t8-ss20.png)
 
 ---
 
-#### Screenshot 21 — Evidence that private tiers are not publicly accessible
+#### Screenshot 21 — App VM networking showing no Public IP, MySQL private-access settings, and relevant NSG restrictions
 
 **The bookreview VM is assigned only a
 private 10.0.2.4 address and has no public IP, preventing direct Internet access to the Application Tier.**
@@ -292,7 +306,7 @@ private 10.0.2.4 address and has no public IP, preventing direct Internet access
 
 ---
 
-#### Screenshot 22 — Availability-test and healthy-target evidence
+#### Screenshot 22 — Post-restart PM2/service status, healthy Load Balancer backends, and a successful application response
 
 ![ouput](./screenshots/wk7a6t8-ss22.png)
 
@@ -306,15 +320,15 @@ Azure Load Balancer Insights confirms that the Web VM registered in WebBackendPo
 
 #### Public Endpoint
 
-Paste your public endpoint URL here:
+Paste your Public Load Balancer website URL here:
 
 **http://40.88.208.183/**
 
 ---
 
-### Notes
+#### Recovery Notes
 
-Summarize what worked, issues encountered and how they were fixed, and the availability/security/secrets/monitoring/backup choices made.
+Record which VM was restarted, the observed interruption, recovery time, and whether services recovered without manual startup.
 
 **Deployment Summary: What Worked, Issues Encountered, and Design Choices**
 
@@ -374,10 +388,47 @@ The assignment does not document a custom backup-retention period, geo-redundant
 
 ---
 
+#### Deployment Notes
+
+Summarize what worked, issues encountered, fixes applied, and sources used. Identify the backend route used for direct and Internal Load Balancer verification, including its expected response.
+
+Write your answer here.
+
+---
+
+# LinkedIn Post (Required)
+
+## Goal
+
+Publish a LinkedIn post with an application screenshot, your public website URL, and a caption explaining what you deployed, what you learned, one challenge you resolved, and how you verified database-backed functionality and recovery after VM restarts.
+
+Include **#DMIByPravinMishra #Azure #DevOps #CloudComputing**. Add the credit note and tags for your track as specified in the assignment guidelines.
+
+## Evidence
+
+#### LinkedIn Post URL
+
+Paste your published LinkedIn post URL here:
+
+`Add your URL here`
+
+---
+
+#### Screenshot 23 — Published LinkedIn post showing your caption, website URL, and application screenshot
+
+Add your screenshot here.
+
+---
+
 # Submission Instructions
 
-- Add all required screenshots and links in your submission
-- Do not expose passwords, keys, connection strings, or subscription IDs
+- Include your full name and Screenshots **1–23** under the corresponding evidence headings.
+- Use multiple captures under an evidence heading where needed for readability.
+- Include the working **public endpoint URL** and published **LinkedIn post URL**.
+- Complete the architecture, database, recovery, and deployment notes.
+- Ensure screenshots are readable and show your own environment.
+- Do not expose passwords, private keys, tokens, connection strings containing credentials, subscription IDs, or other sensitive information.
+- Submit your work using the method specified in the assignment guidelines.
 
 ---
 

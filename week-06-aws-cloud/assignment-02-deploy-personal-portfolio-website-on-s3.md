@@ -100,7 +100,7 @@ Load the site through the S3 website endpoint and confirm the homepage, images, 
 
 ---
 
-# Task 7 — (Optional) Update One Small Detail and Re-Upload
+# Task 7 — Update One Small Detail and Re-Upload
 
 ## Goal
 
@@ -108,7 +108,7 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 
 ### Evidence
 
-#### Screenshot 7 (optional) — Before and after views, or a browser view showing the updated text
+#### Screenshot 7 — Before and after views, or a browser view showing the updated text
 
 ![ouput](./screenshots/wk6a2t7-ss7.png)
 

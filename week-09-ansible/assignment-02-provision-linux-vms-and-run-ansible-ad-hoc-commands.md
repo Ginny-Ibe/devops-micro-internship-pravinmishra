@@ -319,7 +319,7 @@ Answer the following in your own words:
 
 # Required Files
 
-Confirm that the following files are included in your assignment workspace:
+The Terraform filenames below follow the recommended structure. An alternative organization is accepted if it meets the assignment requirements.
 
 - [x] `ansible-adhoc-lab/README.md`
 - [x] `ansible-adhoc-lab/terraform/providers.tf`
