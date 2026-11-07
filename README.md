@@ -146,7 +146,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 10 | Ansible | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-ansible-devops-ugcPost-7514880025351847936-_1k3/?utm_source=sharehttps://lnkd.in/p/gQE-cEDautm_medium=member_desktophttps://lnkd.in/p/gQE-cEDarcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM  | https://ginnyibe.hashnode.dev/teaching-an-ai-to-review-not-apply |
 | 11 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-azuredevops-ugcPost-7518485271588311041-OZyX  | https://ginnyibe.hashnode.dev/docker-taught-me-that-running-a-container-is-only-the-beginning |
 | 12 | Docker | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-devops-docker-ugcPost-7522539294901796864-aGoY/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM  | https://ginnyibe.hashnode.dev/docker-taught-me-that-running-a-container-is-only-the-beginning |
-| 13 | Kubernetes | ✅ Completed| ✅ Solved | — | — |
+| 13 | Kubernetes | ✅ Completed| ✅ Solved | https://www.linkedin.com/posts/dr-ginny-ibe_dmibypravinmishra-kubernetes-agenticai-ugcPost-7524799087263821825-NjR1/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGTqulMBvpSBQMnxbzFBrJkA0C9nlWM_uqM | https://ginnyibe.hashnode.dev/my-kubernetes-cluster-disappeared-rebuilding-it-changed-how-i-troubleshoot |
 | 14 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed 
